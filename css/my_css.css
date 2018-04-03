@@ -1,0 +1,76 @@
+html,body{
+    position:relative;
+    padding: 0;
+    margin:0;
+    border:none;
+    height:99.15%;
+}
+.navbar{
+    background-color: #293c55;
+    height: 50px;
+    border:none;
+    border-radius:0;
+    margin-bottom: 0;
+    position:relative;
+}
+.navbar-header img{
+    margin-right: 80px;
+    margin-left: 20px;
+    height: 52px;
+}
+.nav-pills,.nav-tabs{
+    font-size:150%;
+}
+.navbar-form{
+    margin-right: 80px;
+}
+.nav-title{
+    color:#efefef
+}
+.sign-in{
+    position: relative;
+    right:50px;
+    font-size:120%;
+}
+.main{
+    position: absolute;
+    height: 95.4%;
+    width: 100%;
+}
+.map{
+    background-color: #404a59;
+    height: 100%;
+    position: relative;
+}
+
+#choose{
+    display: none;
+    position:absolute;
+    top:100px;
+    right:25px;
+    height: auto;
+    font-family:"STHeiti", sans-serif;
+    font-size:1em;
+    color: #fff;
+    z-index:auto
+}
+
+/*数据视图*/
+#map > div:nth-child(3){
+    z-index:2;
+}
+
+#data_table{
+    width:100%;
+    text-align:center
+}
+
+#point_data_table{
+    display: none;
+    z-index:2;
+    position:absolute;
+    right:312px;
+    top:83px;
+    width:21%;
+    height:44%
+}

@@ -1,0 +1,7418 @@
+[
+  {
+    "Date": "2015.10.14",
+    "Time": "1:12",
+    "Latitude": 37.48116,
+    "Longitude": 121.763167,
+    "Temperature": 19.7109,
+    "Salinity": 30.813833,
+    "pH": 8.042567
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:13",
+    "Latitude": 37.481153,
+    "Longitude": 121.76317,
+    "Temperature": 19.718833,
+    "Salinity": 30.8275,
+    "pH": 8.044067
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:14",
+    "Latitude": 37.481152,
+    "Longitude": 121.763175,
+    "Temperature": 19.7289,
+    "Salinity": 30.8324,
+    "pH": 8.0463
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:15",
+    "Latitude": 37.481142,
+    "Longitude": 121.763175,
+    "Temperature": 19.722433,
+    "Salinity": 30.834567,
+    "pH": 8.047733
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:16",
+    "Latitude": 37.481135,
+    "Longitude": 121.763177,
+    "Temperature": 19.730967,
+    "Salinity": 30.833533,
+    "pH": 8.049833
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:17",
+    "Latitude": 37.481115,
+    "Longitude": 121.763177,
+    "Temperature": 19.746967,
+    "Salinity": 30.8354,
+    "pH": 8.050633
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:18",
+    "Latitude": 37.481103,
+    "Longitude": 121.763173,
+    "Temperature": 19.768967,
+    "Salinity": 30.838333,
+    "pH": 8.051633
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:19",
+    "Latitude": 37.481083,
+    "Longitude": 121.763168,
+    "Temperature": 19.7738,
+    "Salinity": 30.836267,
+    "pH": 8.053833
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:20",
+    "Latitude": 37.481075,
+    "Longitude": 121.763167,
+    "Temperature": 19.790567,
+    "Salinity": 30.8402,
+    "pH": 8.055567
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:21",
+    "Latitude": 37.481053,
+    "Longitude": 121.763158,
+    "Temperature": 19.794067,
+    "Salinity": 30.839733,
+    "pH": 8.0565
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:22",
+    "Latitude": 37.481043,
+    "Longitude": 121.763157,
+    "Temperature": 19.7956,
+    "Salinity": 30.837833,
+    "pH": 8.058133
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:23",
+    "Latitude": 37.481025,
+    "Longitude": 121.763152,
+    "Temperature": 19.7892,
+    "Salinity": 30.837833,
+    "pH": 8.0596
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:24",
+    "Latitude": 37.481018,
+    "Longitude": 121.763148,
+    "Temperature": 19.792733,
+    "Salinity": 30.8362,
+    "pH": 8.060867
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:25",
+    "Latitude": 37.481008,
+    "Longitude": 121.763143,
+    "Temperature": 19.798767,
+    "Salinity": 30.836033,
+    "pH": 8.062033
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:26",
+    "Latitude": 37.481005,
+    "Longitude": 121.763142,
+    "Temperature": 19.793833,
+    "Salinity": 30.8361,
+    "pH": 8.0631
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:27",
+    "Latitude": 37.480997,
+    "Longitude": 121.763138,
+    "Temperature": 19.788133,
+    "Salinity": 30.836567,
+    "pH": 8.0639
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:28",
+    "Latitude": 37.480993,
+    "Longitude": 121.763135,
+    "Temperature": 19.806367,
+    "Salinity": 30.8374,
+    "pH": 8.064733
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:29",
+    "Latitude": 37.480983,
+    "Longitude": 121.763128,
+    "Temperature": 19.8268,
+    "Salinity": 30.839033,
+    "pH": 8.065567
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:30",
+    "Latitude": 37.480978,
+    "Longitude": 121.763125,
+    "Temperature": 19.8557,
+    "Salinity": 30.8355,
+    "pH": 8.065433
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:31",
+    "Latitude": 37.48097,
+    "Longitude": 121.763112,
+    "Temperature": 19.845133,
+    "Salinity": 30.834733,
+    "pH": 8.0664
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:32",
+    "Latitude": 37.480963,
+    "Longitude": 121.763108,
+    "Temperature": 19.830233,
+    "Salinity": 30.835433,
+    "pH": 8.067967
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:33",
+    "Latitude": 37.480957,
+    "Longitude": 121.763102,
+    "Temperature": 19.838367,
+    "Salinity": 30.835833,
+    "pH": 8.068667
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:34",
+    "Latitude": 37.480953,
+    "Longitude": 121.763102,
+    "Temperature": 19.838133,
+    "Salinity": 30.835467,
+    "pH": 8.069333
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:35",
+    "Latitude": 37.48095,
+    "Longitude": 121.763097,
+    "Temperature": 19.828967,
+    "Salinity": 30.834633,
+    "pH": 8.070267
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:36",
+    "Latitude": 37.480948,
+    "Longitude": 121.763095,
+    "Temperature": 19.840433,
+    "Salinity": 30.835933,
+    "pH": 8.071167
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:37",
+    "Latitude": 37.480945,
+    "Longitude": 121.763092,
+    "Temperature": 19.8353,
+    "Salinity": 30.8354,
+    "pH": 8.071767
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:38",
+    "Latitude": 37.480945,
+    "Longitude": 121.763093,
+    "Temperature": 19.833733,
+    "Salinity": 30.834967,
+    "pH": 8.072267
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:39",
+    "Latitude": 37.480945,
+    "Longitude": 121.763095,
+    "Temperature": 19.820233,
+    "Salinity": 30.836267,
+    "pH": 8.072733
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:40",
+    "Latitude": 37.480943,
+    "Longitude": 121.763097,
+    "Temperature": 19.8214,
+    "Salinity": 30.837333,
+    "pH": 8.073367
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:41",
+    "Latitude": 37.480945,
+    "Longitude": 121.763097,
+    "Temperature": 19.8375,
+    "Salinity": 30.837733,
+    "pH": 8.0739
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:42",
+    "Latitude": 37.480943,
+    "Longitude": 121.763095,
+    "Temperature": 19.8526,
+    "Salinity": 30.836,
+    "pH": 8.0746
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:43",
+    "Latitude": 37.480945,
+    "Longitude": 121.763095,
+    "Temperature": 19.850067,
+    "Salinity": 30.836867,
+    "pH": 8.0748
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:44",
+    "Latitude": 37.480947,
+    "Longitude": 121.763097,
+    "Temperature": 19.859833,
+    "Salinity": 30.838867,
+    "pH": 8.074667
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:45",
+    "Latitude": 37.480952,
+    "Longitude": 121.763103,
+    "Temperature": 19.8504,
+    "Salinity": 30.8377,
+    "pH": 8.0748
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:46",
+    "Latitude": 37.480955,
+    "Longitude": 121.763105,
+    "Temperature": 19.839967,
+    "Salinity": 30.8348,
+    "pH": 8.074867
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:47",
+    "Latitude": 37.480962,
+    "Longitude": 121.763113,
+    "Temperature": 19.825267,
+    "Salinity": 30.833833,
+    "pH": 8.0756
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:48",
+    "Latitude": 37.480965,
+    "Longitude": 121.763113,
+    "Temperature": 19.814667,
+    "Salinity": 30.833167,
+    "pH": 8.075867
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:49",
+    "Latitude": 37.480968,
+    "Longitude": 121.763122,
+    "Temperature": 19.8275,
+    "Salinity": 30.834867,
+    "pH": 8.0762
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:50",
+    "Latitude": 37.48097,
+    "Longitude": 121.763123,
+    "Temperature": 19.844133,
+    "Salinity": 30.833933,
+    "pH": 8.075567
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:51",
+    "Latitude": 37.48097,
+    "Longitude": 121.763127,
+    "Temperature": 19.833533,
+    "Salinity": 30.829767,
+    "pH": 8.074767
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:52",
+    "Latitude": 37.48097,
+    "Longitude": 121.763125,
+    "Temperature": 19.8256,
+    "Salinity": 30.828833,
+    "pH": 8.074567
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:53",
+    "Latitude": 37.480968,
+    "Longitude": 121.763118,
+    "Temperature": 19.8208,
+    "Salinity": 30.8287,
+    "pH": 8.074433
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:54",
+    "Latitude": 37.480967,
+    "Longitude": 121.763115,
+    "Temperature": 19.8225,
+    "Salinity": 30.828,
+    "pH": 8.074933
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:55",
+    "Latitude": 37.480963,
+    "Longitude": 121.763105,
+    "Temperature": 19.8226,
+    "Salinity": 30.827867,
+    "pH": 8.075267
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:56",
+    "Latitude": 37.480963,
+    "Longitude": 121.763107,
+    "Temperature": 19.818933,
+    "Salinity": 30.8281,
+    "pH": 8.075933
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:57",
+    "Latitude": 37.480963,
+    "Longitude": 121.7631,
+    "Temperature": 19.814767,
+    "Salinity": 30.833033,
+    "pH": 8.0769
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:58",
+    "Latitude": 37.480963,
+    "Longitude": 121.7631,
+    "Temperature": 19.8401,
+    "Salinity": 30.8346,
+    "pH": 8.077033
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "1:59",
+    "Latitude": 37.480965,
+    "Longitude": 121.763098,
+    "Temperature": 19.8784,
+    "Salinity": 30.8323,
+    "pH": 8.076367
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:00",
+    "Latitude": 37.480965,
+    "Longitude": 121.763097,
+    "Temperature": 19.862367,
+    "Salinity": 30.832367,
+    "pH": 8.076367
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:01",
+    "Latitude": 37.48097,
+    "Longitude": 121.763097,
+    "Temperature": 19.850067,
+    "Salinity": 30.832567,
+    "pH": 8.0767
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:02",
+    "Latitude": 37.480972,
+    "Longitude": 121.7631,
+    "Temperature": 19.841,
+    "Salinity": 30.833267,
+    "pH": 8.076833
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:03",
+    "Latitude": 37.480977,
+    "Longitude": 121.763108,
+    "Temperature": 19.8397,
+    "Salinity": 30.8332,
+    "pH": 8.0771
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:04",
+    "Latitude": 37.48098,
+    "Longitude": 121.76311,
+    "Temperature": 19.847933,
+    "Salinity": 30.833,
+    "pH": 8.076967
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:05",
+    "Latitude": 37.480983,
+    "Longitude": 121.76311,
+    "Temperature": 19.8575,
+    "Salinity": 30.832967,
+    "pH": 8.076833
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:06",
+    "Latitude": 37.480983,
+    "Longitude": 121.76311,
+    "Temperature": 19.863667,
+    "Salinity": 30.833067,
+    "pH": 8.0766
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:07",
+    "Latitude": 37.480985,
+    "Longitude": 121.763112,
+    "Temperature": 19.869567,
+    "Salinity": 30.8326,
+    "pH": 8.0764
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:08",
+    "Latitude": 37.480985,
+    "Longitude": 121.76311,
+    "Temperature": 19.866467,
+    "Salinity": 30.832067,
+    "pH": 8.0764
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:09",
+    "Latitude": 37.480988,
+    "Longitude": 121.763112,
+    "Temperature": 19.850967,
+    "Salinity": 30.832,
+    "pH": 8.076667
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:10",
+    "Latitude": 37.480988,
+    "Longitude": 121.763112,
+    "Temperature": 19.846367,
+    "Salinity": 30.832733,
+    "pH": 8.0767
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:11",
+    "Latitude": 37.48099,
+    "Longitude": 121.763113,
+    "Temperature": 19.8447,
+    "Salinity": 30.831467,
+    "pH": 8.076367
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:12",
+    "Latitude": 37.48099,
+    "Longitude": 121.763115,
+    "Temperature": 19.842833,
+    "Salinity": 30.831367,
+    "pH": 8.0767
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:13",
+    "Latitude": 37.48099,
+    "Longitude": 121.763118,
+    "Temperature": 19.8518,
+    "Salinity": 30.831233,
+    "pH": 8.076433
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:14",
+    "Latitude": 37.480992,
+    "Longitude": 121.763122,
+    "Temperature": 19.855767,
+    "Salinity": 30.831467,
+    "pH": 8.076433
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:15",
+    "Latitude": 37.480992,
+    "Longitude": 121.763127,
+    "Temperature": 19.873067,
+    "Salinity": 30.832267,
+    "pH": 8.0761
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:16",
+    "Latitude": 37.480992,
+    "Longitude": 121.763128,
+    "Temperature": 19.837333,
+    "Salinity": 30.8301,
+    "pH": 8.075133
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:17",
+    "Latitude": 37.480985,
+    "Longitude": 121.763128,
+    "Temperature": 19.8202,
+    "Salinity": 30.831,
+    "pH": 8.074633
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:18",
+    "Latitude": 37.480983,
+    "Longitude": 121.76313,
+    "Temperature": 19.816367,
+    "Salinity": 30.831,
+    "pH": 8.0746
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:19",
+    "Latitude": 37.480982,
+    "Longitude": 121.763127,
+    "Temperature": 19.8119,
+    "Salinity": 30.831367,
+    "pH": 8.074667
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:20",
+    "Latitude": 37.480983,
+    "Longitude": 121.763127,
+    "Temperature": 19.821167,
+    "Salinity": 30.831567,
+    "pH": 8.0748
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:21",
+    "Latitude": 37.480987,
+    "Longitude": 121.763132,
+    "Temperature": 19.8217,
+    "Salinity": 30.8303,
+    "pH": 8.074467
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:22",
+    "Latitude": 37.480987,
+    "Longitude": 121.76313,
+    "Temperature": 19.8161,
+    "Salinity": 30.829633,
+    "pH": 8.074467
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:23",
+    "Latitude": 37.480982,
+    "Longitude": 121.763128,
+    "Temperature": 19.806467,
+    "Salinity": 30.826767,
+    "pH": 8.073533
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:24",
+    "Latitude": 37.48098,
+    "Longitude": 121.763125,
+    "Temperature": 19.808733,
+    "Salinity": 30.8281,
+    "pH": 8.073533
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:25",
+    "Latitude": 37.480977,
+    "Longitude": 121.76312,
+    "Temperature": 19.8362,
+    "Salinity": 30.8283,
+    "pH": 8.073733
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:26",
+    "Latitude": 37.480978,
+    "Longitude": 121.763118,
+    "Temperature": 19.834,
+    "Salinity": 30.827667,
+    "pH": 8.0736
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:27",
+    "Latitude": 37.480982,
+    "Longitude": 121.763115,
+    "Temperature": 19.8295,
+    "Salinity": 30.827767,
+    "pH": 8.0736
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:28",
+    "Latitude": 37.480985,
+    "Longitude": 121.763115,
+    "Temperature": 19.835767,
+    "Salinity": 30.8297,
+    "pH": 8.0742
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:29",
+    "Latitude": 37.48099,
+    "Longitude": 121.763117,
+    "Temperature": 19.843267,
+    "Salinity": 30.8294,
+    "pH": 8.074433
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:30",
+    "Latitude": 37.480992,
+    "Longitude": 121.763113,
+    "Temperature": 19.8486,
+    "Salinity": 30.830133,
+    "pH": 8.0739
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:31",
+    "Latitude": 37.480992,
+    "Longitude": 121.763108,
+    "Temperature": 19.864767,
+    "Salinity": 30.829633,
+    "pH": 8.073633
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:32",
+    "Latitude": 37.480992,
+    "Longitude": 121.763103,
+    "Temperature": 19.896067,
+    "Salinity": 30.831133,
+    "pH": 8.073467
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:33",
+    "Latitude": 37.480992,
+    "Longitude": 121.763093,
+    "Temperature": 19.9851,
+    "Salinity": 30.832667,
+    "pH": 8.071733
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:34",
+    "Latitude": 37.480992,
+    "Longitude": 121.76309,
+    "Temperature": 19.977533,
+    "Salinity": 30.8286,
+    "pH": 8.071333
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:35",
+    "Latitude": 37.480987,
+    "Longitude": 121.763082,
+    "Temperature": 20.064667,
+    "Salinity": 30.836767,
+    "pH": 8.070333
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:36",
+    "Latitude": 37.480983,
+    "Longitude": 121.76308,
+    "Temperature": 20.108867,
+    "Salinity": 30.831933,
+    "pH": 8.068933
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:37",
+    "Latitude": 37.48098,
+    "Longitude": 121.76307,
+    "Temperature": 20.152667,
+    "Salinity": 30.835367,
+    "pH": 8.0675
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:38",
+    "Latitude": 37.480977,
+    "Longitude": 121.763068,
+    "Temperature": 20.1773,
+    "Salinity": 30.832833,
+    "pH": 8.067367
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:39",
+    "Latitude": 37.48097,
+    "Longitude": 121.763065,
+    "Temperature": 20.192033,
+    "Salinity": 30.834467,
+    "pH": 8.0668
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:40",
+    "Latitude": 37.480967,
+    "Longitude": 121.763062,
+    "Temperature": 20.198767,
+    "Salinity": 30.833067,
+    "pH": 8.066967
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:41",
+    "Latitude": 37.480955,
+    "Longitude": 121.763055,
+    "Temperature": 20.2015,
+    "Salinity": 30.8358,
+    "pH": 8.066633
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:42",
+    "Latitude": 37.480952,
+    "Longitude": 121.76305,
+    "Temperature": 20.310333,
+    "Salinity": 30.842167,
+    "pH": 8.065933
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:43",
+    "Latitude": 37.480948,
+    "Longitude": 121.763045,
+    "Temperature": 20.350433,
+    "Salinity": 30.836133,
+    "pH": 8.064667
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:44",
+    "Latitude": 37.480948,
+    "Longitude": 121.763043,
+    "Temperature": 20.348467,
+    "Salinity": 30.838933,
+    "pH": 8.0645
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:45",
+    "Latitude": 37.480948,
+    "Longitude": 121.763042,
+    "Temperature": 20.366867,
+    "Salinity": 30.837033,
+    "pH": 8.0646
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:46",
+    "Latitude": 37.480948,
+    "Longitude": 121.763043,
+    "Temperature": 20.312367,
+    "Salinity": 30.8326,
+    "pH": 8.064567
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:47",
+    "Latitude": 37.48095,
+    "Longitude": 121.763047,
+    "Temperature": 20.296267,
+    "Salinity": 30.831433,
+    "pH": 8.064633
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:48",
+    "Latitude": 37.480948,
+    "Longitude": 121.763047,
+    "Temperature": 20.252767,
+    "Salinity": 30.8323,
+    "pH": 8.065133
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:49",
+    "Latitude": 37.48095,
+    "Longitude": 121.763048,
+    "Temperature": 20.254467,
+    "Salinity": 30.830933,
+    "pH": 8.0648
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:50",
+    "Latitude": 37.480948,
+    "Longitude": 121.763048,
+    "Temperature": 20.219267,
+    "Salinity": 30.8303,
+    "pH": 8.065067
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:51",
+    "Latitude": 37.480947,
+    "Longitude": 121.763047,
+    "Temperature": 20.2265,
+    "Salinity": 30.831967,
+    "pH": 8.065233
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:52",
+    "Latitude": 37.480947,
+    "Longitude": 121.763042,
+    "Temperature": 20.2126,
+    "Salinity": 30.829233,
+    "pH": 8.0651
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:53",
+    "Latitude": 37.480942,
+    "Longitude": 121.763037,
+    "Temperature": 20.2031,
+    "Salinity": 30.829033,
+    "pH": 8.064933
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:54",
+    "Latitude": 37.480938,
+    "Longitude": 121.763032,
+    "Temperature": 20.2044,
+    "Salinity": 30.828633,
+    "pH": 8.064867
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:55",
+    "Latitude": 37.480932,
+    "Longitude": 121.763027,
+    "Temperature": 20.182333,
+    "Salinity": 30.827467,
+    "pH": 8.0649
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:56",
+    "Latitude": 37.480927,
+    "Longitude": 121.763025,
+    "Temperature": 20.175,
+    "Salinity": 30.828833,
+    "pH": 8.065267
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:57",
+    "Latitude": 37.480913,
+    "Longitude": 121.763017,
+    "Temperature": 20.182467,
+    "Salinity": 30.829133,
+    "pH": 8.064833
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:58",
+    "Latitude": 37.480907,
+    "Longitude": 121.763013,
+    "Temperature": 20.180433,
+    "Salinity": 30.828767,
+    "pH": 8.064667
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "2:59",
+    "Latitude": 37.480892,
+    "Longitude": 121.762995,
+    "Temperature": 20.181033,
+    "Salinity": 30.827667,
+    "pH": 8.0642
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:00",
+    "Latitude": 37.480885,
+    "Longitude": 121.762987,
+    "Temperature": 20.196533,
+    "Salinity": 30.829467,
+    "pH": 8.0638
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:01",
+    "Latitude": 37.48087,
+    "Longitude": 121.762967,
+    "Temperature": 20.209533,
+    "Salinity": 30.8282,
+    "pH": 8.062833
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:02",
+    "Latitude": 37.480863,
+    "Longitude": 121.762955,
+    "Temperature": 20.203867,
+    "Salinity": 30.828333,
+    "pH": 8.0622
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:03",
+    "Latitude": 37.480852,
+    "Longitude": 121.762935,
+    "Temperature": 20.218533,
+    "Salinity": 30.828267,
+    "pH": 8.062233
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:04",
+    "Latitude": 37.480843,
+    "Longitude": 121.762925,
+    "Temperature": 20.229267,
+    "Salinity": 30.828633,
+    "pH": 8.061633
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:05",
+    "Latitude": 37.480832,
+    "Longitude": 121.762907,
+    "Temperature": 20.238533,
+    "Salinity": 30.828833,
+    "pH": 8.0616
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:06",
+    "Latitude": 37.480827,
+    "Longitude": 121.762893,
+    "Temperature": 20.232667,
+    "Salinity": 30.827133,
+    "pH": 8.0615
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:07",
+    "Latitude": 37.480818,
+    "Longitude": 121.762863,
+    "Temperature": 20.239667,
+    "Salinity": 30.828067,
+    "pH": 8.061367
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:08",
+    "Latitude": 37.480813,
+    "Longitude": 121.762848,
+    "Temperature": 20.2541,
+    "Salinity": 30.8299,
+    "pH": 8.061067
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:09",
+    "Latitude": 37.480803,
+    "Longitude": 121.76282,
+    "Temperature": 20.283567,
+    "Salinity": 30.828333,
+    "pH": 8.060567
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:10",
+    "Latitude": 37.480792,
+    "Longitude": 121.762813,
+    "Temperature": 20.2682,
+    "Salinity": 30.827433,
+    "pH": 8.060567
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:11",
+    "Latitude": 37.480777,
+    "Longitude": 121.76281,
+    "Temperature": 20.243033,
+    "Salinity": 30.826333,
+    "pH": 8.0604
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:12",
+    "Latitude": 37.480767,
+    "Longitude": 121.762797,
+    "Temperature": 20.165167,
+    "Salinity": 30.821867,
+    "pH": 8.061433
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:13",
+    "Latitude": 37.480758,
+    "Longitude": 121.76277,
+    "Temperature": 20.181467,
+    "Salinity": 30.825133,
+    "pH": 8.0608
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:14",
+    "Latitude": 37.480755,
+    "Longitude": 121.762753,
+    "Temperature": 19.950067,
+    "Salinity": 30.8134,
+    "pH": 8.0632
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:15",
+    "Latitude": 37.480755,
+    "Longitude": 121.762737,
+    "Temperature": 19.870367,
+    "Salinity": 30.820633,
+    "pH": 8.064967
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:16",
+    "Latitude": 37.480758,
+    "Longitude": 121.762733,
+    "Temperature": 19.8689,
+    "Salinity": 30.819733,
+    "pH": 8.0655
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:17",
+    "Latitude": 37.480763,
+    "Longitude": 121.762723,
+    "Temperature": 19.858533,
+    "Salinity": 30.819533,
+    "pH": 8.065967
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:18",
+    "Latitude": 37.480767,
+    "Longitude": 121.762715,
+    "Temperature": 19.8489,
+    "Salinity": 30.819267,
+    "pH": 8.0662
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:19",
+    "Latitude": 37.48077,
+    "Longitude": 121.762698,
+    "Temperature": 19.832933,
+    "Salinity": 30.819033,
+    "pH": 8.066133
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:20",
+    "Latitude": 37.480772,
+    "Longitude": 121.76269,
+    "Temperature": 19.824833,
+    "Salinity": 30.817767,
+    "pH": 8.065033
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:21",
+    "Latitude": 37.480775,
+    "Longitude": 121.762677,
+    "Temperature": 19.8093,
+    "Salinity": 30.817567,
+    "pH": 8.0649
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:22",
+    "Latitude": 37.480778,
+    "Longitude": 121.76267,
+    "Temperature": 19.790533,
+    "Salinity": 30.817233,
+    "pH": 8.064333
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:23",
+    "Latitude": 37.48078,
+    "Longitude": 121.76266,
+    "Temperature": 19.795967,
+    "Salinity": 30.818533,
+    "pH": 8.064533
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:24",
+    "Latitude": 37.480782,
+    "Longitude": 121.762655,
+    "Temperature": 19.798267,
+    "Salinity": 30.817833,
+    "pH": 8.064067
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:25",
+    "Latitude": 37.480785,
+    "Longitude": 121.762643,
+    "Temperature": 19.8143,
+    "Salinity": 30.818533,
+    "pH": 8.063833
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:26",
+    "Latitude": 37.480787,
+    "Longitude": 121.762638,
+    "Temperature": 19.809633,
+    "Salinity": 30.8171,
+    "pH": 8.063433
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:27",
+    "Latitude": 37.480787,
+    "Longitude": 121.762633,
+    "Temperature": 19.8098,
+    "Salinity": 30.818667,
+    "pH": 8.0621
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:28",
+    "Latitude": 37.480787,
+    "Longitude": 121.762628,
+    "Temperature": 19.827733,
+    "Salinity": 30.8198,
+    "pH": 8.061233
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:29",
+    "Latitude": 37.480788,
+    "Longitude": 121.762623,
+    "Temperature": 19.852967,
+    "Salinity": 30.822367,
+    "pH": 8.060967
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:30",
+    "Latitude": 37.480792,
+    "Longitude": 121.762617,
+    "Temperature": 19.9447,
+    "Salinity": 30.8157,
+    "pH": 8.059667
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:31",
+    "Latitude": 37.480798,
+    "Longitude": 121.762603,
+    "Temperature": 19.957167,
+    "Salinity": 30.825867,
+    "pH": 8.058767
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:32",
+    "Latitude": 37.480802,
+    "Longitude": 121.762597,
+    "Temperature": 19.863367,
+    "Salinity": 30.811533,
+    "pH": 8.0583
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:33",
+    "Latitude": 37.480805,
+    "Longitude": 121.76259,
+    "Temperature": 19.8042,
+    "Salinity": 30.816467,
+    "pH": 8.058733
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:34",
+    "Latitude": 37.480807,
+    "Longitude": 121.762588,
+    "Temperature": 19.8015,
+    "Salinity": 30.819633,
+    "pH": 8.0588
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:35",
+    "Latitude": 37.480805,
+    "Longitude": 121.762592,
+    "Temperature": 19.8059,
+    "Salinity": 30.818767,
+    "pH": 8.059
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:36",
+    "Latitude": 37.480805,
+    "Longitude": 121.762595,
+    "Temperature": 19.8731,
+    "Salinity": 30.820433,
+    "pH": 8.0585
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:37",
+    "Latitude": 37.480803,
+    "Longitude": 121.762603,
+    "Temperature": 19.931633,
+    "Salinity": 30.825833,
+    "pH": 8.057433
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:38",
+    "Latitude": 37.480802,
+    "Longitude": 121.762607,
+    "Temperature": 19.972433,
+    "Salinity": 30.817367,
+    "pH": 8.055267
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:39",
+    "Latitude": 37.480797,
+    "Longitude": 121.762612,
+    "Temperature": 20.053633,
+    "Salinity": 30.828733,
+    "pH": 8.0541
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:40",
+    "Latitude": 37.480795,
+    "Longitude": 121.762617,
+    "Temperature": 20.103,
+    "Salinity": 30.8218,
+    "pH": 8.0521
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:41",
+    "Latitude": 37.48079,
+    "Longitude": 121.762628,
+    "Temperature": 20.0797,
+    "Salinity": 30.8209,
+    "pH": 8.0513
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:42",
+    "Latitude": 37.48079,
+    "Longitude": 121.762632,
+    "Temperature": 20.086167,
+    "Salinity": 30.825033,
+    "pH": 8.051467
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:43",
+    "Latitude": 37.480787,
+    "Longitude": 121.762635,
+    "Temperature": 20.138433,
+    "Salinity": 30.824567,
+    "pH": 8.051833
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:44",
+    "Latitude": 37.480787,
+    "Longitude": 121.762635,
+    "Temperature": 20.1218,
+    "Salinity": 30.8211,
+    "pH": 8.051333
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:45",
+    "Latitude": 37.480783,
+    "Longitude": 121.76264,
+    "Temperature": 20.104367,
+    "Salinity": 30.8228,
+    "pH": 8.051067
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:46",
+    "Latitude": 37.480782,
+    "Longitude": 121.762643,
+    "Temperature": 20.0896,
+    "Salinity": 30.822067,
+    "pH": 8.050733
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:47",
+    "Latitude": 37.480775,
+    "Longitude": 121.762653,
+    "Temperature": 20.0947,
+    "Salinity": 30.822533,
+    "pH": 8.0508
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:48",
+    "Latitude": 37.480773,
+    "Longitude": 121.762658,
+    "Temperature": 20.0996,
+    "Salinity": 30.8225,
+    "pH": 8.0508
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:49",
+    "Latitude": 37.480773,
+    "Longitude": 121.762663,
+    "Temperature": 20.0813,
+    "Salinity": 30.822733,
+    "pH": 8.050967
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:50",
+    "Latitude": 37.480773,
+    "Longitude": 121.762665,
+    "Temperature": 20.045867,
+    "Salinity": 30.821867,
+    "pH": 8.051267
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:51",
+    "Latitude": 37.480772,
+    "Longitude": 121.76267,
+    "Temperature": 20.094333,
+    "Salinity": 30.8245,
+    "pH": 8.051267
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:52",
+    "Latitude": 37.480772,
+    "Longitude": 121.76267,
+    "Temperature": 20.057433,
+    "Salinity": 30.8195,
+    "pH": 8.0511
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:53",
+    "Latitude": 37.480772,
+    "Longitude": 121.762668,
+    "Temperature": 20.031967,
+    "Salinity": 30.822367,
+    "pH": 8.0515
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:54",
+    "Latitude": 37.480772,
+    "Longitude": 121.762665,
+    "Temperature": 20.005733,
+    "Salinity": 30.8195,
+    "pH": 8.052167
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:55",
+    "Latitude": 37.480775,
+    "Longitude": 121.762657,
+    "Temperature": 19.977967,
+    "Salinity": 30.821433,
+    "pH": 8.052633
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:56",
+    "Latitude": 37.480775,
+    "Longitude": 121.762653,
+    "Temperature": 20.0599,
+    "Salinity": 30.826933,
+    "pH": 8.051433
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:57",
+    "Latitude": 37.480778,
+    "Longitude": 121.762647,
+    "Temperature": 20.095967,
+    "Salinity": 30.820167,
+    "pH": 8.0508
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:58",
+    "Latitude": 37.480778,
+    "Longitude": 121.762642,
+    "Temperature": 20.087433,
+    "Salinity": 30.825233,
+    "pH": 8.0503
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "3:59",
+    "Latitude": 37.480782,
+    "Longitude": 121.762632,
+    "Temperature": 20.111167,
+    "Salinity": 30.822833,
+    "pH": 8.049733
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:00",
+    "Latitude": 37.480782,
+    "Longitude": 121.762623,
+    "Temperature": 20.095667,
+    "Salinity": 30.8216,
+    "pH": 8.0497
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:01",
+    "Latitude": 37.480875,
+    "Longitude": 121.762705,
+    "Temperature": 19.9116,
+    "Salinity": 30.809833,
+    "pH": 8.050433
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:02",
+    "Latitude": 37.480872,
+    "Longitude": 121.762733,
+    "Temperature": 19.917867,
+    "Salinity": 30.826867,
+    "pH": 8.052
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:03",
+    "Latitude": 37.480843,
+    "Longitude": 121.762795,
+    "Temperature": 20.1193,
+    "Salinity": 30.8312,
+    "pH": 8.0513
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:04",
+    "Latitude": 37.48084,
+    "Longitude": 121.762812,
+    "Temperature": 19.975233,
+    "Salinity": 30.811633,
+    "pH": 8.049567
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:05",
+    "Latitude": 37.481533,
+    "Longitude": 121.762928,
+    "Temperature": 20.080133,
+    "Salinity": 30.832067,
+    "pH": 8.050067
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:06",
+    "Latitude": 37.481778,
+    "Longitude": 121.764273,
+    "Temperature": 20.114167,
+    "Salinity": 30.822967,
+    "pH": 8.050433
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:07",
+    "Latitude": 37.481673,
+    "Longitude": 121.76591,
+    "Temperature": 20.184567,
+    "Salinity": 30.827433,
+    "pH": 8.0494
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:08",
+    "Latitude": 37.481613,
+    "Longitude": 121.767643,
+    "Temperature": 20.2914,
+    "Salinity": 30.8299,
+    "pH": 8.047367
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:09",
+    "Latitude": 37.481453,
+    "Longitude": 121.769272,
+    "Temperature": 20.270633,
+    "Salinity": 30.820733,
+    "pH": 8.047
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:10",
+    "Latitude": 37.481357,
+    "Longitude": 121.770962,
+    "Temperature": 20.226967,
+    "Salinity": 30.820667,
+    "pH": 8.047833
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:11",
+    "Latitude": 37.481318,
+    "Longitude": 121.772657,
+    "Temperature": 20.1864,
+    "Salinity": 30.825267,
+    "pH": 8.050333
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:12",
+    "Latitude": 37.481183,
+    "Longitude": 121.774408,
+    "Temperature": 20.188767,
+    "Salinity": 30.830233,
+    "pH": 8.0508
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:13",
+    "Latitude": 37.480642,
+    "Longitude": 121.775967,
+    "Temperature": 20.2859,
+    "Salinity": 30.8339,
+    "pH": 8.049433
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:14",
+    "Latitude": 37.479897,
+    "Longitude": 121.777333,
+    "Temperature": 20.393967,
+    "Salinity": 30.829467,
+    "pH": 8.049833
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:15",
+    "Latitude": 37.478915,
+    "Longitude": 121.778608,
+    "Temperature": 20.282533,
+    "Salinity": 30.840967,
+    "pH": 8.053467
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:16",
+    "Latitude": 37.478203,
+    "Longitude": 121.780008,
+    "Temperature": 20.3056,
+    "Salinity": 30.852533,
+    "pH": 8.054533
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:17",
+    "Latitude": 37.477692,
+    "Longitude": 121.78158,
+    "Temperature": 20.443733,
+    "Salinity": 30.8493,
+    "pH": 8.053667
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:18",
+    "Latitude": 37.476652,
+    "Longitude": 121.782577,
+    "Temperature": 20.320267,
+    "Salinity": 30.8399,
+    "pH": 8.053367
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:19",
+    "Latitude": 37.475585,
+    "Longitude": 121.783642,
+    "Temperature": 20.266867,
+    "Salinity": 30.843767,
+    "pH": 8.053967
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:20",
+    "Latitude": 37.474477,
+    "Longitude": 121.784638,
+    "Temperature": 20.257833,
+    "Salinity": 30.843033,
+    "pH": 8.0539
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:21",
+    "Latitude": 37.47335,
+    "Longitude": 121.785682,
+    "Temperature": 20.257467,
+    "Salinity": 30.842933,
+    "pH": 8.053967
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:22",
+    "Latitude": 37.472162,
+    "Longitude": 121.786377,
+    "Temperature": 20.264833,
+    "Salinity": 30.845367,
+    "pH": 8.0552
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:23",
+    "Latitude": 37.470837,
+    "Longitude": 121.786948,
+    "Temperature": 20.2791,
+    "Salinity": 30.8475,
+    "pH": 8.055667
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:24",
+    "Latitude": 37.4695,
+    "Longitude": 121.787235,
+    "Temperature": 20.289367,
+    "Salinity": 30.8517,
+    "pH": 8.056267
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:25",
+    "Latitude": 37.468243,
+    "Longitude": 121.787683,
+    "Temperature": 20.301033,
+    "Salinity": 30.852767,
+    "pH": 8.056267
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:26",
+    "Latitude": 37.46706,
+    "Longitude": 121.788473,
+    "Temperature": 20.279233,
+    "Salinity": 30.856133,
+    "pH": 8.057
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:27",
+    "Latitude": 37.466312,
+    "Longitude": 121.789475,
+    "Temperature": 20.319467,
+    "Salinity": 30.860067,
+    "pH": 8.057167
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:28",
+    "Latitude": 37.466732,
+    "Longitude": 121.789557,
+    "Temperature": 20.308467,
+    "Salinity": 30.853333,
+    "pH": 8.056433
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:29",
+    "Latitude": 37.46777,
+    "Longitude": 121.78845,
+    "Temperature": 20.327167,
+    "Salinity": 30.858333,
+    "pH": 8.056467
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:30",
+    "Latitude": 37.468878,
+    "Longitude": 121.787357,
+    "Temperature": 20.3056,
+    "Salinity": 30.853,
+    "pH": 8.057067
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:31",
+    "Latitude": 37.470097,
+    "Longitude": 121.786253,
+    "Temperature": 20.288867,
+    "Salinity": 30.858733,
+    "pH": 8.0572
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:32",
+    "Latitude": 37.470963,
+    "Longitude": 121.784853,
+    "Temperature": 20.298867,
+    "Salinity": 30.8549,
+    "pH": 8.0579
+  },
+  {
+    "Date": "2015.10.14",
+    "Time": "4:33",
+    "Latitude": 37.47223,
+    "Longitude": 121.784,
+    "Temperature": 20.290067,
+    "Salinity": 30.856367,
+    "pH": 8.058433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "4:43",
+    "Latitude": 37.553853,
+    "Longitude": 121.390847,
+    "Temperature": 20.859833,
+    "Salinity": 30.9324,
+    "pH": 7.898933
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "4:44",
+    "Latitude": 37.553853,
+    "Longitude": 121.390845,
+    "Temperature": 20.8891,
+    "Salinity": 30.9297,
+    "pH": 7.898933
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "4:45",
+    "Latitude": 37.553857,
+    "Longitude": 121.390847,
+    "Temperature": 20.9181,
+    "Salinity": 30.926933,
+    "pH": 7.898933
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "4:46",
+    "Latitude": 37.553858,
+    "Longitude": 121.39085,
+    "Temperature": 20.9463,
+    "Salinity": 30.924733,
+    "pH": 7.899467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "4:47",
+    "Latitude": 37.553855,
+    "Longitude": 121.390852,
+    "Temperature": 20.9727,
+    "Salinity": 30.923567,
+    "pH": 7.8994
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "4:48",
+    "Latitude": 37.553845,
+    "Longitude": 121.390845,
+    "Temperature": 20.998833,
+    "Salinity": 30.922267,
+    "pH": 7.899767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "4:49",
+    "Latitude": 37.553843,
+    "Longitude": 121.390845,
+    "Temperature": 21.024033,
+    "Salinity": 30.921667,
+    "pH": 7.9003
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "4:50",
+    "Latitude": 37.553842,
+    "Longitude": 121.390848,
+    "Temperature": 21.049933,
+    "Salinity": 30.920633,
+    "pH": 7.9025
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "4:51",
+    "Latitude": 37.55384,
+    "Longitude": 121.390845,
+    "Temperature": 21.076633,
+    "Salinity": 30.918467,
+    "pH": 7.903233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "4:52",
+    "Latitude": 37.553843,
+    "Longitude": 121.390852,
+    "Temperature": 21.1049,
+    "Salinity": 30.9164,
+    "pH": 7.900733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "4:53",
+    "Latitude": 37.553842,
+    "Longitude": 121.39086,
+    "Temperature": 21.134733,
+    "Salinity": 30.9134,
+    "pH": 7.900067
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "4:54",
+    "Latitude": 37.553838,
+    "Longitude": 121.390853,
+    "Temperature": 21.164467,
+    "Salinity": 30.909733,
+    "pH": 7.9
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "4:55",
+    "Latitude": 37.55384,
+    "Longitude": 121.390848,
+    "Temperature": 21.193967,
+    "Salinity": 30.906,
+    "pH": 7.8998
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "4:56",
+    "Latitude": 37.553843,
+    "Longitude": 121.39085,
+    "Temperature": 21.2228,
+    "Salinity": 30.903433,
+    "pH": 7.9002
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:00",
+    "Latitude": 37.553875,
+    "Longitude": 121.390858,
+    "Temperature": 21.4828,
+    "Salinity": 30.821367,
+    "pH": 7.8854
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:01",
+    "Latitude": 37.553855,
+    "Longitude": 121.390848,
+    "Temperature": 21.506767,
+    "Salinity": 30.8162,
+    "pH": 7.8844
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:02",
+    "Latitude": 37.553842,
+    "Longitude": 121.39083,
+    "Temperature": 21.528233,
+    "Salinity": 30.818667,
+    "pH": 7.885167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:03",
+    "Latitude": 37.553842,
+    "Longitude": 121.39083,
+    "Temperature": 21.550367,
+    "Salinity": 30.821467,
+    "pH": 7.8856
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:04",
+    "Latitude": 37.55385,
+    "Longitude": 121.390838,
+    "Temperature": 21.5737,
+    "Salinity": 30.822967,
+    "pH": 7.886033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:05",
+    "Latitude": 37.553853,
+    "Longitude": 121.390842,
+    "Temperature": 21.597867,
+    "Salinity": 30.825133,
+    "pH": 7.8864
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:06",
+    "Latitude": 37.553848,
+    "Longitude": 121.390842,
+    "Temperature": 21.622767,
+    "Salinity": 30.8281,
+    "pH": 7.886667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:07",
+    "Latitude": 37.553852,
+    "Longitude": 121.390843,
+    "Temperature": 21.651633,
+    "Salinity": 30.8327,
+    "pH": 7.887333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:08",
+    "Latitude": 37.553857,
+    "Longitude": 121.390842,
+    "Temperature": 21.677333,
+    "Salinity": 30.835433,
+    "pH": 7.8871
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:09",
+    "Latitude": 37.553848,
+    "Longitude": 121.390837,
+    "Temperature": 21.7007,
+    "Salinity": 30.838267,
+    "pH": 7.8871
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:10",
+    "Latitude": 37.553848,
+    "Longitude": 121.390835,
+    "Temperature": 21.7228,
+    "Salinity": 30.8413,
+    "pH": 7.887133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:11",
+    "Latitude": 37.553848,
+    "Longitude": 121.390842,
+    "Temperature": 21.7457,
+    "Salinity": 30.8434,
+    "pH": 7.887467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:12",
+    "Latitude": 37.553843,
+    "Longitude": 121.390843,
+    "Temperature": 21.769067,
+    "Salinity": 30.8455,
+    "pH": 7.887833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:13",
+    "Latitude": 37.553845,
+    "Longitude": 121.390842,
+    "Temperature": 21.792267,
+    "Salinity": 30.847467,
+    "pH": 7.887967
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:14",
+    "Latitude": 37.553845,
+    "Longitude": 121.390843,
+    "Temperature": 21.8163,
+    "Salinity": 30.849233,
+    "pH": 7.888533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:15",
+    "Latitude": 37.553847,
+    "Longitude": 121.390843,
+    "Temperature": 21.839267,
+    "Salinity": 30.8512,
+    "pH": 7.888933
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:16",
+    "Latitude": 37.553853,
+    "Longitude": 121.390848,
+    "Temperature": 21.8625,
+    "Salinity": 30.854067,
+    "pH": 7.888933
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:17",
+    "Latitude": 37.553853,
+    "Longitude": 121.390845,
+    "Temperature": 21.885567,
+    "Salinity": 30.856533,
+    "pH": 7.889067
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:18",
+    "Latitude": 37.553852,
+    "Longitude": 121.390847,
+    "Temperature": 21.909367,
+    "Salinity": 30.8588,
+    "pH": 7.889167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:19",
+    "Latitude": 37.553845,
+    "Longitude": 121.390845,
+    "Temperature": 21.9321,
+    "Salinity": 30.861367,
+    "pH": 7.889533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:20",
+    "Latitude": 37.55385,
+    "Longitude": 121.390845,
+    "Temperature": 21.955333,
+    "Salinity": 30.864467,
+    "pH": 7.8898
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:21",
+    "Latitude": 37.553848,
+    "Longitude": 121.390847,
+    "Temperature": 21.978333,
+    "Salinity": 30.867733,
+    "pH": 7.889167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:22",
+    "Latitude": 37.553852,
+    "Longitude": 121.390843,
+    "Temperature": 22.002133,
+    "Salinity": 30.871467,
+    "pH": 7.889167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:23",
+    "Latitude": 37.553847,
+    "Longitude": 121.39085,
+    "Temperature": 22.025767,
+    "Salinity": 30.8758,
+    "pH": 7.889
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:24",
+    "Latitude": 37.553845,
+    "Longitude": 121.390853,
+    "Temperature": 22.0496,
+    "Salinity": 30.8802,
+    "pH": 7.8893
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:25",
+    "Latitude": 37.553845,
+    "Longitude": 121.39085,
+    "Temperature": 22.0732,
+    "Salinity": 30.8848,
+    "pH": 7.8893
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:26",
+    "Latitude": 37.553843,
+    "Longitude": 121.390842,
+    "Temperature": 22.097733,
+    "Salinity": 30.8892,
+    "pH": 7.889467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:27",
+    "Latitude": 37.553838,
+    "Longitude": 121.390838,
+    "Temperature": 22.1219,
+    "Salinity": 30.893467,
+    "pH": 7.889567
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:28",
+    "Latitude": 37.553842,
+    "Longitude": 121.390837,
+    "Temperature": 22.1462,
+    "Salinity": 30.897667,
+    "pH": 7.889733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:29",
+    "Latitude": 37.553848,
+    "Longitude": 121.39083,
+    "Temperature": 22.1702,
+    "Salinity": 30.901967,
+    "pH": 7.890433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:30",
+    "Latitude": 37.553843,
+    "Longitude": 121.390838,
+    "Temperature": 22.1945,
+    "Salinity": 30.9053,
+    "pH": 7.889667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:31",
+    "Latitude": 37.553848,
+    "Longitude": 121.390847,
+    "Temperature": 22.2189,
+    "Salinity": 30.906533,
+    "pH": 7.889867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:32",
+    "Latitude": 37.553852,
+    "Longitude": 121.390842,
+    "Temperature": 22.304067,
+    "Salinity": 30.843633,
+    "pH": 8.0551
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:33",
+    "Latitude": 37.553847,
+    "Longitude": 121.390842,
+    "Temperature": 22.331533,
+    "Salinity": 30.998833,
+    "pH": 8.133567
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:34",
+    "Latitude": 37.55384,
+    "Longitude": 121.390833,
+    "Temperature": 22.309233,
+    "Salinity": 31.036967,
+    "pH": 8.131567
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:35",
+    "Latitude": 37.553843,
+    "Longitude": 121.390837,
+    "Temperature": 22.335233,
+    "Salinity": 31.041433,
+    "pH": 8.1294
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:36",
+    "Latitude": 37.553842,
+    "Longitude": 121.390832,
+    "Temperature": 22.358067,
+    "Salinity": 31.043733,
+    "pH": 8.122533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:37",
+    "Latitude": 37.553845,
+    "Longitude": 121.390833,
+    "Temperature": 22.3819,
+    "Salinity": 31.045,
+    "pH": 8.122367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:38",
+    "Latitude": 37.55385,
+    "Longitude": 121.390833,
+    "Temperature": 22.404867,
+    "Salinity": 31.0457,
+    "pH": 8.121467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:39",
+    "Latitude": 37.553855,
+    "Longitude": 121.390837,
+    "Temperature": 22.4278,
+    "Salinity": 31.046,
+    "pH": 8.119767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:40",
+    "Latitude": 37.553848,
+    "Longitude": 121.390835,
+    "Temperature": 22.450433,
+    "Salinity": 31.0461,
+    "pH": 8.122167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:41",
+    "Latitude": 37.553847,
+    "Longitude": 121.390837,
+    "Temperature": 22.472367,
+    "Salinity": 31.0472,
+    "pH": 8.124667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:45",
+    "Latitude": 37.553873,
+    "Longitude": 121.390847,
+    "Temperature": 22.559462,
+    "Salinity": 31.054231,
+    "pH": 8.131867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:46",
+    "Latitude": 37.553872,
+    "Longitude": 121.390843,
+    "Temperature": 22.580633,
+    "Salinity": 31.055633,
+    "pH": 8.1318
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:47",
+    "Latitude": 37.553865,
+    "Longitude": 121.390842,
+    "Temperature": 22.6034,
+    "Salinity": 31.057,
+    "pH": 8.132033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:48",
+    "Latitude": 37.553867,
+    "Longitude": 121.390855,
+    "Temperature": 22.626433,
+    "Salinity": 31.058233,
+    "pH": 8.1321
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:49",
+    "Latitude": 37.553863,
+    "Longitude": 121.390858,
+    "Temperature": 22.649533,
+    "Salinity": 31.059567,
+    "pH": 8.132367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:50",
+    "Latitude": 37.553862,
+    "Longitude": 121.390853,
+    "Temperature": 22.672333,
+    "Salinity": 31.0611,
+    "pH": 8.132333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:51",
+    "Latitude": 37.553858,
+    "Longitude": 121.390857,
+    "Temperature": 22.695133,
+    "Salinity": 31.0629,
+    "pH": 8.132033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:52",
+    "Latitude": 37.553862,
+    "Longitude": 121.390855,
+    "Temperature": 22.718067,
+    "Salinity": 31.064533,
+    "pH": 8.132033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:53",
+    "Latitude": 37.553863,
+    "Longitude": 121.390858,
+    "Temperature": 22.7411,
+    "Salinity": 31.066533,
+    "pH": 8.132067
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:54",
+    "Latitude": 37.553872,
+    "Longitude": 121.390862,
+    "Temperature": 22.7643,
+    "Salinity": 31.0682,
+    "pH": 8.131667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:57",
+    "Latitude": 37.553865,
+    "Longitude": 121.390852,
+    "Temperature": 22.8428,
+    "Salinity": 31.075,
+    "pH": 8.130071
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:58",
+    "Latitude": 37.55388,
+    "Longitude": 121.390847,
+    "Temperature": 22.8593,
+    "Salinity": 31.076,
+    "pH": 8.129833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "5:59",
+    "Latitude": 37.553887,
+    "Longitude": 121.390847,
+    "Temperature": 22.883367,
+    "Salinity": 31.078167,
+    "pH": 8.129
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:00",
+    "Latitude": 37.55389,
+    "Longitude": 121.390845,
+    "Temperature": 22.907467,
+    "Salinity": 31.0804,
+    "pH": 8.129433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:01",
+    "Latitude": 37.553892,
+    "Longitude": 121.390843,
+    "Temperature": 22.9318,
+    "Salinity": 31.082867,
+    "pH": 8.129267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:02",
+    "Latitude": 37.553892,
+    "Longitude": 121.390843,
+    "Temperature": 22.9569,
+    "Salinity": 31.086133,
+    "pH": 8.128467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:03",
+    "Latitude": 37.553885,
+    "Longitude": 121.390845,
+    "Temperature": 22.982333,
+    "Salinity": 31.087367,
+    "pH": 8.128833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:04",
+    "Latitude": 37.553882,
+    "Longitude": 121.390848,
+    "Temperature": 23.0079,
+    "Salinity": 31.0902,
+    "pH": 8.128567
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:05",
+    "Latitude": 37.553877,
+    "Longitude": 121.390847,
+    "Temperature": 23.0346,
+    "Salinity": 31.091233,
+    "pH": 8.1283
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:06",
+    "Latitude": 37.553882,
+    "Longitude": 121.390843,
+    "Temperature": 23.060467,
+    "Salinity": 31.092867,
+    "pH": 8.128267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:07",
+    "Latitude": 37.553873,
+    "Longitude": 121.390843,
+    "Temperature": 23.085467,
+    "Salinity": 31.094933,
+    "pH": 8.128133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:08",
+    "Latitude": 37.55387,
+    "Longitude": 121.390832,
+    "Temperature": 23.111367,
+    "Salinity": 31.0968,
+    "pH": 8.128033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:09",
+    "Latitude": 37.553867,
+    "Longitude": 121.390828,
+    "Temperature": 23.137667,
+    "Salinity": 31.098467,
+    "pH": 8.1279
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:10",
+    "Latitude": 37.553868,
+    "Longitude": 121.390828,
+    "Temperature": 23.1635,
+    "Salinity": 31.100467,
+    "pH": 8.127367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:11",
+    "Latitude": 37.553867,
+    "Longitude": 121.390827,
+    "Temperature": 23.189333,
+    "Salinity": 31.102867,
+    "pH": 8.127133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:12",
+    "Latitude": 37.553863,
+    "Longitude": 121.390833,
+    "Temperature": 23.2149,
+    "Salinity": 31.105267,
+    "pH": 8.126667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:13",
+    "Latitude": 37.553858,
+    "Longitude": 121.390832,
+    "Temperature": 23.239767,
+    "Salinity": 31.107967,
+    "pH": 8.126533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:14",
+    "Latitude": 37.553865,
+    "Longitude": 121.390832,
+    "Temperature": 23.265167,
+    "Salinity": 31.1103,
+    "pH": 8.1262
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:15",
+    "Latitude": 37.553865,
+    "Longitude": 121.390832,
+    "Temperature": 23.2906,
+    "Salinity": 31.1127,
+    "pH": 8.126133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:16",
+    "Latitude": 37.553863,
+    "Longitude": 121.39083,
+    "Temperature": 23.316567,
+    "Salinity": 31.115,
+    "pH": 8.1261
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:17",
+    "Latitude": 37.553863,
+    "Longitude": 121.390837,
+    "Temperature": 23.342633,
+    "Salinity": 31.116567,
+    "pH": 8.1261
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:18",
+    "Latitude": 37.55386,
+    "Longitude": 121.390833,
+    "Temperature": 23.3695,
+    "Salinity": 31.118267,
+    "pH": 8.1259
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:19",
+    "Latitude": 37.553865,
+    "Longitude": 121.390837,
+    "Temperature": 23.395267,
+    "Salinity": 31.120233,
+    "pH": 8.125867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:20",
+    "Latitude": 37.553868,
+    "Longitude": 121.39084,
+    "Temperature": 23.420833,
+    "Salinity": 31.1228,
+    "pH": 8.125833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:23",
+    "Latitude": 37.553872,
+    "Longitude": 121.390842,
+    "Temperature": 23.507429,
+    "Salinity": 31.13,
+    "pH": 8.12625
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:24",
+    "Latitude": 37.55387,
+    "Longitude": 121.39084,
+    "Temperature": 23.523333,
+    "Salinity": 31.1307,
+    "pH": 8.125867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:25",
+    "Latitude": 37.553867,
+    "Longitude": 121.390842,
+    "Temperature": 23.5502,
+    "Salinity": 31.1323,
+    "pH": 8.125633
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:26",
+    "Latitude": 37.553857,
+    "Longitude": 121.390832,
+    "Temperature": 23.5766,
+    "Salinity": 31.1334,
+    "pH": 8.1253
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:27",
+    "Latitude": 37.553853,
+    "Longitude": 121.390832,
+    "Temperature": 23.603367,
+    "Salinity": 31.135133,
+    "pH": 8.125
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:28",
+    "Latitude": 37.553853,
+    "Longitude": 121.390832,
+    "Temperature": 23.6297,
+    "Salinity": 31.1368,
+    "pH": 8.124867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:29",
+    "Latitude": 37.553852,
+    "Longitude": 121.390832,
+    "Temperature": 23.656067,
+    "Salinity": 31.138633,
+    "pH": 8.124633
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "6:30",
+    "Latitude": 37.55385,
+    "Longitude": 121.39083,
+    "Temperature": 23.6826,
+    "Salinity": 31.1401,
+    "pH": 8.124367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:05",
+    "Latitude": 37.553853,
+    "Longitude": 121.39084,
+    "Temperature": 24.853,
+    "Salinity": 31.16,
+    "pH": 8.09004
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:07",
+    "Latitude": 37.553843,
+    "Longitude": 121.390837,
+    "Temperature": 24.853,
+    "Salinity": 31.161933,
+    "pH": 8.091867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:08",
+    "Latitude": 37.553845,
+    "Longitude": 121.390828,
+    "Temperature": 24.853,
+    "Salinity": 31.162567,
+    "pH": 8.092333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:09",
+    "Latitude": 37.553838,
+    "Longitude": 121.390832,
+    "Temperature": 24.853,
+    "Salinity": 31.163,
+    "pH": 8.092867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:10",
+    "Latitude": 37.55384,
+    "Longitude": 121.390822,
+    "Temperature": 24.853,
+    "Salinity": 31.163933,
+    "pH": 8.093167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:11",
+    "Latitude": 37.553842,
+    "Longitude": 121.39083,
+    "Temperature": 24.853,
+    "Salinity": 31.164167,
+    "pH": 8.093767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:12",
+    "Latitude": 37.55384,
+    "Longitude": 121.390833,
+    "Temperature": 24.853,
+    "Salinity": 31.165,
+    "pH": 8.0943
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:13",
+    "Latitude": 37.553837,
+    "Longitude": 121.390837,
+    "Temperature": 24.853,
+    "Salinity": 31.165,
+    "pH": 8.0948
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:14",
+    "Latitude": 37.55383,
+    "Longitude": 121.390833,
+    "Temperature": 24.852867,
+    "Salinity": 31.165,
+    "pH": 8.0954
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:16",
+    "Latitude": 37.553833,
+    "Longitude": 121.390823,
+    "Temperature": 24.852,
+    "Salinity": 31.165967,
+    "pH": 8.096033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:17",
+    "Latitude": 37.553833,
+    "Longitude": 121.390823,
+    "Temperature": 24.852,
+    "Salinity": 31.166,
+    "pH": 8.096533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:19",
+    "Latitude": 37.55384,
+    "Longitude": 121.390828,
+    "Temperature": 24.8526,
+    "Salinity": 31.166,
+    "pH": 8.096867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:20",
+    "Latitude": 37.553835,
+    "Longitude": 121.390822,
+    "Temperature": 24.853,
+    "Salinity": 31.166,
+    "pH": 8.097067
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:22",
+    "Latitude": 37.55384,
+    "Longitude": 121.390833,
+    "Temperature": 24.854,
+    "Salinity": 31.166,
+    "pH": 8.0974
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:23",
+    "Latitude": 37.55384,
+    "Longitude": 121.390835,
+    "Temperature": 24.854967,
+    "Salinity": 31.166,
+    "pH": 8.097633
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:25",
+    "Latitude": 37.553843,
+    "Longitude": 121.390835,
+    "Temperature": 24.8573,
+    "Salinity": 31.166,
+    "pH": 8.0978
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:26",
+    "Latitude": 37.553848,
+    "Longitude": 121.390842,
+    "Temperature": 24.8584,
+    "Salinity": 31.166,
+    "pH": 8.097867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:27",
+    "Latitude": 37.553848,
+    "Longitude": 121.390842,
+    "Temperature": 24.860033,
+    "Salinity": 31.1661,
+    "pH": 8.0979
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:28",
+    "Latitude": 37.55385,
+    "Longitude": 121.390847,
+    "Temperature": 24.8616,
+    "Salinity": 31.166,
+    "pH": 8.0981
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:29",
+    "Latitude": 37.553843,
+    "Longitude": 121.390847,
+    "Temperature": 24.863433,
+    "Salinity": 31.166,
+    "pH": 8.098067
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:30",
+    "Latitude": 37.553845,
+    "Longitude": 121.390845,
+    "Temperature": 24.865433,
+    "Salinity": 31.166,
+    "pH": 8.0983
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:31",
+    "Latitude": 37.553837,
+    "Longitude": 121.39084,
+    "Temperature": 24.867633,
+    "Salinity": 31.166,
+    "pH": 8.098333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:32",
+    "Latitude": 37.553845,
+    "Longitude": 121.390837,
+    "Temperature": 24.869733,
+    "Salinity": 31.166,
+    "pH": 8.0984
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:34",
+    "Latitude": 37.55384,
+    "Longitude": 121.39084,
+    "Temperature": 24.8748,
+    "Salinity": 31.165133,
+    "pH": 8.099
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:35",
+    "Latitude": 37.55384,
+    "Longitude": 121.390833,
+    "Temperature": 24.877767,
+    "Salinity": 31.165,
+    "pH": 8.098467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:36",
+    "Latitude": 37.553842,
+    "Longitude": 121.390832,
+    "Temperature": 24.880833,
+    "Salinity": 31.164267,
+    "pH": 8.098867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:37",
+    "Latitude": 37.553833,
+    "Longitude": 121.390832,
+    "Temperature": 24.884133,
+    "Salinity": 31.164,
+    "pH": 8.098867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:38",
+    "Latitude": 37.553837,
+    "Longitude": 121.390832,
+    "Temperature": 24.8874,
+    "Salinity": 31.163967,
+    "pH": 8.098867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:39",
+    "Latitude": 37.553835,
+    "Longitude": 121.390832,
+    "Temperature": 24.890633,
+    "Salinity": 31.163067,
+    "pH": 8.098667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:41",
+    "Latitude": 37.55384,
+    "Longitude": 121.390838,
+    "Temperature": 24.897067,
+    "Salinity": 31.163,
+    "pH": 8.099267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:42",
+    "Latitude": 37.553843,
+    "Longitude": 121.390838,
+    "Temperature": 24.900333,
+    "Salinity": 31.163,
+    "pH": 8.099
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:45",
+    "Latitude": 37.553845,
+    "Longitude": 121.390835,
+    "Temperature": 24.9113,
+    "Salinity": 31.163,
+    "pH": 8.099
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:47",
+    "Latitude": 37.553848,
+    "Longitude": 121.390833,
+    "Temperature": 24.918767,
+    "Salinity": 31.163,
+    "pH": 8.099067
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:48",
+    "Latitude": 37.553852,
+    "Longitude": 121.390838,
+    "Temperature": 24.922733,
+    "Salinity": 31.163,
+    "pH": 8.099133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:49",
+    "Latitude": 37.553855,
+    "Longitude": 121.390837,
+    "Temperature": 24.926867,
+    "Salinity": 31.163,
+    "pH": 8.098867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:50",
+    "Latitude": 37.553847,
+    "Longitude": 121.390828,
+    "Temperature": 24.9308,
+    "Salinity": 31.163,
+    "pH": 8.099
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:51",
+    "Latitude": 37.553842,
+    "Longitude": 121.390827,
+    "Temperature": 24.934867,
+    "Salinity": 31.1631,
+    "pH": 8.098467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:52",
+    "Latitude": 37.553843,
+    "Longitude": 121.39084,
+    "Temperature": 24.939133,
+    "Salinity": 31.163,
+    "pH": 8.098833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:53",
+    "Latitude": 37.553843,
+    "Longitude": 121.390845,
+    "Temperature": 24.943633,
+    "Salinity": 31.163,
+    "pH": 8.098333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:54",
+    "Latitude": 37.553852,
+    "Longitude": 121.390847,
+    "Temperature": 24.948067,
+    "Salinity": 31.163,
+    "pH": 8.0982
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:55",
+    "Latitude": 37.55385,
+    "Longitude": 121.390845,
+    "Temperature": 24.952567,
+    "Salinity": 31.163,
+    "pH": 8.098133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:56",
+    "Latitude": 37.55386,
+    "Longitude": 121.390843,
+    "Temperature": 24.9573,
+    "Salinity": 31.163,
+    "pH": 8.097833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "8:58",
+    "Latitude": 37.553863,
+    "Longitude": 121.390832,
+    "Temperature": 24.967133,
+    "Salinity": 31.163,
+    "pH": 8.097967
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:00",
+    "Latitude": 37.553863,
+    "Longitude": 121.390838,
+    "Temperature": 24.977567,
+    "Salinity": 31.162,
+    "pH": 8.097467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:01",
+    "Latitude": 37.553863,
+    "Longitude": 121.39084,
+    "Temperature": 24.982733,
+    "Salinity": 31.162,
+    "pH": 8.0974
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:02",
+    "Latitude": 37.553853,
+    "Longitude": 121.390838,
+    "Temperature": 24.988133,
+    "Salinity": 31.162,
+    "pH": 8.097267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:03",
+    "Latitude": 37.553855,
+    "Longitude": 121.390833,
+    "Temperature": 24.9935,
+    "Salinity": 31.161533,
+    "pH": 8.097367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:04",
+    "Latitude": 37.553852,
+    "Longitude": 121.390837,
+    "Temperature": 24.9993,
+    "Salinity": 31.161,
+    "pH": 8.0972
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:05",
+    "Latitude": 37.55385,
+    "Longitude": 121.390842,
+    "Temperature": 25.005333,
+    "Salinity": 31.160467,
+    "pH": 8.0971
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:06",
+    "Latitude": 37.553853,
+    "Longitude": 121.390835,
+    "Temperature": 25.0114,
+    "Salinity": 31.16,
+    "pH": 8.096967
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:07",
+    "Latitude": 37.553853,
+    "Longitude": 121.390837,
+    "Temperature": 25.017367,
+    "Salinity": 31.159867,
+    "pH": 8.096633
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:08",
+    "Latitude": 37.55385,
+    "Longitude": 121.39083,
+    "Temperature": 25.0232,
+    "Salinity": 31.1592,
+    "pH": 8.097167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:09",
+    "Latitude": 37.553845,
+    "Longitude": 121.390832,
+    "Temperature": 25.029167,
+    "Salinity": 31.159,
+    "pH": 8.0969
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:10",
+    "Latitude": 37.553843,
+    "Longitude": 121.390838,
+    "Temperature": 25.035467,
+    "Salinity": 31.159,
+    "pH": 8.0968
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:11",
+    "Latitude": 37.553843,
+    "Longitude": 121.390838,
+    "Temperature": 25.041633,
+    "Salinity": 31.158733,
+    "pH": 8.096567
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:12",
+    "Latitude": 37.553838,
+    "Longitude": 121.390842,
+    "Temperature": 25.0476,
+    "Salinity": 31.158667,
+    "pH": 8.0962
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:13",
+    "Latitude": 37.553842,
+    "Longitude": 121.390843,
+    "Temperature": 25.053567,
+    "Salinity": 31.158,
+    "pH": 8.0962
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:14",
+    "Latitude": 37.553835,
+    "Longitude": 121.390838,
+    "Temperature": 25.0597,
+    "Salinity": 31.158,
+    "pH": 8.096467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:15",
+    "Latitude": 37.553848,
+    "Longitude": 121.390837,
+    "Temperature": 25.066167,
+    "Salinity": 31.158,
+    "pH": 8.095867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:16",
+    "Latitude": 37.55384,
+    "Longitude": 121.390833,
+    "Temperature": 25.0726,
+    "Salinity": 31.1572,
+    "pH": 8.096
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:17",
+    "Latitude": 37.553833,
+    "Longitude": 121.390832,
+    "Temperature": 25.0791,
+    "Salinity": 31.157,
+    "pH": 8.095767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:18",
+    "Latitude": 37.553828,
+    "Longitude": 121.390833,
+    "Temperature": 25.085467,
+    "Salinity": 31.157,
+    "pH": 8.095467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:19",
+    "Latitude": 37.553833,
+    "Longitude": 121.390838,
+    "Temperature": 25.0921,
+    "Salinity": 31.157,
+    "pH": 8.095267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:20",
+    "Latitude": 37.553837,
+    "Longitude": 121.39085,
+    "Temperature": 25.0984,
+    "Salinity": 31.157,
+    "pH": 8.095167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:21",
+    "Latitude": 37.553848,
+    "Longitude": 121.390843,
+    "Temperature": 25.105067,
+    "Salinity": 31.156233,
+    "pH": 8.0952
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:22",
+    "Latitude": 37.553837,
+    "Longitude": 121.390833,
+    "Temperature": 25.111533,
+    "Salinity": 31.156,
+    "pH": 8.095267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:23",
+    "Latitude": 37.553833,
+    "Longitude": 121.390835,
+    "Temperature": 25.117933,
+    "Salinity": 31.156,
+    "pH": 8.0951
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:24",
+    "Latitude": 37.553827,
+    "Longitude": 121.390835,
+    "Temperature": 25.124367,
+    "Salinity": 31.156,
+    "pH": 8.095
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:25",
+    "Latitude": 37.553827,
+    "Longitude": 121.390837,
+    "Temperature": 25.131133,
+    "Salinity": 31.155433,
+    "pH": 8.095
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:26",
+    "Latitude": 37.553823,
+    "Longitude": 121.390832,
+    "Temperature": 25.137967,
+    "Salinity": 31.155,
+    "pH": 8.0946
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:27",
+    "Latitude": 37.553823,
+    "Longitude": 121.390833,
+    "Temperature": 25.1448,
+    "Salinity": 31.1548,
+    "pH": 8.094733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:28",
+    "Latitude": 37.553835,
+    "Longitude": 121.390833,
+    "Temperature": 25.1515,
+    "Salinity": 31.154,
+    "pH": 8.0948
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:29",
+    "Latitude": 37.553837,
+    "Longitude": 121.390837,
+    "Temperature": 25.1582,
+    "Salinity": 31.154,
+    "pH": 8.094733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:30",
+    "Latitude": 37.553837,
+    "Longitude": 121.390838,
+    "Temperature": 25.164933,
+    "Salinity": 31.154,
+    "pH": 8.094533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:31",
+    "Latitude": 37.553835,
+    "Longitude": 121.390835,
+    "Temperature": 25.171733,
+    "Salinity": 31.154,
+    "pH": 8.094433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:32",
+    "Latitude": 37.553833,
+    "Longitude": 121.390837,
+    "Temperature": 25.178367,
+    "Salinity": 31.153633,
+    "pH": 8.094433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:35",
+    "Latitude": 37.553845,
+    "Longitude": 121.390835,
+    "Temperature": 25.201111,
+    "Salinity": 31.152778,
+    "pH": 8.095429
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:36",
+    "Latitude": 37.553838,
+    "Longitude": 121.390837,
+    "Temperature": 25.2054,
+    "Salinity": 31.1524,
+    "pH": 8.095833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:38",
+    "Latitude": 37.55384,
+    "Longitude": 121.390853,
+    "Temperature": 25.218967,
+    "Salinity": 31.152,
+    "pH": 8.0955
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:40",
+    "Latitude": 37.553837,
+    "Longitude": 121.390848,
+    "Temperature": 25.2328,
+    "Salinity": 31.151,
+    "pH": 8.095167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:42",
+    "Latitude": 37.553835,
+    "Longitude": 121.390842,
+    "Temperature": 25.246367,
+    "Salinity": 31.1503,
+    "pH": 8.0949
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:44",
+    "Latitude": 37.553837,
+    "Longitude": 121.390847,
+    "Temperature": 25.259767,
+    "Salinity": 31.149,
+    "pH": 8.094667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:45",
+    "Latitude": 37.55383,
+    "Longitude": 121.390845,
+    "Temperature": 25.266267,
+    "Salinity": 31.149,
+    "pH": 8.094233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:47",
+    "Latitude": 37.553835,
+    "Longitude": 121.390848,
+    "Temperature": 25.279033,
+    "Salinity": 31.148,
+    "pH": 8.094067
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:48",
+    "Latitude": 37.553837,
+    "Longitude": 121.390847,
+    "Temperature": 25.285767,
+    "Salinity": 31.147433,
+    "pH": 8.094267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:49",
+    "Latitude": 37.553832,
+    "Longitude": 121.39084,
+    "Temperature": 25.2922,
+    "Salinity": 31.146833,
+    "pH": 8.094167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:51",
+    "Latitude": 37.553827,
+    "Longitude": 121.390848,
+    "Temperature": 25.305133,
+    "Salinity": 31.1453,
+    "pH": 8.093867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:52",
+    "Latitude": 37.55383,
+    "Longitude": 121.390847,
+    "Temperature": 25.311333,
+    "Salinity": 31.144767,
+    "pH": 8.093733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:53",
+    "Latitude": 37.553822,
+    "Longitude": 121.39084,
+    "Temperature": 25.3174,
+    "Salinity": 31.144,
+    "pH": 8.093733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:54",
+    "Latitude": 37.553822,
+    "Longitude": 121.390832,
+    "Temperature": 25.323567,
+    "Salinity": 31.143567,
+    "pH": 8.093667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:55",
+    "Latitude": 37.553818,
+    "Longitude": 121.39083,
+    "Temperature": 25.3294,
+    "Salinity": 31.143,
+    "pH": 8.093633
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:56",
+    "Latitude": 37.553817,
+    "Longitude": 121.390847,
+    "Temperature": 25.335267,
+    "Salinity": 31.142367,
+    "pH": 8.093533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:57",
+    "Latitude": 37.553817,
+    "Longitude": 121.390842,
+    "Temperature": 25.340767,
+    "Salinity": 31.142133,
+    "pH": 8.093533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:58",
+    "Latitude": 37.55382,
+    "Longitude": 121.390833,
+    "Temperature": 25.346633,
+    "Salinity": 31.142,
+    "pH": 8.0934
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "9:59",
+    "Latitude": 37.553818,
+    "Longitude": 121.390842,
+    "Temperature": 25.3525,
+    "Salinity": 31.141367,
+    "pH": 8.0934
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:00",
+    "Latitude": 37.553818,
+    "Longitude": 121.39084,
+    "Temperature": 25.3583,
+    "Salinity": 31.140833,
+    "pH": 8.093133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:01",
+    "Latitude": 37.553813,
+    "Longitude": 121.390838,
+    "Temperature": 25.364033,
+    "Salinity": 31.140333,
+    "pH": 8.093233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:02",
+    "Latitude": 37.553808,
+    "Longitude": 121.390837,
+    "Temperature": 25.369533,
+    "Salinity": 31.14,
+    "pH": 8.093067
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:03",
+    "Latitude": 37.553812,
+    "Longitude": 121.390832,
+    "Temperature": 25.374867,
+    "Salinity": 31.14,
+    "pH": 8.092967
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:04",
+    "Latitude": 37.553817,
+    "Longitude": 121.390838,
+    "Temperature": 25.3801,
+    "Salinity": 31.14,
+    "pH": 8.093033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:05",
+    "Latitude": 37.553813,
+    "Longitude": 121.390835,
+    "Temperature": 25.385367,
+    "Salinity": 31.139167,
+    "pH": 8.092867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:06",
+    "Latitude": 37.553817,
+    "Longitude": 121.39084,
+    "Temperature": 25.3906,
+    "Salinity": 31.139,
+    "pH": 8.092767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:07",
+    "Latitude": 37.553813,
+    "Longitude": 121.390838,
+    "Temperature": 25.3957,
+    "Salinity": 31.139,
+    "pH": 8.0927
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:08",
+    "Latitude": 37.553813,
+    "Longitude": 121.39084,
+    "Temperature": 25.400533,
+    "Salinity": 31.139,
+    "pH": 8.092667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:09",
+    "Latitude": 37.553812,
+    "Longitude": 121.39084,
+    "Temperature": 25.405467,
+    "Salinity": 31.139,
+    "pH": 8.092533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:10",
+    "Latitude": 37.553815,
+    "Longitude": 121.390848,
+    "Temperature": 25.4105,
+    "Salinity": 31.139,
+    "pH": 8.0924
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:11",
+    "Latitude": 37.553815,
+    "Longitude": 121.39084,
+    "Temperature": 25.4154,
+    "Salinity": 31.139,
+    "pH": 8.092367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:12",
+    "Latitude": 37.553818,
+    "Longitude": 121.390832,
+    "Temperature": 25.4202,
+    "Salinity": 31.138367,
+    "pH": 8.092333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:13",
+    "Latitude": 37.553822,
+    "Longitude": 121.390818,
+    "Temperature": 25.4251,
+    "Salinity": 31.138,
+    "pH": 8.092333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:14",
+    "Latitude": 37.553818,
+    "Longitude": 121.390833,
+    "Temperature": 25.429967,
+    "Salinity": 31.138,
+    "pH": 8.0923
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:15",
+    "Latitude": 37.553815,
+    "Longitude": 121.390833,
+    "Temperature": 25.434933,
+    "Salinity": 31.137167,
+    "pH": 8.092133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:16",
+    "Latitude": 37.55381,
+    "Longitude": 121.390837,
+    "Temperature": 25.44,
+    "Salinity": 31.137,
+    "pH": 8.092267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:17",
+    "Latitude": 37.553808,
+    "Longitude": 121.390838,
+    "Temperature": 25.444867,
+    "Salinity": 31.1365,
+    "pH": 8.092033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:18",
+    "Latitude": 37.55381,
+    "Longitude": 121.390835,
+    "Temperature": 25.449833,
+    "Salinity": 31.136,
+    "pH": 8.092033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:19",
+    "Latitude": 37.553807,
+    "Longitude": 121.39084,
+    "Temperature": 25.454467,
+    "Salinity": 31.136,
+    "pH": 8.092233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:20",
+    "Latitude": 37.553807,
+    "Longitude": 121.390835,
+    "Temperature": 25.459333,
+    "Salinity": 31.135567,
+    "pH": 8.091867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:21",
+    "Latitude": 37.553808,
+    "Longitude": 121.390833,
+    "Temperature": 25.464167,
+    "Salinity": 31.135,
+    "pH": 8.091833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:22",
+    "Latitude": 37.553805,
+    "Longitude": 121.390835,
+    "Temperature": 25.4693,
+    "Salinity": 31.1347,
+    "pH": 8.0919
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:23",
+    "Latitude": 37.553802,
+    "Longitude": 121.390837,
+    "Temperature": 25.474233,
+    "Salinity": 31.134,
+    "pH": 8.0921
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:24",
+    "Latitude": 37.55381,
+    "Longitude": 121.390837,
+    "Temperature": 25.479067,
+    "Salinity": 31.134,
+    "pH": 8.092033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:25",
+    "Latitude": 37.55381,
+    "Longitude": 121.390828,
+    "Temperature": 25.483833,
+    "Salinity": 31.133167,
+    "pH": 8.091967
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:26",
+    "Latitude": 37.553808,
+    "Longitude": 121.390833,
+    "Temperature": 25.4886,
+    "Salinity": 31.133,
+    "pH": 8.091933
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:27",
+    "Latitude": 37.55381,
+    "Longitude": 121.390832,
+    "Temperature": 25.4932,
+    "Salinity": 31.133,
+    "pH": 8.0918
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:28",
+    "Latitude": 37.553812,
+    "Longitude": 121.390837,
+    "Temperature": 25.497867,
+    "Salinity": 31.132967,
+    "pH": 8.091633
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:29",
+    "Latitude": 37.553813,
+    "Longitude": 121.390837,
+    "Temperature": 25.502767,
+    "Salinity": 31.132133,
+    "pH": 8.091633
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:30",
+    "Latitude": 37.553803,
+    "Longitude": 121.390842,
+    "Temperature": 25.508033,
+    "Salinity": 31.131667,
+    "pH": 8.0913
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:31",
+    "Latitude": 37.553802,
+    "Longitude": 121.39084,
+    "Temperature": 25.513033,
+    "Salinity": 31.131,
+    "pH": 8.091333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:32",
+    "Latitude": 37.553798,
+    "Longitude": 121.390838,
+    "Temperature": 25.517967,
+    "Salinity": 31.130967,
+    "pH": 8.0912
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:33",
+    "Latitude": 37.553802,
+    "Longitude": 121.390837,
+    "Temperature": 25.522833,
+    "Salinity": 31.130267,
+    "pH": 8.091233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:34",
+    "Latitude": 37.553808,
+    "Longitude": 121.390835,
+    "Temperature": 25.5273,
+    "Salinity": 31.13,
+    "pH": 8.091
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:35",
+    "Latitude": 37.55381,
+    "Longitude": 121.390842,
+    "Temperature": 25.531767,
+    "Salinity": 31.13,
+    "pH": 8.0911
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:36",
+    "Latitude": 37.553812,
+    "Longitude": 121.390833,
+    "Temperature": 25.5358,
+    "Salinity": 31.130867,
+    "pH": 8.090733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:37",
+    "Latitude": 37.553812,
+    "Longitude": 121.39084,
+    "Temperature": 25.5395,
+    "Salinity": 31.131,
+    "pH": 8.090433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:38",
+    "Latitude": 37.553812,
+    "Longitude": 121.390833,
+    "Temperature": 25.543467,
+    "Salinity": 31.131533,
+    "pH": 8.0903
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:39",
+    "Latitude": 37.553812,
+    "Longitude": 121.390835,
+    "Temperature": 25.547267,
+    "Salinity": 31.132,
+    "pH": 8.090333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:40",
+    "Latitude": 37.5538,
+    "Longitude": 121.390845,
+    "Temperature": 25.5509,
+    "Salinity": 31.132033,
+    "pH": 8.090233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:41",
+    "Latitude": 37.553807,
+    "Longitude": 121.390835,
+    "Temperature": 25.554933,
+    "Salinity": 31.132033,
+    "pH": 8.09
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:42",
+    "Latitude": 37.553807,
+    "Longitude": 121.390837,
+    "Temperature": 25.559,
+    "Salinity": 31.132067,
+    "pH": 8.0899
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:43",
+    "Latitude": 37.553803,
+    "Longitude": 121.390837,
+    "Temperature": 25.5631,
+    "Salinity": 31.132,
+    "pH": 8.0898
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:44",
+    "Latitude": 37.553802,
+    "Longitude": 121.390833,
+    "Temperature": 25.566833,
+    "Salinity": 31.132833,
+    "pH": 8.089667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:45",
+    "Latitude": 37.553802,
+    "Longitude": 121.390825,
+    "Temperature": 25.570667,
+    "Salinity": 31.133,
+    "pH": 8.0896
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:51",
+    "Latitude": 37.553803,
+    "Longitude": 121.390832,
+    "Temperature": 25.592433,
+    "Salinity": 31.134867,
+    "pH": 8.0902
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:52",
+    "Latitude": 37.553803,
+    "Longitude": 121.39083,
+    "Temperature": 25.595767,
+    "Salinity": 31.1353,
+    "pH": 8.0906
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:53",
+    "Latitude": 37.553802,
+    "Longitude": 121.390832,
+    "Temperature": 25.599167,
+    "Salinity": 31.136033,
+    "pH": 8.0896
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:54",
+    "Latitude": 37.553802,
+    "Longitude": 121.390823,
+    "Temperature": 25.602333,
+    "Salinity": 31.137,
+    "pH": 8.0895
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:55",
+    "Latitude": 37.553807,
+    "Longitude": 121.39082,
+    "Temperature": 25.605633,
+    "Salinity": 31.1374,
+    "pH": 8.0891
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:56",
+    "Latitude": 37.553813,
+    "Longitude": 121.39082,
+    "Temperature": 25.609433,
+    "Salinity": 31.138,
+    "pH": 8.089067
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:57",
+    "Latitude": 37.553813,
+    "Longitude": 121.390822,
+    "Temperature": 25.6132,
+    "Salinity": 31.138033,
+    "pH": 8.089
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "10:59",
+    "Latitude": 37.553808,
+    "Longitude": 121.390838,
+    "Temperature": 25.62,
+    "Salinity": 31.139,
+    "pH": 8.089067
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:01",
+    "Latitude": 37.5538,
+    "Longitude": 121.390833,
+    "Temperature": 25.6266,
+    "Salinity": 31.140033,
+    "pH": 8.0888
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:02",
+    "Latitude": 37.553798,
+    "Longitude": 121.390833,
+    "Temperature": 25.629833,
+    "Salinity": 31.141,
+    "pH": 8.088767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:03",
+    "Latitude": 37.553807,
+    "Longitude": 121.390825,
+    "Temperature": 25.633067,
+    "Salinity": 31.141967,
+    "pH": 8.088667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:04",
+    "Latitude": 37.55381,
+    "Longitude": 121.390818,
+    "Temperature": 25.636467,
+    "Salinity": 31.1422,
+    "pH": 8.088467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:05",
+    "Latitude": 37.55381,
+    "Longitude": 121.390825,
+    "Temperature": 25.639767,
+    "Salinity": 31.143,
+    "pH": 8.088433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:06",
+    "Latitude": 37.553808,
+    "Longitude": 121.390827,
+    "Temperature": 25.642967,
+    "Salinity": 31.143833,
+    "pH": 8.088267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:07",
+    "Latitude": 37.553803,
+    "Longitude": 121.390832,
+    "Temperature": 25.646033,
+    "Salinity": 31.144667,
+    "pH": 8.0882
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:08",
+    "Latitude": 37.553808,
+    "Longitude": 121.390828,
+    "Temperature": 25.649033,
+    "Salinity": 31.145433,
+    "pH": 8.088167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:09",
+    "Latitude": 37.553805,
+    "Longitude": 121.390828,
+    "Temperature": 25.651933,
+    "Salinity": 31.146233,
+    "pH": 8.088167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:10",
+    "Latitude": 37.553812,
+    "Longitude": 121.390828,
+    "Temperature": 25.654933,
+    "Salinity": 31.1472,
+    "pH": 8.087967
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:11",
+    "Latitude": 37.553813,
+    "Longitude": 121.390832,
+    "Temperature": 25.657567,
+    "Salinity": 31.148233,
+    "pH": 8.087733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:12",
+    "Latitude": 37.553825,
+    "Longitude": 121.390832,
+    "Temperature": 25.660267,
+    "Salinity": 31.149067,
+    "pH": 8.087767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:13",
+    "Latitude": 37.553823,
+    "Longitude": 121.390833,
+    "Temperature": 25.6633,
+    "Salinity": 31.15,
+    "pH": 8.087467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:14",
+    "Latitude": 37.55382,
+    "Longitude": 121.390828,
+    "Temperature": 25.6664,
+    "Salinity": 31.150933,
+    "pH": 8.087467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:15",
+    "Latitude": 37.553822,
+    "Longitude": 121.390835,
+    "Temperature": 25.669467,
+    "Salinity": 31.151367,
+    "pH": 8.087467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:16",
+    "Latitude": 37.553823,
+    "Longitude": 121.390833,
+    "Temperature": 25.6724,
+    "Salinity": 31.152533,
+    "pH": 8.0872
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:17",
+    "Latitude": 37.553825,
+    "Longitude": 121.390832,
+    "Temperature": 25.675,
+    "Salinity": 31.153567,
+    "pH": 8.0871
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:18",
+    "Latitude": 37.553827,
+    "Longitude": 121.390837,
+    "Temperature": 25.677767,
+    "Salinity": 31.154367,
+    "pH": 8.086833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:19",
+    "Latitude": 37.553825,
+    "Longitude": 121.390835,
+    "Temperature": 25.6803,
+    "Salinity": 31.155267,
+    "pH": 8.086667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:20",
+    "Latitude": 37.553818,
+    "Longitude": 121.390835,
+    "Temperature": 25.682833,
+    "Salinity": 31.1563,
+    "pH": 8.086667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:21",
+    "Latitude": 37.55382,
+    "Longitude": 121.390832,
+    "Temperature": 25.685167,
+    "Salinity": 31.157233,
+    "pH": 8.086367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:22",
+    "Latitude": 37.553822,
+    "Longitude": 121.390833,
+    "Temperature": 25.6874,
+    "Salinity": 31.158333,
+    "pH": 8.0863
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:23",
+    "Latitude": 37.553823,
+    "Longitude": 121.390828,
+    "Temperature": 25.689867,
+    "Salinity": 31.159233,
+    "pH": 8.086233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:24",
+    "Latitude": 37.553822,
+    "Longitude": 121.390832,
+    "Temperature": 25.6925,
+    "Salinity": 31.160267,
+    "pH": 8.086333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:25",
+    "Latitude": 37.553823,
+    "Longitude": 121.39083,
+    "Temperature": 25.695167,
+    "Salinity": 31.161033,
+    "pH": 8.086033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:26",
+    "Latitude": 37.55382,
+    "Longitude": 121.390835,
+    "Temperature": 25.697667,
+    "Salinity": 31.161967,
+    "pH": 8.086067
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:27",
+    "Latitude": 37.553828,
+    "Longitude": 121.390845,
+    "Temperature": 25.7002,
+    "Salinity": 31.1628,
+    "pH": 8.0859
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:28",
+    "Latitude": 37.553828,
+    "Longitude": 121.390842,
+    "Temperature": 25.7026,
+    "Salinity": 31.1636,
+    "pH": 8.085467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:29",
+    "Latitude": 37.55383,
+    "Longitude": 121.390845,
+    "Temperature": 25.704967,
+    "Salinity": 31.164667,
+    "pH": 8.085333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:30",
+    "Latitude": 37.55383,
+    "Longitude": 121.390837,
+    "Temperature": 25.707233,
+    "Salinity": 31.165567,
+    "pH": 8.085333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:31",
+    "Latitude": 37.553833,
+    "Longitude": 121.39084,
+    "Temperature": 25.709633,
+    "Salinity": 31.166433,
+    "pH": 8.085
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:32",
+    "Latitude": 37.553835,
+    "Longitude": 121.390838,
+    "Temperature": 25.711967,
+    "Salinity": 31.167333,
+    "pH": 8.084767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:33",
+    "Latitude": 37.553835,
+    "Longitude": 121.39084,
+    "Temperature": 25.7145,
+    "Salinity": 31.168,
+    "pH": 8.085
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:34",
+    "Latitude": 37.553837,
+    "Longitude": 121.390835,
+    "Temperature": 25.717333,
+    "Salinity": 31.1686,
+    "pH": 8.084733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:35",
+    "Latitude": 37.553838,
+    "Longitude": 121.390843,
+    "Temperature": 25.720333,
+    "Salinity": 31.169,
+    "pH": 8.0845
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:36",
+    "Latitude": 37.553833,
+    "Longitude": 121.390843,
+    "Temperature": 25.723167,
+    "Salinity": 31.169067,
+    "pH": 8.084267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:37",
+    "Latitude": 37.553832,
+    "Longitude": 121.390837,
+    "Temperature": 25.725967,
+    "Salinity": 31.17,
+    "pH": 8.084067
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:38",
+    "Latitude": 37.553835,
+    "Longitude": 121.390837,
+    "Temperature": 25.7287,
+    "Salinity": 31.170667,
+    "pH": 8.084367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:39",
+    "Latitude": 37.553837,
+    "Longitude": 121.390837,
+    "Temperature": 25.731467,
+    "Salinity": 31.172,
+    "pH": 8.084033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:40",
+    "Latitude": 37.553835,
+    "Longitude": 121.390832,
+    "Temperature": 25.7339,
+    "Salinity": 31.172467,
+    "pH": 8.083833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:41",
+    "Latitude": 37.553837,
+    "Longitude": 121.390832,
+    "Temperature": 25.736333,
+    "Salinity": 31.173333,
+    "pH": 8.083767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:42",
+    "Latitude": 37.553828,
+    "Longitude": 121.390832,
+    "Temperature": 25.739033,
+    "Salinity": 31.174,
+    "pH": 8.0835
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:43",
+    "Latitude": 37.553823,
+    "Longitude": 121.39083,
+    "Temperature": 25.741633,
+    "Salinity": 31.174167,
+    "pH": 8.083033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:44",
+    "Latitude": 37.553827,
+    "Longitude": 121.390832,
+    "Temperature": 25.744133,
+    "Salinity": 31.175,
+    "pH": 8.083233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:45",
+    "Latitude": 37.55383,
+    "Longitude": 121.390837,
+    "Temperature": 25.746767,
+    "Salinity": 31.1753,
+    "pH": 8.082933
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:46",
+    "Latitude": 37.553837,
+    "Longitude": 121.390838,
+    "Temperature": 25.749167,
+    "Salinity": 31.176,
+    "pH": 8.082967
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:47",
+    "Latitude": 37.553843,
+    "Longitude": 121.390848,
+    "Temperature": 25.751467,
+    "Salinity": 31.1767,
+    "pH": 8.0827
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:48",
+    "Latitude": 37.553847,
+    "Longitude": 121.390848,
+    "Temperature": 25.7534,
+    "Salinity": 31.1774,
+    "pH": 8.0827
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:49",
+    "Latitude": 37.553845,
+    "Longitude": 121.39085,
+    "Temperature": 25.7551,
+    "Salinity": 31.178333,
+    "pH": 8.082833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:50",
+    "Latitude": 37.553832,
+    "Longitude": 121.390848,
+    "Temperature": 25.756467,
+    "Salinity": 31.179433,
+    "pH": 8.082967
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:51",
+    "Latitude": 37.553828,
+    "Longitude": 121.390847,
+    "Temperature": 25.757733,
+    "Salinity": 31.180467,
+    "pH": 8.0827
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:52",
+    "Latitude": 37.553828,
+    "Longitude": 121.390838,
+    "Temperature": 25.758833,
+    "Salinity": 31.181633,
+    "pH": 8.082633
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:53",
+    "Latitude": 37.553838,
+    "Longitude": 121.390845,
+    "Temperature": 25.7602,
+    "Salinity": 31.1828,
+    "pH": 8.082633
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:54",
+    "Latitude": 37.553827,
+    "Longitude": 121.390838,
+    "Temperature": 25.7616,
+    "Salinity": 31.184,
+    "pH": 8.082233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:55",
+    "Latitude": 37.553825,
+    "Longitude": 121.390842,
+    "Temperature": 25.762567,
+    "Salinity": 31.185133,
+    "pH": 8.082633
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:56",
+    "Latitude": 37.553827,
+    "Longitude": 121.39084,
+    "Temperature": 25.7639,
+    "Salinity": 31.186033,
+    "pH": 8.0828
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:57",
+    "Latitude": 37.553823,
+    "Longitude": 121.39084,
+    "Temperature": 25.765,
+    "Salinity": 31.1872,
+    "pH": 8.082433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:58",
+    "Latitude": 37.553828,
+    "Longitude": 121.39084,
+    "Temperature": 25.765867,
+    "Salinity": 31.188767,
+    "pH": 8.082467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "11:59",
+    "Latitude": 37.553827,
+    "Longitude": 121.390842,
+    "Temperature": 25.767,
+    "Salinity": 31.1903,
+    "pH": 8.082233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:00",
+    "Latitude": 37.553822,
+    "Longitude": 121.390837,
+    "Temperature": 25.767733,
+    "Salinity": 31.1913,
+    "pH": 8.082233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:01",
+    "Latitude": 37.553822,
+    "Longitude": 121.390833,
+    "Temperature": 25.768933,
+    "Salinity": 31.192667,
+    "pH": 8.082233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:02",
+    "Latitude": 37.553827,
+    "Longitude": 121.390837,
+    "Temperature": 25.770267,
+    "Salinity": 31.1938,
+    "pH": 8.082167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:03",
+    "Latitude": 37.55383,
+    "Longitude": 121.390833,
+    "Temperature": 25.771467,
+    "Salinity": 31.194033,
+    "pH": 8.082133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:04",
+    "Latitude": 37.553827,
+    "Longitude": 121.390832,
+    "Temperature": 25.772767,
+    "Salinity": 31.195,
+    "pH": 8.082167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:05",
+    "Latitude": 37.553828,
+    "Longitude": 121.390835,
+    "Temperature": 25.773733,
+    "Salinity": 31.195567,
+    "pH": 8.082133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:06",
+    "Latitude": 37.55383,
+    "Longitude": 121.390833,
+    "Temperature": 25.774933,
+    "Salinity": 31.196133,
+    "pH": 8.0821
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:07",
+    "Latitude": 37.553832,
+    "Longitude": 121.39083,
+    "Temperature": 25.776333,
+    "Salinity": 31.197,
+    "pH": 8.0821
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:08",
+    "Latitude": 37.553835,
+    "Longitude": 121.39083,
+    "Temperature": 25.7776,
+    "Salinity": 31.197933,
+    "pH": 8.081867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:09",
+    "Latitude": 37.553832,
+    "Longitude": 121.39083,
+    "Temperature": 25.779067,
+    "Salinity": 31.198,
+    "pH": 8.081933
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:10",
+    "Latitude": 37.55384,
+    "Longitude": 121.390837,
+    "Temperature": 25.780467,
+    "Salinity": 31.198867,
+    "pH": 8.082
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:11",
+    "Latitude": 37.553838,
+    "Longitude": 121.390835,
+    "Temperature": 25.781867,
+    "Salinity": 31.199,
+    "pH": 8.081867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:12",
+    "Latitude": 37.553843,
+    "Longitude": 121.390835,
+    "Temperature": 25.783267,
+    "Salinity": 31.199967,
+    "pH": 8.081667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:13",
+    "Latitude": 37.553842,
+    "Longitude": 121.390838,
+    "Temperature": 25.784433,
+    "Salinity": 31.200233,
+    "pH": 8.0817
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:14",
+    "Latitude": 37.553842,
+    "Longitude": 121.390837,
+    "Temperature": 25.785367,
+    "Salinity": 31.201,
+    "pH": 8.081767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:15",
+    "Latitude": 37.553843,
+    "Longitude": 121.390843,
+    "Temperature": 25.786267,
+    "Salinity": 31.2019,
+    "pH": 8.0815
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:16",
+    "Latitude": 37.55384,
+    "Longitude": 121.39084,
+    "Temperature": 25.787133,
+    "Salinity": 31.202633,
+    "pH": 8.0815
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:17",
+    "Latitude": 37.553843,
+    "Longitude": 121.390847,
+    "Temperature": 25.788,
+    "Salinity": 31.2032,
+    "pH": 8.081467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:18",
+    "Latitude": 37.55384,
+    "Longitude": 121.390838,
+    "Temperature": 25.788767,
+    "Salinity": 31.2043,
+    "pH": 8.081133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:19",
+    "Latitude": 37.553833,
+    "Longitude": 121.390833,
+    "Temperature": 25.789433,
+    "Salinity": 31.2055,
+    "pH": 8.081233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:20",
+    "Latitude": 37.553833,
+    "Longitude": 121.390832,
+    "Temperature": 25.79,
+    "Salinity": 31.206133,
+    "pH": 8.0813
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:21",
+    "Latitude": 37.553837,
+    "Longitude": 121.390822,
+    "Temperature": 25.790267,
+    "Salinity": 31.207,
+    "pH": 8.081167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:22",
+    "Latitude": 37.553842,
+    "Longitude": 121.390838,
+    "Temperature": 25.791,
+    "Salinity": 31.208,
+    "pH": 8.081267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:23",
+    "Latitude": 37.553828,
+    "Longitude": 121.390837,
+    "Temperature": 25.791,
+    "Salinity": 31.208533,
+    "pH": 8.081133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:24",
+    "Latitude": 37.55383,
+    "Longitude": 121.39084,
+    "Temperature": 25.7915,
+    "Salinity": 31.209,
+    "pH": 8.0811
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:25",
+    "Latitude": 37.553823,
+    "Longitude": 121.390838,
+    "Temperature": 25.792,
+    "Salinity": 31.209833,
+    "pH": 8.0807
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:26",
+    "Latitude": 37.553832,
+    "Longitude": 121.390845,
+    "Temperature": 25.792433,
+    "Salinity": 31.21,
+    "pH": 8.080767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:27",
+    "Latitude": 37.553837,
+    "Longitude": 121.390845,
+    "Temperature": 25.793,
+    "Salinity": 31.2107,
+    "pH": 8.080533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:28",
+    "Latitude": 37.553833,
+    "Longitude": 121.390837,
+    "Temperature": 25.793,
+    "Salinity": 31.211533,
+    "pH": 8.080267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:29",
+    "Latitude": 37.553828,
+    "Longitude": 121.390835,
+    "Temperature": 25.793,
+    "Salinity": 31.212,
+    "pH": 8.0805
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:30",
+    "Latitude": 37.553827,
+    "Longitude": 121.39083,
+    "Temperature": 25.794,
+    "Salinity": 31.212,
+    "pH": 8.0802
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:31",
+    "Latitude": 37.553823,
+    "Longitude": 121.390828,
+    "Temperature": 25.794,
+    "Salinity": 31.212167,
+    "pH": 8.0802
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:32",
+    "Latitude": 37.55382,
+    "Longitude": 121.390832,
+    "Temperature": 25.794,
+    "Salinity": 31.212933,
+    "pH": 8.080167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:33",
+    "Latitude": 37.553822,
+    "Longitude": 121.390832,
+    "Temperature": 25.794,
+    "Salinity": 31.213,
+    "pH": 8.079767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:34",
+    "Latitude": 37.553827,
+    "Longitude": 121.390847,
+    "Temperature": 25.794,
+    "Salinity": 31.213,
+    "pH": 8.080067
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:35",
+    "Latitude": 37.55383,
+    "Longitude": 121.390845,
+    "Temperature": 25.794,
+    "Salinity": 31.213433,
+    "pH": 8.079567
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:36",
+    "Latitude": 37.55383,
+    "Longitude": 121.390842,
+    "Temperature": 25.794,
+    "Salinity": 31.214,
+    "pH": 8.079467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:37",
+    "Latitude": 37.553825,
+    "Longitude": 121.390843,
+    "Temperature": 25.794,
+    "Salinity": 31.214833,
+    "pH": 8.079267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:38",
+    "Latitude": 37.553828,
+    "Longitude": 121.39085,
+    "Temperature": 25.794,
+    "Salinity": 31.215,
+    "pH": 8.0791
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:39",
+    "Latitude": 37.553828,
+    "Longitude": 121.390853,
+    "Temperature": 25.794,
+    "Salinity": 31.215,
+    "pH": 8.079133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:40",
+    "Latitude": 37.553833,
+    "Longitude": 121.39086,
+    "Temperature": 25.794,
+    "Salinity": 31.215433,
+    "pH": 8.079
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:41",
+    "Latitude": 37.553838,
+    "Longitude": 121.390853,
+    "Temperature": 25.794,
+    "Salinity": 31.216,
+    "pH": 8.078733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:42",
+    "Latitude": 37.553838,
+    "Longitude": 121.39086,
+    "Temperature": 25.794,
+    "Salinity": 31.216,
+    "pH": 8.078667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:43",
+    "Latitude": 37.553838,
+    "Longitude": 121.390857,
+    "Temperature": 25.794,
+    "Salinity": 31.216633,
+    "pH": 8.078733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:44",
+    "Latitude": 37.553843,
+    "Longitude": 121.390857,
+    "Temperature": 25.794,
+    "Salinity": 31.217,
+    "pH": 8.078667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:45",
+    "Latitude": 37.553842,
+    "Longitude": 121.390857,
+    "Temperature": 25.794,
+    "Salinity": 31.217533,
+    "pH": 8.078533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:46",
+    "Latitude": 37.55384,
+    "Longitude": 121.390847,
+    "Temperature": 25.794,
+    "Salinity": 31.218,
+    "pH": 8.078567
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:47",
+    "Latitude": 37.553838,
+    "Longitude": 121.390852,
+    "Temperature": 25.793933,
+    "Salinity": 31.218933,
+    "pH": 8.0783
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:48",
+    "Latitude": 37.553842,
+    "Longitude": 121.390853,
+    "Temperature": 25.793033,
+    "Salinity": 31.219667,
+    "pH": 8.078433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:49",
+    "Latitude": 37.553838,
+    "Longitude": 121.390853,
+    "Temperature": 25.793,
+    "Salinity": 31.2203,
+    "pH": 8.078167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:50",
+    "Latitude": 37.553838,
+    "Longitude": 121.390852,
+    "Temperature": 25.7926,
+    "Salinity": 31.221,
+    "pH": 8.078233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:51",
+    "Latitude": 37.553842,
+    "Longitude": 121.390853,
+    "Temperature": 25.792,
+    "Salinity": 31.222,
+    "pH": 8.078067
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:52",
+    "Latitude": 37.553852,
+    "Longitude": 121.39086,
+    "Temperature": 25.792,
+    "Salinity": 31.2223,
+    "pH": 8.077967
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:53",
+    "Latitude": 37.55385,
+    "Longitude": 121.39086,
+    "Temperature": 25.792,
+    "Salinity": 31.223,
+    "pH": 8.077933
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:54",
+    "Latitude": 37.553857,
+    "Longitude": 121.390858,
+    "Temperature": 25.792,
+    "Salinity": 31.223,
+    "pH": 8.077667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:55",
+    "Latitude": 37.553857,
+    "Longitude": 121.390858,
+    "Temperature": 25.792,
+    "Salinity": 31.223933,
+    "pH": 8.077767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:56",
+    "Latitude": 37.553862,
+    "Longitude": 121.390853,
+    "Temperature": 25.792,
+    "Salinity": 31.224,
+    "pH": 8.0776
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:57",
+    "Latitude": 37.553863,
+    "Longitude": 121.390847,
+    "Temperature": 25.792,
+    "Salinity": 31.224,
+    "pH": 8.077667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:58",
+    "Latitude": 37.553862,
+    "Longitude": 121.390847,
+    "Temperature": 25.7928,
+    "Salinity": 31.224,
+    "pH": 8.0774
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "12:59",
+    "Latitude": 37.553863,
+    "Longitude": 121.390845,
+    "Temperature": 25.793,
+    "Salinity": 31.2249,
+    "pH": 8.077367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:00",
+    "Latitude": 37.55386,
+    "Longitude": 121.390845,
+    "Temperature": 25.793,
+    "Salinity": 31.225033,
+    "pH": 8.0772
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:01",
+    "Latitude": 37.55386,
+    "Longitude": 121.390843,
+    "Temperature": 25.793,
+    "Salinity": 31.225233,
+    "pH": 8.0772
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:02",
+    "Latitude": 37.553857,
+    "Longitude": 121.390838,
+    "Temperature": 25.792333,
+    "Salinity": 31.2259,
+    "pH": 8.0769
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:03",
+    "Latitude": 37.553857,
+    "Longitude": 121.390843,
+    "Temperature": 25.792,
+    "Salinity": 31.226533,
+    "pH": 8.077167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:04",
+    "Latitude": 37.553845,
+    "Longitude": 121.390847,
+    "Temperature": 25.792,
+    "Salinity": 31.227,
+    "pH": 8.077133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:05",
+    "Latitude": 37.553842,
+    "Longitude": 121.390847,
+    "Temperature": 25.792,
+    "Salinity": 31.227667,
+    "pH": 8.076833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:06",
+    "Latitude": 37.553842,
+    "Longitude": 121.390852,
+    "Temperature": 25.792,
+    "Salinity": 31.228433,
+    "pH": 8.0766
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:07",
+    "Latitude": 37.553835,
+    "Longitude": 121.390848,
+    "Temperature": 25.7918,
+    "Salinity": 31.229133,
+    "pH": 8.076567
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:08",
+    "Latitude": 37.553837,
+    "Longitude": 121.390838,
+    "Temperature": 25.791,
+    "Salinity": 31.23,
+    "pH": 8.0762
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:09",
+    "Latitude": 37.553835,
+    "Longitude": 121.390837,
+    "Temperature": 25.790833,
+    "Salinity": 31.2308,
+    "pH": 8.076433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:10",
+    "Latitude": 37.553838,
+    "Longitude": 121.390838,
+    "Temperature": 25.79,
+    "Salinity": 31.231733,
+    "pH": 8.076
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:11",
+    "Latitude": 37.55384,
+    "Longitude": 121.390835,
+    "Temperature": 25.79,
+    "Salinity": 31.232533,
+    "pH": 8.076433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:12",
+    "Latitude": 37.553843,
+    "Longitude": 121.39082,
+    "Temperature": 25.789233,
+    "Salinity": 31.233667,
+    "pH": 8.075867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:13",
+    "Latitude": 37.553843,
+    "Longitude": 121.390823,
+    "Temperature": 25.789,
+    "Salinity": 31.2352,
+    "pH": 8.075833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:14",
+    "Latitude": 37.553842,
+    "Longitude": 121.390825,
+    "Temperature": 25.789,
+    "Salinity": 31.236,
+    "pH": 8.0755
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:15",
+    "Latitude": 37.55384,
+    "Longitude": 121.390837,
+    "Temperature": 25.788867,
+    "Salinity": 31.2368,
+    "pH": 8.075433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:16",
+    "Latitude": 37.553837,
+    "Longitude": 121.39083,
+    "Temperature": 25.788767,
+    "Salinity": 31.237,
+    "pH": 8.075267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:17",
+    "Latitude": 37.55384,
+    "Longitude": 121.390838,
+    "Temperature": 25.788,
+    "Salinity": 31.237733,
+    "pH": 8.075467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:18",
+    "Latitude": 37.553838,
+    "Longitude": 121.390838,
+    "Temperature": 25.788,
+    "Salinity": 31.238033,
+    "pH": 8.075133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:19",
+    "Latitude": 37.553842,
+    "Longitude": 121.390842,
+    "Temperature": 25.787533,
+    "Salinity": 31.239,
+    "pH": 8.075033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:20",
+    "Latitude": 37.553843,
+    "Longitude": 121.390843,
+    "Temperature": 25.787,
+    "Salinity": 31.2397,
+    "pH": 8.074933
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:21",
+    "Latitude": 37.553847,
+    "Longitude": 121.390842,
+    "Temperature": 25.787,
+    "Salinity": 31.2405,
+    "pH": 8.074867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:22",
+    "Latitude": 37.553847,
+    "Longitude": 121.390837,
+    "Temperature": 25.787,
+    "Salinity": 31.241,
+    "pH": 8.074633
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:23",
+    "Latitude": 37.553852,
+    "Longitude": 121.390845,
+    "Temperature": 25.787,
+    "Salinity": 31.2417,
+    "pH": 8.074533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:24",
+    "Latitude": 37.553853,
+    "Longitude": 121.39085,
+    "Temperature": 25.786267,
+    "Salinity": 31.242,
+    "pH": 8.074833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:25",
+    "Latitude": 37.553853,
+    "Longitude": 121.390852,
+    "Temperature": 25.786,
+    "Salinity": 31.242933,
+    "pH": 8.074533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:26",
+    "Latitude": 37.553847,
+    "Longitude": 121.390855,
+    "Temperature": 25.785667,
+    "Salinity": 31.243433,
+    "pH": 8.074533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:27",
+    "Latitude": 37.553848,
+    "Longitude": 121.390855,
+    "Temperature": 25.785,
+    "Salinity": 31.244,
+    "pH": 8.0746
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:28",
+    "Latitude": 37.553848,
+    "Longitude": 121.390852,
+    "Temperature": 25.784667,
+    "Salinity": 31.245,
+    "pH": 8.0742
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:29",
+    "Latitude": 37.553848,
+    "Longitude": 121.390853,
+    "Temperature": 25.784,
+    "Salinity": 31.245833,
+    "pH": 8.074133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:30",
+    "Latitude": 37.55385,
+    "Longitude": 121.39084,
+    "Temperature": 25.783867,
+    "Salinity": 31.2467,
+    "pH": 8.074133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:31",
+    "Latitude": 37.553852,
+    "Longitude": 121.390848,
+    "Temperature": 25.783,
+    "Salinity": 31.247,
+    "pH": 8.0741
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:32",
+    "Latitude": 37.553852,
+    "Longitude": 121.390847,
+    "Temperature": 25.783,
+    "Salinity": 31.2478,
+    "pH": 8.0742
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:33",
+    "Latitude": 37.553857,
+    "Longitude": 121.39085,
+    "Temperature": 25.782567,
+    "Salinity": 31.2484,
+    "pH": 8.074033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:34",
+    "Latitude": 37.553857,
+    "Longitude": 121.390855,
+    "Temperature": 25.7812,
+    "Salinity": 31.249767,
+    "pH": 8.074033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:35",
+    "Latitude": 37.553862,
+    "Longitude": 121.390852,
+    "Temperature": 25.781833,
+    "Salinity": 31.25,
+    "pH": 8.073967
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:36",
+    "Latitude": 37.553853,
+    "Longitude": 121.390847,
+    "Temperature": 25.782,
+    "Salinity": 31.25,
+    "pH": 8.0739
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:37",
+    "Latitude": 37.55385,
+    "Longitude": 121.390848,
+    "Temperature": 25.781367,
+    "Salinity": 31.250967,
+    "pH": 8.073867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:38",
+    "Latitude": 37.553852,
+    "Longitude": 121.390837,
+    "Temperature": 25.781,
+    "Salinity": 31.251767,
+    "pH": 8.073833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:39",
+    "Latitude": 37.553853,
+    "Longitude": 121.390833,
+    "Temperature": 25.780067,
+    "Salinity": 31.252533,
+    "pH": 8.073867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:40",
+    "Latitude": 37.553855,
+    "Longitude": 121.390837,
+    "Temperature": 25.7796,
+    "Salinity": 31.253367,
+    "pH": 8.0738
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:41",
+    "Latitude": 37.553853,
+    "Longitude": 121.390842,
+    "Temperature": 25.779,
+    "Salinity": 31.2544,
+    "pH": 8.0737
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:42",
+    "Latitude": 37.553853,
+    "Longitude": 121.390847,
+    "Temperature": 25.779,
+    "Salinity": 31.255,
+    "pH": 8.0737
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:43",
+    "Latitude": 37.553857,
+    "Longitude": 121.39085,
+    "Temperature": 25.778533,
+    "Salinity": 31.255833,
+    "pH": 8.073533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:44",
+    "Latitude": 37.553857,
+    "Longitude": 121.390843,
+    "Temperature": 25.778,
+    "Salinity": 31.256533,
+    "pH": 8.0735
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:45",
+    "Latitude": 37.553858,
+    "Longitude": 121.390847,
+    "Temperature": 25.777033,
+    "Salinity": 31.2574,
+    "pH": 8.073467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:46",
+    "Latitude": 37.553857,
+    "Longitude": 121.390848,
+    "Temperature": 25.777,
+    "Salinity": 31.258,
+    "pH": 8.0735
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:47",
+    "Latitude": 37.553857,
+    "Longitude": 121.390853,
+    "Temperature": 25.7769,
+    "Salinity": 31.258267,
+    "pH": 8.0733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:48",
+    "Latitude": 37.55386,
+    "Longitude": 121.390858,
+    "Temperature": 25.776,
+    "Salinity": 31.259,
+    "pH": 8.073233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:49",
+    "Latitude": 37.553863,
+    "Longitude": 121.390852,
+    "Temperature": 25.7751,
+    "Salinity": 31.260533,
+    "pH": 8.073467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:50",
+    "Latitude": 37.553858,
+    "Longitude": 121.390857,
+    "Temperature": 25.773833,
+    "Salinity": 31.262,
+    "pH": 8.073367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:51",
+    "Latitude": 37.553853,
+    "Longitude": 121.390857,
+    "Temperature": 25.773,
+    "Salinity": 31.262933,
+    "pH": 8.0733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:52",
+    "Latitude": 37.55385,
+    "Longitude": 121.390853,
+    "Temperature": 25.773,
+    "Salinity": 31.263,
+    "pH": 8.073333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:53",
+    "Latitude": 37.55385,
+    "Longitude": 121.390843,
+    "Temperature": 25.773,
+    "Salinity": 31.263267,
+    "pH": 8.0732
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:54",
+    "Latitude": 37.553848,
+    "Longitude": 121.390842,
+    "Temperature": 25.773,
+    "Salinity": 31.264,
+    "pH": 8.073067
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:55",
+    "Latitude": 37.553853,
+    "Longitude": 121.39084,
+    "Temperature": 25.773,
+    "Salinity": 31.264033,
+    "pH": 8.0728
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:56",
+    "Latitude": 37.553857,
+    "Longitude": 121.390837,
+    "Temperature": 25.773767,
+    "Salinity": 31.264,
+    "pH": 8.072733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:57",
+    "Latitude": 37.553852,
+    "Longitude": 121.39084,
+    "Temperature": 25.774,
+    "Salinity": 31.2642,
+    "pH": 8.072367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:58",
+    "Latitude": 37.553847,
+    "Longitude": 121.390847,
+    "Temperature": 25.774,
+    "Salinity": 31.2656,
+    "pH": 8.072667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "13:59",
+    "Latitude": 37.553845,
+    "Longitude": 121.390855,
+    "Temperature": 25.774467,
+    "Salinity": 31.2667,
+    "pH": 8.072467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:00",
+    "Latitude": 37.55384,
+    "Longitude": 121.39086,
+    "Temperature": 25.775,
+    "Salinity": 31.2677,
+    "pH": 8.0726
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:01",
+    "Latitude": 37.553832,
+    "Longitude": 121.39086,
+    "Temperature": 25.7752,
+    "Salinity": 31.268633,
+    "pH": 8.0726
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:02",
+    "Latitude": 37.55384,
+    "Longitude": 121.390858,
+    "Temperature": 25.776,
+    "Salinity": 31.2698,
+    "pH": 8.072367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:03",
+    "Latitude": 37.55384,
+    "Longitude": 121.390858,
+    "Temperature": 25.776533,
+    "Salinity": 31.2708,
+    "pH": 8.072333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:04",
+    "Latitude": 37.553828,
+    "Longitude": 121.390842,
+    "Temperature": 25.777,
+    "Salinity": 31.272333,
+    "pH": 8.072533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:05",
+    "Latitude": 37.553812,
+    "Longitude": 121.390863,
+    "Temperature": 25.777,
+    "Salinity": 31.2736,
+    "pH": 8.0723
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:06",
+    "Latitude": 37.553788,
+    "Longitude": 121.39093,
+    "Temperature": 25.777,
+    "Salinity": 31.275267,
+    "pH": 8.072233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:13",
+    "Latitude": 37.553807,
+    "Longitude": 121.391277,
+    "Temperature": 23.341917,
+    "Salinity": 30.830417,
+    "pH": 8.042778
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:14",
+    "Latitude": 37.553875,
+    "Longitude": 121.391372,
+    "Temperature": 21.4345,
+    "Salinity": 30.792433,
+    "pH": 8.104033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:15",
+    "Latitude": 37.553898,
+    "Longitude": 121.391403,
+    "Temperature": 20.407767,
+    "Salinity": 30.824367,
+    "pH": 8.041833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:16",
+    "Latitude": 37.554023,
+    "Longitude": 121.391737,
+    "Temperature": 20.104467,
+    "Salinity": 30.825233,
+    "pH": 8.0128
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:17",
+    "Latitude": 37.55376,
+    "Longitude": 121.39239,
+    "Temperature": 19.974733,
+    "Salinity": 30.8241,
+    "pH": 8.0072
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:18",
+    "Latitude": 37.553202,
+    "Longitude": 121.393637,
+    "Temperature": 19.894433,
+    "Salinity": 30.824667,
+    "pH": 8.008467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:19",
+    "Latitude": 37.552385,
+    "Longitude": 121.395365,
+    "Temperature": 19.860033,
+    "Salinity": 30.826633,
+    "pH": 8.0078
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:20",
+    "Latitude": 37.551472,
+    "Longitude": 121.39718,
+    "Temperature": 19.839733,
+    "Salinity": 30.821533,
+    "pH": 8.006567
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:21",
+    "Latitude": 37.550668,
+    "Longitude": 121.399097,
+    "Temperature": 19.815167,
+    "Salinity": 30.826267,
+    "pH": 8.012533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:29",
+    "Latitude": 37.553995,
+    "Longitude": 121.41824,
+    "Temperature": 19.81185,
+    "Salinity": 30.85905,
+    "pH": 8.06124
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:30",
+    "Latitude": 37.554892,
+    "Longitude": 121.420702,
+    "Temperature": 19.829967,
+    "Salinity": 30.867833,
+    "pH": 8.070967
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:31",
+    "Latitude": 37.55591,
+    "Longitude": 121.422845,
+    "Temperature": 19.805867,
+    "Salinity": 30.873267,
+    "pH": 8.077367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:32",
+    "Latitude": 37.55702,
+    "Longitude": 121.425038,
+    "Temperature": 19.778733,
+    "Salinity": 30.881733,
+    "pH": 8.0824
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:33",
+    "Latitude": 37.558235,
+    "Longitude": 121.427103,
+    "Temperature": 19.749167,
+    "Salinity": 30.8879,
+    "pH": 8.0888
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:34",
+    "Latitude": 37.55956,
+    "Longitude": 121.429155,
+    "Temperature": 19.7084,
+    "Salinity": 30.892267,
+    "pH": 8.086433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:35",
+    "Latitude": 37.560962,
+    "Longitude": 121.430925,
+    "Temperature": 19.675733,
+    "Salinity": 30.897,
+    "pH": 8.0842
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:36",
+    "Latitude": 37.562378,
+    "Longitude": 121.432585,
+    "Temperature": 19.691933,
+    "Salinity": 30.901467,
+    "pH": 8.0901
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:37",
+    "Latitude": 37.56397,
+    "Longitude": 121.43421,
+    "Temperature": 19.714733,
+    "Salinity": 30.9029,
+    "pH": 8.098033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:38",
+    "Latitude": 37.5656,
+    "Longitude": 121.435548,
+    "Temperature": 19.707867,
+    "Salinity": 30.903067,
+    "pH": 8.094533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:39",
+    "Latitude": 37.567412,
+    "Longitude": 121.43681,
+    "Temperature": 19.7138,
+    "Salinity": 30.911667,
+    "pH": 8.0983
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:40",
+    "Latitude": 37.56911,
+    "Longitude": 121.437955,
+    "Temperature": 19.702,
+    "Salinity": 30.917867,
+    "pH": 8.093233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:41",
+    "Latitude": 37.570842,
+    "Longitude": 121.439117,
+    "Temperature": 19.683967,
+    "Salinity": 30.917467,
+    "pH": 8.087433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:42",
+    "Latitude": 37.572587,
+    "Longitude": 121.440273,
+    "Temperature": 19.677767,
+    "Salinity": 30.918267,
+    "pH": 8.086333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:43",
+    "Latitude": 37.574418,
+    "Longitude": 121.441145,
+    "Temperature": 19.673933,
+    "Salinity": 30.924733,
+    "pH": 8.0952
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:44",
+    "Latitude": 37.576292,
+    "Longitude": 121.441875,
+    "Temperature": 19.662533,
+    "Salinity": 30.925967,
+    "pH": 8.0922
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:45",
+    "Latitude": 37.578165,
+    "Longitude": 121.442553,
+    "Temperature": 19.669467,
+    "Salinity": 30.9261,
+    "pH": 8.096167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:46",
+    "Latitude": 37.58007,
+    "Longitude": 121.44315,
+    "Temperature": 19.677033,
+    "Salinity": 30.9223,
+    "pH": 8.093333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:47",
+    "Latitude": 37.581992,
+    "Longitude": 121.443765,
+    "Temperature": 19.676733,
+    "Salinity": 30.922067,
+    "pH": 8.098133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:48",
+    "Latitude": 37.583862,
+    "Longitude": 121.444623,
+    "Temperature": 19.6693,
+    "Salinity": 30.9246,
+    "pH": 8.096367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:49",
+    "Latitude": 37.585787,
+    "Longitude": 121.445613,
+    "Temperature": 19.687967,
+    "Salinity": 30.924833,
+    "pH": 8.098867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:50",
+    "Latitude": 37.587582,
+    "Longitude": 121.446507,
+    "Temperature": 19.6789,
+    "Salinity": 30.9205,
+    "pH": 8.101133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:51",
+    "Latitude": 37.589433,
+    "Longitude": 121.44739,
+    "Temperature": 19.6328,
+    "Salinity": 30.917233,
+    "pH": 8.109667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:52",
+    "Latitude": 37.591282,
+    "Longitude": 121.44829,
+    "Temperature": 19.624733,
+    "Salinity": 30.915,
+    "pH": 8.120267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:53",
+    "Latitude": 37.593138,
+    "Longitude": 121.449188,
+    "Temperature": 19.626867,
+    "Salinity": 30.916133,
+    "pH": 8.122933
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:54",
+    "Latitude": 37.595002,
+    "Longitude": 121.450105,
+    "Temperature": 19.630433,
+    "Salinity": 30.925233,
+    "pH": 8.123767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:55",
+    "Latitude": 37.596888,
+    "Longitude": 121.451038,
+    "Temperature": 19.6385,
+    "Salinity": 30.9317,
+    "pH": 8.127433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:56",
+    "Latitude": 37.598845,
+    "Longitude": 121.452005,
+    "Temperature": 19.6659,
+    "Salinity": 30.941033,
+    "pH": 8.1325
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:57",
+    "Latitude": 37.600697,
+    "Longitude": 121.452682,
+    "Temperature": 19.6836,
+    "Salinity": 30.946467,
+    "pH": 8.135933
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:58",
+    "Latitude": 37.60265,
+    "Longitude": 121.453388,
+    "Temperature": 19.697967,
+    "Salinity": 30.949233,
+    "pH": 8.138033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "14:59",
+    "Latitude": 37.604598,
+    "Longitude": 121.45409,
+    "Temperature": 19.674133,
+    "Salinity": 30.9518,
+    "pH": 8.1317
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:00",
+    "Latitude": 37.60654,
+    "Longitude": 121.454772,
+    "Temperature": 19.6886,
+    "Salinity": 30.958,
+    "pH": 8.135167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:01",
+    "Latitude": 37.608498,
+    "Longitude": 121.455515,
+    "Temperature": 19.6968,
+    "Salinity": 30.964367,
+    "pH": 8.139833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:02",
+    "Latitude": 37.610535,
+    "Longitude": 121.456238,
+    "Temperature": 19.704267,
+    "Salinity": 30.973767,
+    "pH": 8.1382
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:03",
+    "Latitude": 37.61243,
+    "Longitude": 121.456892,
+    "Temperature": 19.6963,
+    "Salinity": 30.9815,
+    "pH": 8.1355
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:04",
+    "Latitude": 37.61441,
+    "Longitude": 121.4575,
+    "Temperature": 19.6997,
+    "Salinity": 30.9854,
+    "pH": 8.135367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:05",
+    "Latitude": 37.616458,
+    "Longitude": 121.457997,
+    "Temperature": 19.6945,
+    "Salinity": 30.986733,
+    "pH": 8.1342
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:06",
+    "Latitude": 37.618393,
+    "Longitude": 121.458465,
+    "Temperature": 19.689567,
+    "Salinity": 30.990067,
+    "pH": 8.132133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:07",
+    "Latitude": 37.620473,
+    "Longitude": 121.459118,
+    "Temperature": 19.699367,
+    "Salinity": 30.9894,
+    "pH": 8.1309
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:08",
+    "Latitude": 37.622413,
+    "Longitude": 121.459782,
+    "Temperature": 19.689867,
+    "Salinity": 30.990267,
+    "pH": 8.129233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:09",
+    "Latitude": 37.624378,
+    "Longitude": 121.460485,
+    "Temperature": 19.699433,
+    "Salinity": 30.9884,
+    "pH": 8.1309
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:10",
+    "Latitude": 37.626353,
+    "Longitude": 121.46118,
+    "Temperature": 19.6982,
+    "Salinity": 30.986333,
+    "pH": 8.1319
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:11",
+    "Latitude": 37.628388,
+    "Longitude": 121.461898,
+    "Temperature": 19.701767,
+    "Salinity": 30.983267,
+    "pH": 8.130267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:12",
+    "Latitude": 37.630367,
+    "Longitude": 121.462615,
+    "Temperature": 19.691,
+    "Salinity": 30.984333,
+    "pH": 8.127967
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:13",
+    "Latitude": 37.632295,
+    "Longitude": 121.463232,
+    "Temperature": 19.702067,
+    "Salinity": 30.9897,
+    "pH": 8.1334
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:14",
+    "Latitude": 37.634262,
+    "Longitude": 121.46391,
+    "Temperature": 19.703267,
+    "Salinity": 30.994,
+    "pH": 8.134467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:15",
+    "Latitude": 37.636237,
+    "Longitude": 121.464578,
+    "Temperature": 19.705867,
+    "Salinity": 30.9894,
+    "pH": 8.1328
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:16",
+    "Latitude": 37.63828,
+    "Longitude": 121.465267,
+    "Temperature": 19.712067,
+    "Salinity": 30.982067,
+    "pH": 8.1273
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:17",
+    "Latitude": 37.64026,
+    "Longitude": 121.46594,
+    "Temperature": 19.692933,
+    "Salinity": 30.9708,
+    "pH": 8.122133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:18",
+    "Latitude": 37.642187,
+    "Longitude": 121.466418,
+    "Temperature": 19.673833,
+    "Salinity": 30.963033,
+    "pH": 8.121033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:19",
+    "Latitude": 37.644187,
+    "Longitude": 121.466938,
+    "Temperature": 19.662833,
+    "Salinity": 30.9622,
+    "pH": 8.123633
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:20",
+    "Latitude": 37.646188,
+    "Longitude": 121.467487,
+    "Temperature": 19.657867,
+    "Salinity": 30.960967,
+    "pH": 8.1215
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:21",
+    "Latitude": 37.648252,
+    "Longitude": 121.468058,
+    "Temperature": 19.6506,
+    "Salinity": 30.9603,
+    "pH": 8.122
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:22",
+    "Latitude": 37.650262,
+    "Longitude": 121.468628,
+    "Temperature": 19.6445,
+    "Salinity": 30.9617,
+    "pH": 8.1222
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:23",
+    "Latitude": 37.652215,
+    "Longitude": 121.469187,
+    "Temperature": 19.665933,
+    "Salinity": 30.968633,
+    "pH": 8.1291
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:24",
+    "Latitude": 37.65425,
+    "Longitude": 121.469752,
+    "Temperature": 19.677267,
+    "Salinity": 30.9724,
+    "pH": 8.131767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:25",
+    "Latitude": 37.656255,
+    "Longitude": 121.470017,
+    "Temperature": 19.687033,
+    "Salinity": 30.9743,
+    "pH": 8.134367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:26",
+    "Latitude": 37.658288,
+    "Longitude": 121.470207,
+    "Temperature": 19.707133,
+    "Salinity": 30.974733,
+    "pH": 8.136033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:27",
+    "Latitude": 37.660387,
+    "Longitude": 121.470437,
+    "Temperature": 19.7134,
+    "Salinity": 30.972733,
+    "pH": 8.1357
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:28",
+    "Latitude": 37.662427,
+    "Longitude": 121.47066,
+    "Temperature": 19.704933,
+    "Salinity": 30.974433,
+    "pH": 8.1348
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:29",
+    "Latitude": 37.664423,
+    "Longitude": 121.470837,
+    "Temperature": 19.692767,
+    "Salinity": 30.9733,
+    "pH": 8.133767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:30",
+    "Latitude": 37.666477,
+    "Longitude": 121.47104,
+    "Temperature": 19.705833,
+    "Salinity": 30.977333,
+    "pH": 8.1376
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:31",
+    "Latitude": 37.668613,
+    "Longitude": 121.471242,
+    "Temperature": 19.702833,
+    "Salinity": 30.975733,
+    "pH": 8.137867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:32",
+    "Latitude": 37.670678,
+    "Longitude": 121.471457,
+    "Temperature": 19.6749,
+    "Salinity": 30.977367,
+    "pH": 8.134767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:33",
+    "Latitude": 37.672745,
+    "Longitude": 121.471722,
+    "Temperature": 19.6706,
+    "Salinity": 30.982433,
+    "pH": 8.1389
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:34",
+    "Latitude": 37.674717,
+    "Longitude": 121.472192,
+    "Temperature": 19.672533,
+    "Salinity": 30.9849,
+    "pH": 8.139933
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:35",
+    "Latitude": 37.676812,
+    "Longitude": 121.472753,
+    "Temperature": 19.666467,
+    "Salinity": 30.992633,
+    "pH": 8.141033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:36",
+    "Latitude": 37.678847,
+    "Longitude": 121.473327,
+    "Temperature": 19.6506,
+    "Salinity": 31.002567,
+    "pH": 8.141533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:37",
+    "Latitude": 37.680888,
+    "Longitude": 121.473897,
+    "Temperature": 19.6637,
+    "Salinity": 31.008767,
+    "pH": 8.143733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:38",
+    "Latitude": 37.682893,
+    "Longitude": 121.474592,
+    "Temperature": 19.6525,
+    "Salinity": 31.008867,
+    "pH": 8.143167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:39",
+    "Latitude": 37.684918,
+    "Longitude": 121.47534,
+    "Temperature": 19.645267,
+    "Salinity": 31.0125,
+    "pH": 8.1434
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:40",
+    "Latitude": 37.686847,
+    "Longitude": 121.476017,
+    "Temperature": 19.6583,
+    "Salinity": 31.019933,
+    "pH": 8.148633
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:41",
+    "Latitude": 37.688858,
+    "Longitude": 121.476677,
+    "Temperature": 19.666633,
+    "Salinity": 31.025167,
+    "pH": 8.149
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:42",
+    "Latitude": 37.690962,
+    "Longitude": 121.476972,
+    "Temperature": 19.650033,
+    "Salinity": 31.026967,
+    "pH": 8.150433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:43",
+    "Latitude": 37.692962,
+    "Longitude": 121.477075,
+    "Temperature": 19.633867,
+    "Salinity": 31.035967,
+    "pH": 8.150567
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:44",
+    "Latitude": 37.694933,
+    "Longitude": 121.477172,
+    "Temperature": 19.6383,
+    "Salinity": 31.037067,
+    "pH": 8.145833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:45",
+    "Latitude": 37.697052,
+    "Longitude": 121.477397,
+    "Temperature": 19.643467,
+    "Salinity": 31.0454,
+    "pH": 8.148033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:46",
+    "Latitude": 37.699033,
+    "Longitude": 121.477743,
+    "Temperature": 19.6504,
+    "Salinity": 31.035767,
+    "pH": 8.148767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:47",
+    "Latitude": 37.701095,
+    "Longitude": 121.478132,
+    "Temperature": 19.6308,
+    "Salinity": 31.034067,
+    "pH": 8.147667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:48",
+    "Latitude": 37.703185,
+    "Longitude": 121.478635,
+    "Temperature": 19.648867,
+    "Salinity": 31.0409,
+    "pH": 8.152967
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:49",
+    "Latitude": 37.705235,
+    "Longitude": 121.479053,
+    "Temperature": 19.6554,
+    "Salinity": 31.046933,
+    "pH": 8.1554
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:50",
+    "Latitude": 37.707247,
+    "Longitude": 121.479618,
+    "Temperature": 19.664067,
+    "Salinity": 31.0518,
+    "pH": 8.153833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:51",
+    "Latitude": 37.709203,
+    "Longitude": 121.480192,
+    "Temperature": 19.652567,
+    "Salinity": 31.0616,
+    "pH": 8.1558
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:52",
+    "Latitude": 37.711227,
+    "Longitude": 121.480792,
+    "Temperature": 19.693133,
+    "Salinity": 31.067467,
+    "pH": 8.161867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:53",
+    "Latitude": 37.713313,
+    "Longitude": 121.48139,
+    "Temperature": 19.674767,
+    "Salinity": 31.074467,
+    "pH": 8.156833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:54",
+    "Latitude": 37.715248,
+    "Longitude": 121.481958,
+    "Temperature": 19.669967,
+    "Salinity": 31.0824,
+    "pH": 8.158433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:55",
+    "Latitude": 37.71735,
+    "Longitude": 121.48252,
+    "Temperature": 19.685,
+    "Salinity": 31.0882,
+    "pH": 8.1615
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:56",
+    "Latitude": 37.719293,
+    "Longitude": 121.483075,
+    "Temperature": 19.666067,
+    "Salinity": 31.095733,
+    "pH": 8.158867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:57",
+    "Latitude": 37.721307,
+    "Longitude": 121.483667,
+    "Temperature": 19.638267,
+    "Salinity": 31.107467,
+    "pH": 8.1576
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:58",
+    "Latitude": 37.723383,
+    "Longitude": 121.484203,
+    "Temperature": 19.638533,
+    "Salinity": 31.1287,
+    "pH": 8.1597
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "15:59",
+    "Latitude": 37.72542,
+    "Longitude": 121.484733,
+    "Temperature": 19.627867,
+    "Salinity": 31.149067,
+    "pH": 8.159333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:00",
+    "Latitude": 37.727367,
+    "Longitude": 121.48529,
+    "Temperature": 19.6035,
+    "Salinity": 31.167067,
+    "pH": 8.1543
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:01",
+    "Latitude": 37.72937,
+    "Longitude": 121.485902,
+    "Temperature": 19.5746,
+    "Salinity": 31.177367,
+    "pH": 8.153133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:02",
+    "Latitude": 37.731475,
+    "Longitude": 121.486545,
+    "Temperature": 19.5596,
+    "Salinity": 31.172767,
+    "pH": 8.152833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:03",
+    "Latitude": 37.733418,
+    "Longitude": 121.487182,
+    "Temperature": 19.539367,
+    "Salinity": 31.173733,
+    "pH": 8.152233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:04",
+    "Latitude": 37.735468,
+    "Longitude": 121.487872,
+    "Temperature": 19.5286,
+    "Salinity": 31.1779,
+    "pH": 8.1508
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:05",
+    "Latitude": 37.737397,
+    "Longitude": 121.48854,
+    "Temperature": 19.5167,
+    "Salinity": 31.178733,
+    "pH": 8.149667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:06",
+    "Latitude": 37.739477,
+    "Longitude": 121.489062,
+    "Temperature": 19.5193,
+    "Salinity": 31.177533,
+    "pH": 8.1511
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:07",
+    "Latitude": 37.7415,
+    "Longitude": 121.489635,
+    "Temperature": 19.524333,
+    "Salinity": 31.1728,
+    "pH": 8.151567
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:08",
+    "Latitude": 37.74347,
+    "Longitude": 121.490202,
+    "Temperature": 19.534667,
+    "Salinity": 31.1691,
+    "pH": 8.1503
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:09",
+    "Latitude": 37.74549,
+    "Longitude": 121.490747,
+    "Temperature": 19.509467,
+    "Salinity": 31.162833,
+    "pH": 8.148167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:10",
+    "Latitude": 37.7476,
+    "Longitude": 121.491363,
+    "Temperature": 19.504033,
+    "Salinity": 31.1554,
+    "pH": 8.148867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:11",
+    "Latitude": 37.749628,
+    "Longitude": 121.492038,
+    "Temperature": 19.501367,
+    "Salinity": 31.147767,
+    "pH": 8.147433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:12",
+    "Latitude": 37.751667,
+    "Longitude": 121.49255,
+    "Temperature": 19.5122,
+    "Salinity": 31.1424,
+    "pH": 8.147933
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:13",
+    "Latitude": 37.753718,
+    "Longitude": 121.492918,
+    "Temperature": 19.530233,
+    "Salinity": 31.136733,
+    "pH": 8.149333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:14",
+    "Latitude": 37.755752,
+    "Longitude": 121.493435,
+    "Temperature": 19.527567,
+    "Salinity": 31.136767,
+    "pH": 8.148167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:15",
+    "Latitude": 37.757718,
+    "Longitude": 121.494052,
+    "Temperature": 19.5268,
+    "Salinity": 31.1409,
+    "pH": 8.149767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:16",
+    "Latitude": 37.75975,
+    "Longitude": 121.494615,
+    "Temperature": 19.5309,
+    "Salinity": 31.1448,
+    "pH": 8.149433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:17",
+    "Latitude": 37.761793,
+    "Longitude": 121.495233,
+    "Temperature": 19.529167,
+    "Salinity": 31.152633,
+    "pH": 8.1509
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:18",
+    "Latitude": 37.763928,
+    "Longitude": 121.495837,
+    "Temperature": 19.528033,
+    "Salinity": 31.163767,
+    "pH": 8.1523
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:19",
+    "Latitude": 37.765973,
+    "Longitude": 121.496395,
+    "Temperature": 19.523367,
+    "Salinity": 31.174133,
+    "pH": 8.151833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:20",
+    "Latitude": 37.768033,
+    "Longitude": 121.496918,
+    "Temperature": 19.507567,
+    "Salinity": 31.185367,
+    "pH": 8.151467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:21",
+    "Latitude": 37.77003,
+    "Longitude": 121.497528,
+    "Temperature": 19.506267,
+    "Salinity": 31.194967,
+    "pH": 8.152467
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:22",
+    "Latitude": 37.77208,
+    "Longitude": 121.498218,
+    "Temperature": 19.506867,
+    "Salinity": 31.203167,
+    "pH": 8.154333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:23",
+    "Latitude": 37.774192,
+    "Longitude": 121.498992,
+    "Temperature": 19.5185,
+    "Salinity": 31.2078,
+    "pH": 8.157433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:24",
+    "Latitude": 37.776162,
+    "Longitude": 121.499793,
+    "Temperature": 19.513033,
+    "Salinity": 31.215267,
+    "pH": 8.1529
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:25",
+    "Latitude": 37.778195,
+    "Longitude": 121.500562,
+    "Temperature": 19.4907,
+    "Salinity": 31.228267,
+    "pH": 8.151967
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:26",
+    "Latitude": 37.78032,
+    "Longitude": 121.501155,
+    "Temperature": 19.488567,
+    "Salinity": 31.242467,
+    "pH": 8.1551
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:27",
+    "Latitude": 37.78239,
+    "Longitude": 121.501637,
+    "Temperature": 19.4735,
+    "Salinity": 31.2628,
+    "pH": 8.1541
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:28",
+    "Latitude": 37.784388,
+    "Longitude": 121.502168,
+    "Temperature": 19.472633,
+    "Salinity": 31.276633,
+    "pH": 8.1557
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:29",
+    "Latitude": 37.786448,
+    "Longitude": 121.50271,
+    "Temperature": 19.461933,
+    "Salinity": 31.295267,
+    "pH": 8.155533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:30",
+    "Latitude": 37.78857,
+    "Longitude": 121.503348,
+    "Temperature": 19.4465,
+    "Salinity": 31.316233,
+    "pH": 8.156533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:31",
+    "Latitude": 37.790565,
+    "Longitude": 121.50383,
+    "Temperature": 19.4451,
+    "Salinity": 31.322467,
+    "pH": 8.158533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:32",
+    "Latitude": 37.792605,
+    "Longitude": 121.504323,
+    "Temperature": 19.4641,
+    "Salinity": 31.331167,
+    "pH": 8.161167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:33",
+    "Latitude": 37.794717,
+    "Longitude": 121.504888,
+    "Temperature": 19.454667,
+    "Salinity": 31.344133,
+    "pH": 8.1608
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:34",
+    "Latitude": 37.796792,
+    "Longitude": 121.505247,
+    "Temperature": 19.4394,
+    "Salinity": 31.346433,
+    "pH": 8.1603
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:35",
+    "Latitude": 37.798882,
+    "Longitude": 121.505695,
+    "Temperature": 19.436767,
+    "Salinity": 31.344867,
+    "pH": 8.1608
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:36",
+    "Latitude": 37.800895,
+    "Longitude": 121.506213,
+    "Temperature": 19.455067,
+    "Salinity": 31.332233,
+    "pH": 8.1653
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:37",
+    "Latitude": 37.802983,
+    "Longitude": 121.50679,
+    "Temperature": 19.467633,
+    "Salinity": 31.341367,
+    "pH": 8.164533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:38",
+    "Latitude": 37.805072,
+    "Longitude": 121.507233,
+    "Temperature": 19.410867,
+    "Salinity": 31.364167,
+    "pH": 8.165833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:39",
+    "Latitude": 37.807138,
+    "Longitude": 121.507722,
+    "Temperature": 19.404967,
+    "Salinity": 31.388167,
+    "pH": 8.162867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:40",
+    "Latitude": 37.809187,
+    "Longitude": 121.508223,
+    "Temperature": 19.389667,
+    "Salinity": 31.406,
+    "pH": 8.165033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:41",
+    "Latitude": 37.811253,
+    "Longitude": 121.508795,
+    "Temperature": 19.403233,
+    "Salinity": 31.414633,
+    "pH": 8.167033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:42",
+    "Latitude": 37.813387,
+    "Longitude": 121.509378,
+    "Temperature": 19.3912,
+    "Salinity": 31.425167,
+    "pH": 8.167867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:43",
+    "Latitude": 37.815395,
+    "Longitude": 121.509903,
+    "Temperature": 19.382867,
+    "Salinity": 31.432733,
+    "pH": 8.1674
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:44",
+    "Latitude": 37.817473,
+    "Longitude": 121.510432,
+    "Temperature": 19.3776,
+    "Salinity": 31.4399,
+    "pH": 8.168133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:45",
+    "Latitude": 37.81958,
+    "Longitude": 121.51089,
+    "Temperature": 19.384867,
+    "Salinity": 31.440133,
+    "pH": 8.169333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:46",
+    "Latitude": 37.821697,
+    "Longitude": 121.511377,
+    "Temperature": 19.350933,
+    "Salinity": 31.445233,
+    "pH": 8.167767
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:47",
+    "Latitude": 37.823682,
+    "Longitude": 121.511885,
+    "Temperature": 19.318133,
+    "Salinity": 31.4498,
+    "pH": 8.165733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:48",
+    "Latitude": 37.825812,
+    "Longitude": 121.512357,
+    "Temperature": 19.301967,
+    "Salinity": 31.4524,
+    "pH": 8.167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:49",
+    "Latitude": 37.827852,
+    "Longitude": 121.512907,
+    "Temperature": 19.2815,
+    "Salinity": 31.459433,
+    "pH": 8.1667
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:50",
+    "Latitude": 37.829918,
+    "Longitude": 121.513333,
+    "Temperature": 19.2804,
+    "Salinity": 31.4591,
+    "pH": 8.168367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:51",
+    "Latitude": 37.831912,
+    "Longitude": 121.513803,
+    "Temperature": 19.2509,
+    "Salinity": 31.4679,
+    "pH": 8.1668
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:52",
+    "Latitude": 37.833993,
+    "Longitude": 121.514165,
+    "Temperature": 19.259933,
+    "Salinity": 31.466633,
+    "pH": 8.1703
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:53",
+    "Latitude": 37.836075,
+    "Longitude": 121.51458,
+    "Temperature": 19.244667,
+    "Salinity": 31.4703,
+    "pH": 8.171233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:54",
+    "Latitude": 37.838222,
+    "Longitude": 121.515018,
+    "Temperature": 19.2391,
+    "Salinity": 31.471233,
+    "pH": 8.172433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:55",
+    "Latitude": 37.840305,
+    "Longitude": 121.515477,
+    "Temperature": 19.258067,
+    "Salinity": 31.4697,
+    "pH": 8.1739
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:56",
+    "Latitude": 37.8423,
+    "Longitude": 121.515892,
+    "Temperature": 19.244067,
+    "Salinity": 31.4741,
+    "pH": 8.173133
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:57",
+    "Latitude": 37.844445,
+    "Longitude": 121.516348,
+    "Temperature": 19.2359,
+    "Salinity": 31.476667,
+    "pH": 8.174
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:58",
+    "Latitude": 37.846462,
+    "Longitude": 121.516778,
+    "Temperature": 19.2379,
+    "Salinity": 31.4761,
+    "pH": 8.174967
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "16:59",
+    "Latitude": 37.848615,
+    "Longitude": 121.517248,
+    "Temperature": 19.2288,
+    "Salinity": 31.479467,
+    "pH": 8.172567
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:00",
+    "Latitude": 37.850677,
+    "Longitude": 121.517775,
+    "Temperature": 19.222067,
+    "Salinity": 31.480333,
+    "pH": 8.175833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:01",
+    "Latitude": 37.852725,
+    "Longitude": 121.518417,
+    "Temperature": 19.212433,
+    "Salinity": 31.4822,
+    "pH": 8.175867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:02",
+    "Latitude": 37.854738,
+    "Longitude": 121.518858,
+    "Temperature": 19.2074,
+    "Salinity": 31.483133,
+    "pH": 8.175433
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:03",
+    "Latitude": 37.856885,
+    "Longitude": 121.519207,
+    "Temperature": 19.198167,
+    "Salinity": 31.482467,
+    "pH": 8.175867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:04",
+    "Latitude": 37.858985,
+    "Longitude": 121.519152,
+    "Temperature": 19.161067,
+    "Salinity": 31.489,
+    "pH": 8.1706
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:05",
+    "Latitude": 37.860955,
+    "Longitude": 121.519587,
+    "Temperature": 19.1626,
+    "Salinity": 31.4895,
+    "pH": 8.174167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:06",
+    "Latitude": 37.86296,
+    "Longitude": 121.520357,
+    "Temperature": 19.149633,
+    "Salinity": 31.4933,
+    "pH": 8.1746
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:07",
+    "Latitude": 37.864823,
+    "Longitude": 121.521345,
+    "Temperature": 19.157433,
+    "Salinity": 31.4952,
+    "pH": 8.177833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:08",
+    "Latitude": 37.866707,
+    "Longitude": 121.522573,
+    "Temperature": 19.169533,
+    "Salinity": 31.494233,
+    "pH": 8.1808
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:09",
+    "Latitude": 37.868588,
+    "Longitude": 121.523885,
+    "Temperature": 19.1427,
+    "Salinity": 31.4985,
+    "pH": 8.177867
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:10",
+    "Latitude": 37.870345,
+    "Longitude": 121.525153,
+    "Temperature": 19.1297,
+    "Salinity": 31.5005,
+    "pH": 8.178033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:11",
+    "Latitude": 37.872198,
+    "Longitude": 121.526372,
+    "Temperature": 19.141433,
+    "Salinity": 31.500833,
+    "pH": 8.180033
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:12",
+    "Latitude": 37.87409,
+    "Longitude": 121.527605,
+    "Temperature": 19.139967,
+    "Salinity": 31.5005,
+    "pH": 8.180833
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:13",
+    "Latitude": 37.875953,
+    "Longitude": 121.52874,
+    "Temperature": 19.108167,
+    "Salinity": 31.5058,
+    "pH": 8.1773
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:14",
+    "Latitude": 37.877732,
+    "Longitude": 121.529905,
+    "Temperature": 19.1056,
+    "Salinity": 31.507033,
+    "pH": 8.1773
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:15",
+    "Latitude": 37.87976,
+    "Longitude": 121.530892,
+    "Temperature": 19.102833,
+    "Salinity": 31.509267,
+    "pH": 8.176533
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:16",
+    "Latitude": 37.881778,
+    "Longitude": 121.531668,
+    "Temperature": 19.080233,
+    "Salinity": 31.514567,
+    "pH": 8.174367
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:17",
+    "Latitude": 37.883835,
+    "Longitude": 121.532288,
+    "Temperature": 19.083933,
+    "Salinity": 31.515133,
+    "pH": 8.179233
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:18",
+    "Latitude": 37.885937,
+    "Longitude": 121.532628,
+    "Temperature": 19.073433,
+    "Salinity": 31.5188,
+    "pH": 8.180167
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:19",
+    "Latitude": 37.888015,
+    "Longitude": 121.532968,
+    "Temperature": 19.0965,
+    "Salinity": 31.517833,
+    "pH": 8.184267
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:20",
+    "Latitude": 37.890173,
+    "Longitude": 121.533162,
+    "Temperature": 19.1046,
+    "Salinity": 31.5173,
+    "pH": 8.1855
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:21",
+    "Latitude": 37.892303,
+    "Longitude": 121.533367,
+    "Temperature": 19.080633,
+    "Salinity": 31.520767,
+    "pH": 8.182333
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:22",
+    "Latitude": 37.894395,
+    "Longitude": 121.533817,
+    "Temperature": 19.062,
+    "Salinity": 31.5219,
+    "pH": 8.1827
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:23",
+    "Latitude": 37.896322,
+    "Longitude": 121.534582,
+    "Temperature": 19.033967,
+    "Salinity": 31.5254,
+    "pH": 8.178933
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:24",
+    "Latitude": 37.898407,
+    "Longitude": 121.535425,
+    "Temperature": 19.001367,
+    "Salinity": 31.5292,
+    "pH": 8.1768
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:25",
+    "Latitude": 37.900375,
+    "Longitude": 121.536313,
+    "Temperature": 19.009733,
+    "Salinity": 31.5278,
+    "pH": 8.178
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:26",
+    "Latitude": 37.902423,
+    "Longitude": 121.537142,
+    "Temperature": 18.963233,
+    "Salinity": 31.533133,
+    "pH": 8.172633
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:27",
+    "Latitude": 37.904438,
+    "Longitude": 121.537732,
+    "Temperature": 18.9678,
+    "Salinity": 31.533833,
+    "pH": 8.175733
+  },
+  {
+    "Date": "2015.10.15",
+    "Time": "17:28",
+    "Latitude": 37.90653,
+    "Longitude": 121.538285,
+    "Temperature": 18.958267,
+    "Salinity": 31.535933,
+    "pH": 8.174
+  }
+]

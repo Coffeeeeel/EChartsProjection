@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DEMO</title>
+
+    <link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+    <link href="css/my_css.css" rel="stylesheet">
+    <script src="js/echarts.js"></script>
+
+    <script src="js/my_js.js"></script>
+    <script src="map/js/china.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <a  href="index.html">
+            <img alt="logo" src="imgs/logo.png" >
+        </a>
+    </div>
+    <div class="nav-title">
+        <ul class="nav navbar-nav nav-pills">
+            <li><a href =# onclick="realTimeData()">实时数据</a></li>
+            <li><a href =# onclick="ferryboxData()" >FerryBox数据</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    nav3
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">menu1</a></li>
+                    <li><a href="#">menu2</a></li>
+                    <li><a href="#">menu3</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">分离的链接</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">另一个分离的链接</a></li>
+                </ul>
+            </li>
+            <li><a href =# >nav4</a></li>
+        </ul>
+    </div>
+    <ul class="nav navbar-nav navbar-right sign-in">
+        <li><a href =#>登陆</a></li>
+    </ul>
+    <div>
+        <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="请输入搜索内容...">
+            </div>
+            <button type="submit" class="btn btn-default">提交</button>
+        </form>
+    </div>
+</nav>
+
+<div class="main">
+    <div class="map" id="map">
+
+        <!--<div id="info-bar" >-->
+            <!--&lt;!&ndash;<div class="chevron">&ndash;&gt;-->
+                <!--&lt;!&ndash;<a href="#" class="chevron-right">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="glyphicon glyphicon-chevron-right"></span>&ndash;&gt;-->
+                <!--&lt;!&ndash;</a>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--<div id="info-bar-tabs">-->
+                <!--<ul id="myTab" class="nav nav-tabs">-->
+                    <!--<li class="active">-->
+                        <!--<a href="#real-time" data-toggle="tab">-->
+                            <!--海洋实时数据-->
+                        <!--</a>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<a href="#cruise" data-toggle="tab">-->
+                            <!--航次数据-->
+                        <!--</a>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<a href="#analysis" data-toggle="tab">-->
+                            <!--数据分析-->
+                        <!--</a>-->
+                    <!--</li>-->
+                <!--</ul>-->
+            <!--</div>-->
+            <!--<div id="info-bar-main">-->
+                <!--<div id="data-choose">-->
+
+                <!--</div>-->
+                <!--<div id="ferrybox-info"></div>-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+</div>
+    <script>
+        function realTimeData() {
+
+            var float_url = 'path://M894.54592 869.87776c0.11264 5.20192-4.03456 9.5232-9.23648 9.61536-0.17408 0-0.62464 0.02048-1.32096 0.02048-9.1136 0-60.54912-1.30048-89.42592-29.58336-4.4032-4.32128-8.04864-9.00096-10.97728-14.08-27.67872 40.0384-101.888 43.47904-105.73824 43.64288-0.03072 0-0.06144 0-0.09216 0s-0.0512 0-0.08192 0c-0.17408 0-0.62464 0.02048-1.32096 0.02048-9.1136 0-60.54912-1.30048-89.42592-29.58336-4.4032-4.32128-8.05888-9.00096-10.97728-14.08-21.98528 31.7952-73.29792 40.51968-95.40608 42.82368-1.11616 0.50176-2.34496 0.79872-3.64544 0.8192-0.18432 0-0.63488 0.02048-1.3312 0.02048-0.91136 0-2.3552-0.04096-4.05504-0.08192-0.62464 0.02048-1.0752 0.06144-1.29024 0.06144-0.8704 0.06144-1.69984-0.06144-2.5088-0.21504-17.84832-0.96256-57.4976-5.77536-81.57184-29.3376-4.39296-4.32128-8.04864-9.00096-10.96704-14.08-21.76 31.47776-72.27392 40.33536-94.75072 42.76224-1.14688 0.54272-2.41664 0.86016-3.76832 0.88064-0.17408 0-0.63488 0.02048-1.32096 0.02048-0.98304 0-2.53952-0.04096-4.42368-0.1024-0.73728 0.04096-1.24928 0.08192-1.4848 0.08192-0.9216 0.06144-1.80224-0.06144-2.64192-0.256-18.16576-1.04448-57.1392-6.0416-80.896-29.29664-4.39296-4.32128-8.04864-9.00096-10.96704-14.08-27.67872 40.0384-101.888 43.47904-105.73824 43.64288-5.24288 0.33792-9.59488-3.86048-9.79968-9.0624-0.2048-5.20192 3.85024-9.58464 9.0624-9.79968 0.9728-0.04096 97.90464-4.59776 97.90464-58.73664 0-5.20192 4.21888-9.44128 9.44128-9.44128 5.21216 0 9.43104 4.23936 9.43104 9.44128 0 14.10048 4.54656 25.3952 13.88544 34.53952 20.51072 20.08064 57.57952 23.5008 71.56736 24.08448 13.76256-0.96256 95.91808-8.7552 95.91808-58.624 0-5.20192 4.21888-9.44128 9.43104-9.44128 5.2224 0 9.44128 4.23936 9.44128 9.44128 0 14.10048 4.54656 25.3952 13.88544 34.53952 20.65408 20.224 58.13248 23.56224 71.89504 24.10496 13.056-0.90112 96.14336-8.4992 96.14336-58.64448 0-5.20192 4.22912-9.44128 9.44128-9.44128s9.44128 4.23936 9.44128 9.44128c0 14.10048 4.53632 25.3952 13.88544 34.53952 25.344 24.82176 76.032 24.19712 77.08672 24.17664 2.88768-0.12288 97.78176-5.12 97.78176-58.71616 0-5.20192 4.22912-9.44128 9.44128-9.44128s9.44128 4.23936 9.44128 9.44128c0 14.10048 4.53632 25.3952 13.88544 34.53952 25.47712 24.96512 76.61568 24.17664 77.14816 24.17664C890.28608 860.47744 894.44352 864.65536 894.54592 869.87776zM964.63872 782.81728c0.11264 5.20192-4.03456 9.5232-9.23648 9.63584-0.17408 0-0.62464 0-1.32096 0-9.1136 0-60.54912-1.30048-89.42592-29.58336-4.4032-4.3008-8.04864-9.00096-10.97728-14.08-27.67872 40.0384-101.888 43.49952-105.73824 43.64288l-0.09216 0c-0.03072 0-0.0512 0.02048-0.08192 0.02048-0.17408 0-0.62464 0-1.32096 0-5.45792 0-26.13248-0.54272-48.0256-7.00416 0.07168-0.16384 0.12288-0.31744 0.19456-0.48128-15.7696-3.00032-34.26304-9.04192-46.68416-21.1968-9.34912-9.1648-13.88544-20.45952-13.88544-34.53952 0-5.2224-4.22912-9.44128-9.44128-9.44128s-9.44128 4.21888-9.44128 9.44128c0 50.13504-83.07712 57.74336-96.14336 58.624-13.76256-0.54272-51.24096-3.86048-71.89504-24.08448-9.33888-9.1648-13.88544-20.45952-13.88544-34.53952 0-5.2224-4.21888-9.44128-9.44128-9.44128-5.21216 0-9.43104 4.21888-9.43104 9.44128 0 33.88416-37.85728 48.26112-66.48832 54.36416 0.01024 0 0.01024 0 0.01024 0-0.01024 0-0.02048 0-0.02048 0-0.93184 0.2048-1.88416 0.41984-2.78528 0.60416-0.38912-0.27648-0.72704-0.64512-1.11616-0.9216-19.18976-1.42336-55.1424-7.00416-77.64992-29.04064-4.39296-4.32128-8.04864-9.00096-10.96704-14.08-27.68896 40.0384-101.89824 43.47904-105.74848 43.64288-5.24288 0.33792-9.58464-3.86048-9.78944-9.0624s3.84-9.58464 9.05216-9.79968c0.98304-0.04096 97.90464-4.59776 97.90464-58.73664 0-5.20192 4.22912-9.44128 9.44128-9.44128 5.2224 0 9.44128 4.23936 9.44128 9.44128 0 14.10048 4.53632 25.3952 13.88544 34.53952 11.10016 10.88512 26.95168 16.76288 41.43104 20.03968-16.00512-20.31616-25.72288-45.80352-25.72288-73.6768l0-45.7216c0-61.39904-4.02432-73.25696 48.384-74.63936l93.91104-322.53952c-0.50176-3.79904-0.84992-7.68-0.84992-11.6224 0-48.66048 39.44448-88.10496 88.09472-88.10496 48.22016 0 87.33696 38.7584 88.03328 86.82496l97.72032 335.59552c47.86176 1.93536 43.74528 14.77632 43.74528 74.47552L758.28224 687.104c0 33.04448-13.52704 62.80192-35.1744 84.45952 13.44512 2.05824 23.7568 2.01728 24.22784 2.01728 2.88768-0.14336 97.78176-5.14048 97.78176-58.71616 0-5.2224 4.22912-9.44128 9.44128-9.44128s9.44128 4.21888 9.44128 9.44128c0 14.08 4.53632 25.38496 13.88544 34.53952 25.47712 24.96512 76.61568 24.17664 77.14816 24.17664C960.37888 773.43744 964.52608 777.60512 964.63872 782.81728zM686.30528 566.5792l-83.42528-286.53568c-15.65696 24.4224-42.96704 40.64256-74.12736 40.64256-29.1328 0-54.8864-14.22336-70.93248-36.02432L375.73632 566.5792 686.30528 566.5792z'
+            var myChart = echarts.init(document.getElementById('map'));
+            myChart.clear();
+            option = ({
+                animation: true,
+                backgroundColor: '#404a59',
+                title: [{
+                    text: '观测点实时数据',
+                    subtext: '站点及数据均为虚构',
+                    left: 'center',
+                    top: 10,
+                    textStyle: {
+                        color: '#fff'
+                    }
+                }],
+                geo: {
+                    map: 'china',
+                    left: '10',
+                    right: '35%',
+                    center: [121.3, 39],
+                    zoom: 8,
+                    label: {
+                        emphasis: {
+                            show: false
+                        }
+                    },
+                    itemStyle: {
+                        normal: {
+                            areaColor: '#323c48',
+                            borderColor: '#111'
+                        },
+                        emphasis: {
+                            areaColor: '#2a333d'
+                        }
+                    },
+                    roam: true
+                },
+                grid: [
+                    {
+                        show: true,
+                        height: '85%',
+                        width: '36%',
+                        backgroundColor: '#475268',
+                        opacity: 0.7,
+                        borderWidth: 0,
+                        right: 5,
+                        bottom: 15,
+                        zlevel: 1
+                    }, {
+                        show: true,
+                        height: '15%',
+                        width: '30%',
+                        backgroundColor: '#475268',
+                        right: 50,
+                        top: 165,
+                        zlevel: 2,
+                        borderColor: '#828282'
+                    }, {
+                        show: true,
+                        height: '25%',
+                        width: '30%',
+                        backgroundColor: '#475268',
+                        right: 50,
+                        top: 330,
+                        zlevel: 2,
+                        borderColor: '#828282'
+                    }, {
+                        show: true,
+                        height: '36%',
+                        width: '30%',
+                        backgroundColor: '#475268',
+                        borderWidth: 0,
+                        right: 50,
+                        bottom: 40,
+                        zlevel: 2
+                    }],
+                graphic: [
+                    {
+                    type: 'image',
+                    zlevel: 2,
+                    style: {
+                        image: 'imgs/浮标.png'
+                    },
+                    scale: [0.5, 0.5],
+                    right: 590,
+                    top: 190
+                }, {
+                    type: 'text',
+                    zlevel: 2,
+                    right: 150,
+                    top: 210,
+                    style: {
+                        text: ['崆峒岛浮标',
+                            '坐标：[121.58833，37.60250]',
+                            '水深：11 米'].join('\n'),
+                        font: '22px "STHeiti", sans-serif',
+                        fill: '#fff'
+                    }
+                }, {
+                    type: 'text',
+                    zlevel: 2,
+                    right: 365,
+                    top: 390,
+                    style: {
+                        text: ['大气信息：', '',
+                            '气温： 20℃',
+                            '湿度： 60%',
+                            'PM2.5： 68 μg/m3'].join('\n'),
+                        font: '25px "STHeiti", sans-serif',
+                        fill: '#fff'
+                    }
+                }],
+                legend: [
+                    {
+                        type: 'plain',
+                        bottom: 415,
+                        right: 400,
+                        data: [{
+                            name: '温度'
+                        }],
+                        textStyle: {
+                            color: '#fff',
+                            fontSize: 15
+                        },
+                        zlevel: 2
+                    }, {
+                        type: 'plain',
+                        bottom: 415,
+                        right: 300,
+                        data: [{
+                            name: '浊度'
+                        }],
+                        textStyle: {
+                            color: '#fff',
+                            fontSize: 15
+                        },
+                        zlevel: 2
+                    }, {
+                        type: 'plain',
+                        bottom: 415,
+                        right: 200,
+                        data: [{
+                            name: '盐度'
+                        }],
+                        textStyle: {
+                            color: '#fff',
+                            fontSize: 15
+                        },
+                        zlevel: 2
+                    }],
+                tooltip: {
+                    zlevel: 2,
+                    trigger: 'axis'
+                },
+                xAxis: {
+                    type: 'category',
+                    data: (function () {
+                        var now = new Date();
+                        var res = [];
+                        var len = 10;
+                        while (len--) {
+                            res.unshift(now.toLocaleTimeString().replace(/^\D*/, ''));
+                            now = new Date(now - 2000);
+                        }
+                        return res;
+                    })(),
+                    gridIndex: 3,
+                    zlevel: 2,
+                    axisLabel: {
+                        color: '#ddd'
+                    },
+                    axisLine: {
+                        lineStyle: {
+                            color: '#fff'
+                        }
+                    },
+                    axisTick: {
+                        lineStyle: {
+                            color: '#fff'
+                        }
+                    }
+
+
+                },
+                yAxis: [
+                    {
+                        type: 'value',
+                        scale: true,
+                        name: '温度',
+                        zlevel: 2,
+                        gridIndex: 3,
+                        nameTextStyle: {
+                            color: '#fff'
+                        },
+                        axisLabel: {
+                            color: '#fff'
+                        },
+                        axisTick: {
+                            lineStyle: {
+                                color: '#fff'
+                            }
+                        },
+                        axisLine: {
+                            lineStyle: {
+                                color: '#fff'
+                            }
+                        },
+                        splitLine: {
+                            show: false
+                        }
+
+
+                    }, {
+                        type: 'value',
+                        scale: true,
+                        name: '盐度',
+                        zlevel: 2,
+                        gridIndex: 3,
+                        nameTextStyle: {
+                            color: '#fff'
+                        },
+                        axisLabel: {
+                            color: '#fff'
+                        },
+                        axisTick: {
+                            lineStyle: {
+                                color: '#fff'
+                            }
+                        },
+                        axisLine: {
+                            lineStyle: {
+                                color: '#fff'
+                            }
+                        },
+                        splitLine: {
+                            show: false
+                        }
+                    }, {
+                        type: 'value',
+                        name: '浊度',
+                        zlevel: 2,
+                        gridIndex: 3,
+                        position: 'left',
+                        offset: 40,
+                        nameTextStyle: {
+                            color: '#fff'
+                        },
+                        axisLine: {
+                            lineStyle: {
+                                color: '#fff'
+                            }
+                        },
+                        axisLabel: {
+                            color: '#fff'
+                        },
+                        axisTick: {
+                            lineStyle: {
+                                color: '#fff'
+                            }
+                        }
+                    }
+                ],
+                series: [
+                    {
+                        name: '温度',
+                        type: 'line',
+                        zlevel: 2,
+                        yAxisIndex: 0,
+                        data: (function () {
+                            var res = [];
+                            var len = 10;
+                            while (len--) {
+                                res.push(parseFloat((Math.random() * 10).toFixed(2)));
+                            }
+                            return res;
+                        })()
+                    },
+                    {
+                        name: '盐度',
+                        type: 'line',
+                        zlevel: 2,
+                        itemStyle: {
+                            color: '#ffe559'
+                        },
+                        yAxisIndex: 1,
+                        data: (function () {
+                            var res = [];
+                            var len = 10;
+                            while (len--) {
+                                res.push(parseFloat((Math.random() * 2 + 31).toFixed(2)));
+                            }
+                            return res;
+                        })()
+                    },
+                    {
+                        name: '浊度',
+                        type: 'bar',
+                        itemStyle: {
+                            color: '#194764'
+                        },
+                        zlevel: 2,
+                        yAxisIndex: 2,
+                        data: (function () {
+                            var res = [];
+                            var len = 10;
+                            while (len--) {
+                                res.push(parseFloat((Math.random() * 4).toFixed(2)));
+                            }
+                            return res;
+                        })()
+                    },
+                    {
+                        name: '观测点',
+                        type: 'scatter',
+                        zlevel: 2,
+                        coordinateSystem: 'geo',
+                        symbol: float_url,
+                        symbolSize: 30,
+                        data: [
+                            {id: 'p0', name: '崆峒岛浮标', value: [121.79833, 37.60250]},
+                            {id: 'p1', name: '福山浮标', value: [121.46409, 37.67716]},
+                            {id: 'p2', name: '蓬莱浮标', value: [120.64450, 37.86916]},
+                            {id: 'p3', name: '莱州湾浮标', value: [119.41738, 37.44600]},
+                            {id: 'p4', name: '黄河口浮标', value: [119.39454, 38.25919]}
+                        ],
+                        tooltip: {
+                            trigger: 'item',
+                            formatter: '{b}位于:</br>{c}'
+                        },
+                        label: {
+                            normal: {
+                                formatter: '{b}',
+                                position: 'top',
+                                show: true
+                            }
+                        },
+                        itemStyle: {
+                            normal: {
+                                color: '#f4e925',
+                                shadowBlur: 10,
+                                shadowColor: '#333'
+                            }
+                        }
+                    },
+                    {
+                        name: '',
+                        type: 'gauge',
+                        radius: '17%',
+                        min: 0,
+                        max: 360,
+                        zlevel:2,
+                        center: ['90%', '41%'],
+                        startAngle: 90,
+                        endAngle: 449.9,
+                        splitNumber: 0,
+                        axisLine: {
+                            lineStyle: {
+                                color: [
+                                    [0.5, '#ccc'],
+                                    [1, '#ccc']
+                                ],
+                                width: 4
+                            }
+                        },
+                        axisLabel: {
+                            show: false
+                        },
+                        detail: {
+                            show: false
+                        }
+                    }, {
+                        type: 'gauge',
+                        radius: '16%',
+                        splitNumber: 1,
+                        zlevel:2,
+                        min: 0,
+                        max: 360,
+                        center: ['90%', '41%'],
+                        startAngle: 90,
+                        endAngle: 449.9,
+                        axisLine: {
+                            show: false,
+                            lineStyle: {
+                                width: 2,
+                                shadowBlur: 0,
+                                color: [
+                                    [1, '#8f8f8f']
+                                ]
+                            }
+                        },
+                        axisTick: {
+                            show: true,
+                            lineStyle: {
+                                color: '#8f8f8f',
+                                width: 1
+                            },
+                            length: '-2%',
+                            splitNumber: 60
+                        },
+                        splitLine: {
+                            show: true,
+                            length: 12,
+                            lineStyle: {
+                                color: '#8f8f8f',
+                            }
+                        },
+                        axisLabel: {
+                            show: false
+                        },
+                        detail: {
+                            show: false
+                        }
+                    }, {
+                        name: '',
+                        type: 'gauge',
+                        min: 0,
+                        max: 360,
+                        zlevel:2,
+                        center: ['90%', '41%'],
+                        startAngle: 90,
+                        endAngle: -269.9999,
+                        radius: '16%',
+                        splitNumber: 12,
+                        axisLine: {
+                            lineStyle: {
+                                width: 5,
+                                shadowBlur: 0,
+                                color: [
+                                    [0.25, '#DDBD4D'],
+                                    [0.5, '#E43F3D'],
+                                    [0.75, '#7CBB55'],
+                                    [1, '#9CD6CE']
+                                ]
+                            }
+                        },
+                        axisTick: {
+                            show: true,
+                            splitNumber: 1
+                        },
+                        splitLine: {
+                            length: 10,
+                            lineStyle: {
+                                width: 2
+                            }
+                        },
+                        axisLabel: {
+                            formatter: function(e) {
+                                switch (e + "") {
+                                    case "0":
+                                        return "正北";
+                                    case "360":
+                                        return "正北";
+                                    case "180":
+                                        return "正南";
+                                    case "90":
+                                        return "正东";
+                                    case "270":
+                                        return "正西";
+                                    default:
+                                        return e;
+                                }
+                            },
+                            textStyle: {
+                                fontSize: 12,
+                                fontWeight: ""
+                            }
+                        },
+                        pointer: {
+                            show: true,
+                        },
+                        detail: {
+                            formatter: function(param) {
+                                var level = '';
+                                if (param > 0 && param < 90) {
+                                    level = '东北'
+                                } else if (param > 90 && param < 180) {
+                                    level = '东南'
+                                } else if (param > 180 && param < 270) {
+                                    level = '西南'
+                                } else if (param > 270 && param < 360) {
+                                    level = '西北'
+                                } else if (param == 360) {
+                                    level = '正北'
+                                } else if (param == 270) {
+                                    level = '正西'
+                                } else if (param == 90) {
+                                    level = '正东'
+                                } else if (param == 180) {
+                                    level = '正南'
+                                }
+                                return "当前风向:"+level + "(" + param + "°)";
+                            },
+                            offsetCenter: [-272, 139],
+                            fontSize: 24
+                        },
+                        data: [{
+                            value: 279,
+                            name: ''
+                        }]
+                    }, {
+                        name: '风速',
+                        zlevel:2,
+                        type: 'gauge',
+                        center: ['82%', '38%'],
+                        radius: '8%',
+                        min: 0,
+                        max: 60,
+                        startAngle: 90,
+                        endAngle: -269.9999,
+                        splitNumber: 12,
+                        animation: 0,
+                        pointer: {
+                            show: 1,
+                            length: '60%',
+                            width: 3
+                        },
+                        itemStyle: {
+                            normal: {
+                                color: '#00b0b0',
+                                shadowColor: 'rgba(0, 0, 0, 0.5)',
+                                shadowBlur: 10,
+                                shadowOffsetX: 2,
+                                shadowOffsetY: 2
+                            }
+                        },
+                        axisLine: {
+                            lineStyle: {
+                                color: [
+                                    [1, '#337ab7']
+                                ],
+                                width: 6
+                            }
+                        },
+                        splitLine: {
+                            show: 1,
+                            length: 6,
+                            lineStyle: {
+                                width: 1
+                            }
+                        },
+                        axisTick: {
+                            show: false
+                        },
+                        axisLabel: {
+                            show: 1,
+                            distance: 1,
+                            textStyle: {
+                                color: '#0000ff'
+                            },
+                            formatter: function(t) {
+                                switch (t + '') {
+                                    case '10':
+                                        return '10';
+                                    case '20':
+                                        return '20';
+                                    case '30':
+                                        return '30';
+                                    case '40':
+                                        return '40';
+                                    case '50':
+                                        return '50';
+                                    case '60':
+                                        return '60';
+                                }
+                            }
+                        },
+                        detail: {
+                            formatter: function(param) {
+                                return "当前风速:" + param + "m/s";
+                            },
+                            offsetCenter: [-140, 138],
+                            fontSize: 24
+                        },
+                        data: [{
+                            value: 3.2,
+                            name: ''
+                        }]
+                    }
+                ]
+            });
+
+            setInterval(function(){
+                axisData = (new Date()).toLocaleTimeString().replace(/^\D*/,'');
+                var data0= option.series[0].data;
+                var data1= option.series[1].data;
+                var data2= option.series[2].data;
+                data0.shift();
+                data0.push(parseFloat((Math.random()*10).toFixed(2)));
+                data1.shift();
+                data1.push(parseFloat((Math.random()*2+31).toFixed(2)));
+                data2.shift();
+                data2.push(parseFloat((Math.random()*4).toFixed(2)));
+                option.xAxis.data.shift();
+                option.xAxis.data.push(axisData);
+
+                var datavalue = (Math.random() * 360).toFixed(2);
+                var datavalue2 = (Math.random() * 60).toFixed(2);
+                option.series[6].data[0].value = datavalue;
+                option.series[7].data[0].value = datavalue2;
+                myChart.setOption(option);
+            },2100);
+
+        };
+
+
+        function ferryboxData() {
+            var myChart=echarts.init(document.getElementById('map'));
+            myChart.clear();
+            myChart.showLoading();
+            $.getJSON('data/ferrybox_data_17.8.json', function (data) {
+                myChart.hideLoading();
+
+                var rawData = [];
+                for (i = 0; i < data.length; i++) {
+                    time = data[i]['Date'] + 'T' + data[i]['Time'];
+                    sal = parseFloat(data[i]['Salinity']);
+                    lon = parseFloat(data[i]['Longitude']);
+                    lat = parseFloat(data[i]['Latitude']);
+                    coords = [lon, lat];
+                    rawData0 = [time, coords, sal];
+                    rawData.push(rawData0);
+
+                };
+
+                function getColumn(name, Data) {
+                    if (name == 'coords') {
+                        coords = [];
+                        for (i = 0; i < rawData.length - 3; i = i + 3) {
+                            coords.push(Data[i][1])
+                        }
+                        return coords
+                    }
+
+                    else if (name == 'lines') {
+                        first_point = [];
+                        second_point = [];
+                        lines = [];
+                        for (i = 0; i < rawData.length - 3; i = i + 3) {
+                            line = {coords: [Data[i][1], Data[i + 3][1]], coord: Data[i][1], value: Data[i][2]};
+                            lines.push(line)
+                        }
+                        return lines
+                    }
+
+                    else if (name == 'salinity') {
+                        salinity = [];
+                        for (i = 0; i < rawData.length - 3; i = i + 3) {
+                            salinity.push(Data[i][2])
+                        }
+                        return salinity
+                    }
+                }
+
+                myChart.setOption({
+                    animation: true,
+                    backgroundColor: '#404a59',
+                    title: [{
+                        text: 'FerryBox数据',
+                        subtext: '2017年8月 渤海航次',
+                        left: 'center',
+                        top: 10,
+                        textStyle: {
+                            color: '#fff'
+                        }
+                    }],
+                    geo: {
+                        map: 'china',
+                        left: '10',
+                        right: '35%',
+                        center: [121.3, 39],
+                        zoom: 8,
+                        label: {
+                            emphasis: {
+                                show: false
+                            }
+                        },
+                        itemStyle: {
+                            normal: {
+                                areaColor: '#323c48',
+                                borderColor: '#111'
+                            },
+                            emphasis: {
+                                areaColor: '#2a333d'
+                            }
+                        },
+                        roam: true
+                    },
+                    legend: {
+                        type: 'plain',
+                        bottom: 445,
+                        right: 200,
+                        data: [{
+                            name: 'salinity'
+                        }],
+                        textStyle: {
+                            color: '#fff',
+                            fontSize: 15
+                        },
+                        zlevel: 1
+                    },
+                    tooltip: {
+                        zlevel: 1,
+                        trigger: 'axis'
+                    },
+                    toolbox: {
+                        show: true,
+                        right: 10,
+                        top: 10,
+                        orient: 'vertical',
+                        itemGap: 10,
+                        feature: {
+                            dataView: {readOnly: false},
+                            magicType: {type: ['line', 'bar']},
+                            restore: {},
+                            saveAsImage: {}
+                        }
+                    },
+                    visualMap: {
+                        top: 10,
+                        left: 5,
+                        min: 30,
+                        max: 33,
+                        textStyle: {
+                            color: '#fff'
+                        },
+                        text: ['High', 'Low'],
+                        inRange: {
+                            color: ['#42810f', '#c9c367', '#b07a17', '#a23a05']
+                        },
+                        calculable: true,
+                        precision: 2,
+                        seriesIndex: [0]
+                    },
+                    grid: [
+                        {
+                        show: true,
+                        bottom: 40,
+                        right: 40,
+                        width: '50%',
+                        height: 400,
+                        backgroundColor: '#636869',
+                        zlevel: 1
+                    }, {
+                        show: true,
+                        bottom: 4,
+                        right: 5,
+                        width: '54.2%',
+                        height: 470,
+                        backgroundColor: '#475268',
+                        opacity: 0.7,
+                        zlevel: 1
+                    }],
+                    dataZoom: [
+                        {
+                            show: true,
+                            type: 'slider',
+                            showDetail: false,
+                            xAxisIndex: [0],
+                            start: 10,
+                            end: 40,
+                            zlevel: 1,
+                            textStyle: {
+                                color: '#fff'
+                            }
+                        }, {
+                            show: true,
+                            type: 'slider',
+                            yAxisIndex: [0],
+                            zlevel: 1,
+                            textStyle: {
+                                color: '#fff'
+                            }
+                        }],
+                    xAxis: [{
+                        type: 'category',
+                        show: false,
+                        data: getColumn('coords', rawData),
+                        zlevel: 1,
+                        axisPointer: {
+                            show: true
+                        }
+                    }],
+                    yAxis: [{
+                        type: 'value',
+                        name: 'Salinity',
+                        nameTextStyle: {
+                            color: '#fff'
+                        },
+                        axisLabel: {
+                            formatter: '{value}‰',
+                            textStyle: {
+                                color: '#ddd'
+                            }
+                        },
+                        axisLine: {
+                            lineStyle: {
+                                color: '#ddd'
+                            }
+                        },
+                        axisTick: {
+                            inside: true,
+                            lineStyle: {
+                                color: '#ddd'
+                            }
+                        },
+                        zlevel: 1
+                    }],
+                    series: [
+                        {
+                            type: 'lines',
+                            coordinateSystem: 'geo',
+                            polyline: true,
+                            tooltip: {
+                                show: false
+                            },
+                            data: getColumn('lines', rawData),
+                            lineStyle: {
+                                normal: {
+                                    width: 6,
+                                    opacity: 1
+                                }
+                            },
+                            zlevel: -2
+                        },
+                        {
+                            type: 'line',
+                            name: 'salinity',
+                            data: getColumn('salinity', rawData),
+                            zlevel: 1,
+                            symbol:'circle',
+                            lineStyle:{
+                                color:'#ffe559'
+                            },
+                            itemStyle:{
+                                color:'#01ff14'
+                            },
+                            smooth:true
+                        },
+                        {
+                            type: 'scatter',
+                            name: 'marker',
+                            coordinateSystem: 'geo',
+                            symbolSize: 30,
+                            zlevel: 3,
+                            itemStyle: {
+                                normal: {
+                                    color: '#003b79',
+                                    borderColor: '#ffffff',
+                                    borderWidth: 2
+                                }
+                            },
+                            tooltip: {
+                                show: false
+                            },
+                            symbol: 'path://M940.606685 920.725892c-43.774993 0-72.529897-13.641695-102.973256-28.086685-25.675776-12.181437-52.150754-24.704658-86.192058-27.309996l89.181135-198.959378c12.491499-27.865651 2.100848-60.620659-24.169469-76.185146l-32.633235-19.339464L783.819802 277.715069c0-11.04966-8.958022-20.007683-20.007683-20.007683L647.769196 257.707386 647.769196 147.665131c0-11.04966-8.958022-20.007683-20.007683-20.007683l-94.0357 0L533.725814 83.640955c0-11.04966-8.958022-20.007683-20.007683-20.007683s-20.007683 8.958022-20.007683 20.007683l0 44.016493-94.0357 0c-11.04966 0-20.007683 8.958022-20.007683 20.007683l0 110.042255L263.622096 257.707386c-11.04966 0-20.007683 8.958022-20.007683 20.007683l0 292.109917-30.990828 18.183128c-27.442002 16.09763-37.554314 50.880831-23.023366 79.184457l101.656261 197.990307c-30.30419 2.330068-54.564733 13.168927-80.0645 24.586978-33.800827 15.136745-68.753897 30.78719-126.411061 30.78719-11.04966 0-20.007683 8.958022-20.007683 20.007683s8.958022 20.007683 20.007683 20.007683c66.206888 0 106.879216-18.21178 142.764518-34.280758 25.847691-11.574616 48.171116-21.570271 75.728752-21.570271 31.195489 0 61.411675 12.44238 93.403297 25.613354 35.950793 14.804171 73.127508 30.110785 116.185162 30.110785 42.176588 0 82.113159-14.863523 120.733759-29.235858 36.45733-13.568017 70.892607-26.38288 104.934934-26.38288 31.435966 0 54.845119 11.105942 81.953524 23.967878 31.562856 14.97404 67.339688 31.94762 120.123868 31.94762 11.048637 0 20.007683-8.958022 20.007683-20.007683S951.656345 920.725892 940.606685 920.725892zM419.681408 167.672814l188.0714 0 0 90.034573L419.681408 257.707386 419.681408 167.672814zM283.629779 297.722752l116.043946 0L627.761514 297.722752l116.043946 0 0 249.40735L524.360516 417.080164c-6.265704-3.714602-14.047947-3.731998-20.325931-0.045025L283.629779 546.347273 283.629779 297.722752zM619.638509 893.705492c-36.926004 13.744026-71.804373 26.723641-106.776885 26.723641-35.142381 0-67.107397-13.161764-100.949156-27.096125-23.830755-9.81146-48.230468-19.840884-74.073042-25.024953L225.196948 648.915299c-4.843308-9.434883-1.473561-21.027919 7.674796-26.39516l258.837116-151.85864 0 233.216599c0 11.048637 8.958022 20.007683 20.007683 20.007683s20.007683-8.959046 20.007683-20.007683L531.724227 467.959971 796.053428 624.608707c8.755408 5.187139 12.219299 16.10377 8.055466 25.394367l-97.518011 217.556944C676.770717 872.462678 647.849014 883.207393 619.638509 893.705492z',
+                            data: []
+                        }
+                    ]
+                });
+
+                myChart.on('showtip', function (param) {
+                    if (param.seriesIndex === 1) {
+                        myChart.setOption({
+                            series: [{
+                                name: 'marker',
+                                animation: false,
+                                data: [getColumn("coords", rawData)[param.dataIndex]]
+                            }]
+                        });
+                    }
+                });
+            })
+        }
+
+    </script>
+
+
+</body>
+</html>

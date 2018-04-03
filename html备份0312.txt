@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DEMO</title>
+
+    <link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+    <link href="css/my_css.css" rel="stylesheet">
+    <script src="js/echarts.js"></script>
+
+    <script src="js/my_js.js"></script>
+    <script src="map/js/china.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <a  href="index.html">
+            <img alt="logo" src="imgs/logo.png" >
+        </a>
+    </div>
+    <div class="nav-title">
+        <ul class="nav navbar-nav nav-pills">
+            <li><a href ='realTimeData.html' >实时数据</a></li>
+            <li><a href ='FerryBoxData.html' >FerryBox数据</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    nav3
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">menu1</a></li>
+                    <li><a href="#">menu2</a></li>
+                    <li><a href="#">menu3</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">分离的链接</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">另一个分离的链接</a></li>
+                </ul>
+            </li>
+            <li><a href =# >nav4</a></li>
+        </ul>
+    </div>
+    <ul class="nav navbar-nav navbar-right sign-in">
+        <li><a href =#>登陆</a></li>
+    </ul>
+    <div>
+        <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="请输入搜索内容...">
+            </div>
+            <button type="submit" class="btn btn-default">提交</button>
+        </form>
+    </div>
+</nav>
+
+<div class="main">
+    <div class="map" id="map">
+    </div>
+    <form role="form" id="choose" class="form-inline">
+        <div class="form-group">
+            <label >选择航线: </label>
+            <select class="form-control input-sm" id='Routes'>
+                <option value="data/ferrybox_data_fixed.json">烟台-大连</option>
+            </select>
+            <label >选择时间: </label>
+            <select class="form-control input-sm" id="transect" >
+                <option value='data/yantai2dalian/20160808y2d.json' selected="selected" >2016.08.08 烟台-大连</option>
+                <option value="data/yantai2dalian/20151120d2y.json" >2015.11.20 大连-烟台</option>
+                <option value="data/yantai2dalian/20151015y2d.json" >2015.10.15 烟台-大连</option>
+            </select>
+            <label >可视化参数: </label>
+            <select class="form-control input-sm" id="lines_pram" >
+                <option value='2'  selected="selected" >盐度</option>
+                <option value="3" >温度</option>
+                <option value="4" >pH</option>
+            </select>
+        </div>
+        <button type="button" class="btn btn-default" id="btn_choose">确定</button>
+    </form>
+</div>
+<script>
+    var myChart=echarts.init(document.getElementById('map'));
+    // myChart.clear();
+    myChart.showLoading();
+
+    var selected_transect = document.getElementById("transect");
+    var selected_lines_pram=document.getElementById("lines_pram");
+    var lines_pram = $('#lines_pram option:selected').val();
+    var btn = document.getElementById("btn_choose");
+    var vM_range={min:29,max:32};
+    var attrName='salinity';
+    var lines_pram_index=selected_lines_pram.options.selectedIndex;
+
+
+    transect = $('#transect option:selected').val();
+    btn.onclick = function(){
+        transect=selected_transect.options[selected_transect.options.selectedIndex].value;
+        lines_pram=selected_lines_pram.options[selected_lines_pram.options.selectedIndex].value;
+        lines_pram_index=selected_lines_pram.options.selectedIndex;
+
+        if(lines_pram_index==0){
+            vM_range={min:29,max:32};
+            attrName='salinity'
+        }
+        else if(lines_pram_index==1){
+            vM_range={min:21,max:28};
+            attrName='temperature'
+        }
+        else if(lines_pram_index==2){
+            vM_range={min:7,max:8.6};
+            attrName='pH'
+        }
+        console.log(attrName);
+        showmap();
+    };
+
+
+    function showmap() {
+
+        $.getJSON(transect, function (data) {
+            myChart.hideLoading();
+            var rawData = [];
+            for (i = 0; i < data.length; i++) {
+                time = data[i]['Date'] + 'T' + data[i]['Time'];
+                sal = parseFloat(data[i]['Salinity']);
+                temp = parseFloat(data[i]['Temperature']);
+                pH = parseFloat(data[i]['pH']);
+                lon = parseFloat(data[i]['Longitude']);
+                lat = parseFloat(data[i]['Latitude']);
+                coords = [lon, lat];
+                rawData0 = [time, coords, sal, temp, pH];
+                rawData.push(rawData0);
+
+            };
+
+            function getColumn(name, Data) {
+                if (name == 'coords') {
+                    coords = [];
+                    for (i = 0; i < rawData.length - 1; i = i + 1) {
+                        coords.push(Data[i][1])
+                    }
+                    return coords
+                }
+
+                if (name == 'time') {
+                    time = [];
+                    for (i = 0; i < rawData.length - 1; i = i + 1) {
+                        time.push(Data[i][0])
+                    }
+                    return time
+                }
+
+                else if (name == 'lines') {
+                    first_point = [];
+                    second_point = [];
+                    lines = [];
+                    for (i = 0; i < rawData.length - 1; i = i + 1) {
+                        line = {coords: [Data[i][1], Data[i + 1][1]], coord: Data[i][1], value: Data[i][lines_pram]};
+                        lines.push(line)
+                    }
+                    return lines
+                }
+
+                else if (name == 'salinity') {
+                    salinity = [];
+                    for (i = 0; i < rawData.length - 1; i = i + 1) {
+                        salinity.push(Data[i][2])
+                    }
+                    return salinity
+                }
+
+                else if (name == 'temperature') {
+                    temperature = [];
+                    for (i = 0; i < rawData.length - 1; i = i + 1) {
+                        temperature.push(Data[i][3])
+                    }
+                    return temperature
+                }
+
+                else if (name == 'pH') {
+                    pH = [];
+                    for (i = 0; i < rawData.length - 1; i = i + 1) {
+                        pH.push(Data[i][4])
+                    }
+                    return pH
+                }
+            }
+
+            $.getJSON('data/time_temp_sal_ph_except.json', function (allTimeData) {
+                var all_rawData = [];
+                for (i = 0; i < allTimeData.length; i++) {
+                    time = allTimeData[i]['Date'] + 'T' + allTimeData[i]['Time'];
+                    sal = parseFloat(allTimeData[i]['Salinity']);
+                    temp = parseFloat(allTimeData[i]['Temperature']);
+                    pH = parseFloat(allTimeData[i]['pH']);
+                    lon = parseFloat(allTimeData[i]['Longitude']);
+                    lat = parseFloat(allTimeData[i]['Latitude']);
+                    coords = [lon, lat];
+                    all_rawData0 = [time, coords, sal, temp, pH];
+                    all_rawData.push(all_rawData0);
+                }
+
+                function getAllTimeAttr(name, Data2) {
+
+                    if (name == 'time') {
+                        time = [];
+                        for (i = 0; i < all_rawData.length - 30; i = i + 30) {
+                            time.push(Data2[i][0])
+                        }
+                        return time
+                    }
+
+                    else if (name == 'salinity') {
+                        salinity = [];
+                        for (i = 0; i < all_rawData.length - 30; i = i + 30) {
+                            salinity.push(Data2[i][2])
+                        }
+                        return salinity
+                    }
+
+                    else if (name == 'temperature') {
+                        temperature = [];
+                        for (i = 0; i < all_rawData.length - 30; i = i + 30) {
+                            temperature.push(Data2[i][3])
+                        }
+                        return temperature
+                    }
+
+                    else if (name == 'pH') {
+                        pH = [];
+                        for (i = 0; i < all_rawData.length - 30; i = i + 30) {
+                            pH.push(Data2[i][4])
+                        }
+                        return pH
+                    }
+                }
+
+
+                myChart.setOption({
+                    animation: true,
+                    backgroundColor: '#404a59',
+                    title: [{
+                        text: 'FerryBox数据',
+                        subtext: '渤海海峡',
+                        left: 'center',
+                        top: 10,
+                        textStyle: {
+                            color: '#fff'
+                        }
+                    }],
+                    geo: {
+                        map: 'china',
+                        left: '10',
+                        right: '35%',
+                        center: [121.8, 38.3],
+                        zoom: 20,
+                        label: {
+                            emphasis: {
+                                show: false
+                            }
+                        },
+                        itemStyle: {
+                            normal: {
+                                areaColor: '#323c48',
+                                borderColor: '#111'
+                            },
+                            emphasis: {
+                                areaColor: '#2a333d'
+                            }
+                        },
+                        roam: true
+                    },
+                    legend: {
+                        type: 'plain',
+                        bottom: 710,
+                        right: 70,
+                        data: [{
+                            name: 'salinity'},
+                            {
+                            name: 'temperature'},
+                            {
+                            name: 'pH'
+                            }],
+                        textStyle: {
+                            color: '#fff',
+                            fontSize: 15
+                        },
+                        zlevel: 1
+                    },
+                    tooltip: {
+                        zlevel: 1,
+                        trigger: 'axis'
+                    },
+                    toolbox: {
+                        show: true,
+                        right: 10,
+                        top: 10,
+                        orient: 'vertical',
+                        itemGap: 10,
+                        feature: {
+                            dataView: {readOnly: false},
+                            magicType: {type: ['line', 'bar']},
+                            restore: {},
+                            saveAsImage: {}
+                        }
+                    },
+                    visualMap: {
+                        top: 10,
+                        left: 5,
+                        textStyle: {
+                            color: '#fff'
+                        },
+                        text: ['High', 'Low'],
+                        inRange: {
+                            color: ['#42810f', '#c9c367', '#b07a17', '#a23a05']
+                        },
+                        calculable: true,
+                        precision: 2,
+                        seriesIndex: [0]
+                    },
+                    grid: [
+                        {
+                            show: true,
+                            bottom: 400,
+                            right: 40,
+                            width: '40%',
+                            height: 300,
+                            backgroundColor: '#353535',
+                            opacity: 0.3,
+                            zlevel: 1
+                        }, {
+                            show: true,
+                            bottom: 4,
+                            right: 5,
+                            width: '44.2%',
+                            height: 860,
+                            backgroundColor: '#000000',
+                            opacity: 0.2,
+                            zlevel: 1,
+                            borderWidth: 0
+                        }, {
+                            show: true,
+                            bottom: 25,
+                            right: 40,
+                            width: '40%',
+                            height: 300,
+                            backgroundColor: '#353535',
+                            opacity: 0.3,
+                            zlevel: 1
+                        }],
+                    graphic: [
+                        {
+                        type: 'text',
+                        zlevel: 1,
+                        right: 430,
+                        top: 312,
+                        style: {
+                            text: '单程航线参数变化',
+                            fill: '#fff',
+                            font: '1.3em "STHeiti", sans-serif'
+                        }
+                    },
+                        {
+                        type:'text',
+                        zlevel:1,
+                        bottom:340,
+                        right: 440,
+                        style:{
+                            text:'参数值总体变化',
+                            fill:'#fff',
+                            font: '1.3em "STHeiti", sans-serif'
+                        }
+                    },
+                        {
+                        type: 'text',
+                        zlevel: 1,
+                        right: 430,
+                        top: 200,
+                        style: {
+                            text: '数据栏',
+                            fill: '#fff',
+                            font: '2em "STHeiti", sans-serif'
+                        }
+                    }
+                    ],
+                    dataZoom: [
+                        {
+                            show: true,
+                            type: 'slider',
+                            showDetail: false,
+                            xAxisIndex: [0],
+                            start: 10,
+                            end: 40,
+                            zlevel: 1,
+                            bottom: 365,
+                            textStyle: {
+                                color: '#fff'
+                            }
+                        // }, {
+                        //     show: true,
+                        //     type: 'slider',
+                        //     yAxisIndex: [0],
+                        //     zlevel: 1,
+                        //     textStyle: {
+                        //         color: '#fff'
+                        //     }
+                        }],
+                    xAxis: [
+                        {
+                        type: 'category',
+                        gridIndex: 0,
+                        show: false,
+                        data: getColumn('time', rawData),
+                        zlevel: 1,
+                        axisPointer: {
+                            show: true
+                        }
+                    },
+                        {
+                            gridIndex: 2,
+                            type: 'category',
+                            show: true,
+                            axisLabel:{
+                                color:'#fff'
+                            },
+                            data: getAllTimeAttr('time', all_rawData),
+                            zlevel: 1,
+                            axisPointer: {
+                                show: true
+                            }
+                        }
+                        ],
+                    yAxis: [
+                        {
+                            type: 'value',
+                            name: '盐度',
+                            nameTextStyle: {
+                                color: '#fff',
+                                fontSize:17
+                            },
+                            axisLabel: {
+                                formatter: '{value}‰',
+                                textStyle: {
+                                    color: '#ddd'
+                                }
+                            },
+                            axisLine: {
+                                lineStyle: {
+                                    color: '#fff'
+                                }
+                            },
+                            axisTick: {
+                                inside: true,
+                                lineStyle: {
+                                    color: '#ddd'
+                                }
+                            },
+                            zlevel: 1,
+                            gridIndex: 0
+                        },
+                        {
+                            type: 'value',
+                            name: '温度',
+                            show:true,
+                            position: 'right',
+                            nameTextStyle: {
+                                color: '#fff'
+                            },
+                            offset:25,
+                            axisLabel: {
+                                formatter: '{value}℃',
+                                textStyle: {
+                                    color: '#ddd'
+                                }
+                            },
+                            axisLine: {
+                                lineStyle: {
+                                    color: '#fff'
+                                }
+                            },
+                            axisTick: {
+                                show:true,
+                                inside: true,
+                                lineStyle: {
+                                    color: '#ddd'
+                                }
+                            },
+                            zlevel: 1,
+                            gridIndex: 0
+                        },
+                        {
+                            type: 'value',
+                            name: 'pH',
+                            position: 'right',
+                            nameTextStyle: {
+                                color: '#fff',
+                            },
+                            axisLabel: {
+                                // formatter: '{value}',
+                                textStyle: {
+                                    color: '#ddd'
+                                }
+                            },
+                            axisLine: {
+                                lineStyle: {
+                                    color: '#fff'
+                                }
+                            },
+                            axisTick: {
+                                inside: true,
+                                lineStyle: {
+                                    color: '#fff'
+                                }
+                            },
+                            zlevel: 1,
+                            gridIndex: 0
+                        },
+                        {
+                            type: 'value',
+                            name:attrName,
+
+                            show: true,
+                            position: 'left',
+                            nameTextStyle: {
+                                color: '#fff',
+                                fontSize:17
+                            },
+                            axisLabel: {
+                                // formatter: '{value}',
+                                textStyle: {
+                                    color: '#ddd'
+                                }
+                            },
+                            axisLine: {
+                                lineStyle: {
+                                    color: '#ddd'
+                                }
+                            },
+                            axisTick: {
+                                inside: true,
+                                lineStyle: {
+                                    color: '#ddd'
+                                }
+                            },
+                            zlevel: 1,
+                            gridIndex: 2
+                        }
+                    ],
+                    series: [
+                        {
+                            type: 'lines',
+                            coordinateSystem: 'geo',
+                            polyline: true,
+                            tooltip: {
+                                show: false
+                            },
+                            data: getColumn('lines', rawData),
+                            lineStyle: {
+                                normal: {
+                                    width: 6,
+                                    opacity: 1
+                                }
+                            },
+                            zlevel: -2
+                        },
+                        {
+                            type: 'line',
+                            name: 'salinity',
+                            data: getColumn('salinity', rawData),
+                            zlevel: 1,
+                            symbol: 'circle',
+                            lineStyle: {
+                                color: '#ffe559'
+                            },
+                            itemStyle: {
+                                color: '#ffe559'
+                            },
+                            xAxisIndex: 0,
+                            yAxiIndex: 0,
+                            smooth: true
+                        },
+                        {
+                            type: 'line',
+                            name: 'temperature',
+                            data: getColumn('temperature', rawData),
+                            zlevel: 1,
+                            symbol: 'circle',
+                            lineStyle: {
+                                color: '#ff4469'
+                            },
+                            itemStyle: {
+                                color: '#ff4469'
+                            },
+                            xAxisIndex: 0,
+                            yAxiIndex: 1,
+                            smooth: true
+                        },
+                        {
+                            type: 'line',
+                            name: 'pH',
+                            data: getColumn('pH', rawData),
+                            zlevel: 1,
+                            symbol: 'circle',
+                            lineStyle: {
+                                color: '#278d04'
+                            },
+                            itemStyle: {
+                                color: '#278d04'
+                            },
+                            xAxisIndex: 0,
+                            yAxiIndex: 2,
+                            smooth: true
+                        },
+                        {
+                            type: 'scatter',
+                            name: 'marker',
+                            coordinateSystem: 'geo',
+                            symbolSize: 30,
+                            zlevel: 3,
+                            itemStyle: {
+                                normal: {
+                                    color: '#003b79',
+                                    borderColor: '#ffffff',
+                                    borderWidth: 2
+                                }
+                            },
+                            tooltip: {
+                                show: false
+                            },
+                            symbol: 'path://M940.606685 920.725892c-43.774993 0-72.529897-13.641695-102.973256-28.086685-25.675776-12.181437-52.150754-24.704658-86.192058-27.309996l89.181135-198.959378c12.491499-27.865651 2.100848-60.620659-24.169469-76.185146l-32.633235-19.339464L783.819802 277.715069c0-11.04966-8.958022-20.007683-20.007683-20.007683L647.769196 257.707386 647.769196 147.665131c0-11.04966-8.958022-20.007683-20.007683-20.007683l-94.0357 0L533.725814 83.640955c0-11.04966-8.958022-20.007683-20.007683-20.007683s-20.007683 8.958022-20.007683 20.007683l0 44.016493-94.0357 0c-11.04966 0-20.007683 8.958022-20.007683 20.007683l0 110.042255L263.622096 257.707386c-11.04966 0-20.007683 8.958022-20.007683 20.007683l0 292.109917-30.990828 18.183128c-27.442002 16.09763-37.554314 50.880831-23.023366 79.184457l101.656261 197.990307c-30.30419 2.330068-54.564733 13.168927-80.0645 24.586978-33.800827 15.136745-68.753897 30.78719-126.411061 30.78719-11.04966 0-20.007683 8.958022-20.007683 20.007683s8.958022 20.007683 20.007683 20.007683c66.206888 0 106.879216-18.21178 142.764518-34.280758 25.847691-11.574616 48.171116-21.570271 75.728752-21.570271 31.195489 0 61.411675 12.44238 93.403297 25.613354 35.950793 14.804171 73.127508 30.110785 116.185162 30.110785 42.176588 0 82.113159-14.863523 120.733759-29.235858 36.45733-13.568017 70.892607-26.38288 104.934934-26.38288 31.435966 0 54.845119 11.105942 81.953524 23.967878 31.562856 14.97404 67.339688 31.94762 120.123868 31.94762 11.048637 0 20.007683-8.958022 20.007683-20.007683S951.656345 920.725892 940.606685 920.725892zM419.681408 167.672814l188.0714 0 0 90.034573L419.681408 257.707386 419.681408 167.672814zM283.629779 297.722752l116.043946 0L627.761514 297.722752l116.043946 0 0 249.40735L524.360516 417.080164c-6.265704-3.714602-14.047947-3.731998-20.325931-0.045025L283.629779 546.347273 283.629779 297.722752zM619.638509 893.705492c-36.926004 13.744026-71.804373 26.723641-106.776885 26.723641-35.142381 0-67.107397-13.161764-100.949156-27.096125-23.830755-9.81146-48.230468-19.840884-74.073042-25.024953L225.196948 648.915299c-4.843308-9.434883-1.473561-21.027919 7.674796-26.39516l258.837116-151.85864 0 233.216599c0 11.048637 8.958022 20.007683 20.007683 20.007683s20.007683-8.959046 20.007683-20.007683L531.724227 467.959971 796.053428 624.608707c8.755408 5.187139 12.219299 16.10377 8.055466 25.394367l-97.518011 217.556944C676.770717 872.462678 647.849014 883.207393 619.638509 893.705492z',
+                            data: []
+                        },
+                        {
+                            type: 'bar',
+                            name: attrName,
+                            data: getAllTimeAttr(attrName,all_rawData),
+                            xAxisIndex: 1,
+                            yAxisIndex: 3,
+                            zlevel: 1,
+                            symbol: 'circle',
+                            lineStyle: {
+                                color: '#ffe559'
+                            },
+                            itemStyle: {
+                                color: '#ffe559'
+                            },
+                            smooth: true
+                        }
+                    ]
+                });
+
+                myChart.on('showtip', function (param) {
+                    if (param.seriesIndex === 1) {
+                        myChart.setOption({
+                            series: [{
+                                name: 'marker',
+                                animation: false,
+                                data: [getColumn("coords", rawData)[param.dataIndex]]
+                            }]
+                        });
+                    }
+                });
+                myChart.setOption({
+                    visualMap: vM_range
+                })
+            })
+        })
+    }
+showmap()
+</script>
+</body>
+</html>

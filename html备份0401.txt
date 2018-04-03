@@ -1,0 +1,2030 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DEMO</title>
+
+    <link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+    <link href="css/my_css.css" rel="stylesheet">
+    <script src="js/echarts.js"></script>
+
+    <script src="js/my_js.js"></script>
+    <script src="map/js/china.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <a  href="index.html">
+            <img alt="logo" src="imgs/logo.png" >
+        </a>
+    </div>
+    <div class="nav-title">
+        <ul class="nav navbar-nav nav-pills">
+            <li><a href ='realTimeData.html' >实时数据</a></li>
+            <li><a href ='FerryBoxData.html' >FerryBox数据</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    nav3
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">menu1</a></li>
+                    <li><a href="#">menu2</a></li>
+                    <li><a href="#">menu3</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">分离的链接</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">另一个分离的链接</a></li>
+                </ul>
+            </li>
+            <li><a href =# >nav4</a></li>
+        </ul>
+    </div>
+    <ul class="nav navbar-nav navbar-right sign-in">
+        <li><a href =#>登陆</a></li>
+    </ul>
+    <div>
+        <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="请输入搜索内容...">
+            </div>
+            <button type="submit" class="btn btn-default">提交</button>
+        </form>
+    </div>
+</nav>
+<div class="main" id="main">
+    <div class="map" id="map"></div>
+    <div id="point_data_table">
+    </div>
+</div>
+<script>
+    var float_url = 'path://M894.54592 869.87776c0.11264 5.20192-4.03456 9.5232-9.23648 9.61536-0.17408 0-0.62464 0.02048-1.32096 0.02048-9.1136 0-60.54912-1.30048-89.42592-29.58336-4.4032-4.32128-8.04864-9.00096-10.97728-14.08-27.67872 40.0384-101.888 43.47904-105.73824 43.64288-0.03072 0-0.06144 0-0.09216 0s-0.0512 0-0.08192 0c-0.17408 0-0.62464 0.02048-1.32096 0.02048-9.1136 0-60.54912-1.30048-89.42592-29.58336-4.4032-4.32128-8.05888-9.00096-10.97728-14.08-21.98528 31.7952-73.29792 40.51968-95.40608 42.82368-1.11616 0.50176-2.34496 0.79872-3.64544 0.8192-0.18432 0-0.63488 0.02048-1.3312 0.02048-0.91136 0-2.3552-0.04096-4.05504-0.08192-0.62464 0.02048-1.0752 0.06144-1.29024 0.06144-0.8704 0.06144-1.69984-0.06144-2.5088-0.21504-17.84832-0.96256-57.4976-5.77536-81.57184-29.3376-4.39296-4.32128-8.04864-9.00096-10.96704-14.08-21.76 31.47776-72.27392 40.33536-94.75072 42.76224-1.14688 0.54272-2.41664 0.86016-3.76832 0.88064-0.17408 0-0.63488 0.02048-1.32096 0.02048-0.98304 0-2.53952-0.04096-4.42368-0.1024-0.73728 0.04096-1.24928 0.08192-1.4848 0.08192-0.9216 0.06144-1.80224-0.06144-2.64192-0.256-18.16576-1.04448-57.1392-6.0416-80.896-29.29664-4.39296-4.32128-8.04864-9.00096-10.96704-14.08-27.67872 40.0384-101.888 43.47904-105.73824 43.64288-5.24288 0.33792-9.59488-3.86048-9.79968-9.0624-0.2048-5.20192 3.85024-9.58464 9.0624-9.79968 0.9728-0.04096 97.90464-4.59776 97.90464-58.73664 0-5.20192 4.21888-9.44128 9.44128-9.44128 5.21216 0 9.43104 4.23936 9.43104 9.44128 0 14.10048 4.54656 25.3952 13.88544 34.53952 20.51072 20.08064 57.57952 23.5008 71.56736 24.08448 13.76256-0.96256 95.91808-8.7552 95.91808-58.624 0-5.20192 4.21888-9.44128 9.43104-9.44128 5.2224 0 9.44128 4.23936 9.44128 9.44128 0 14.10048 4.54656 25.3952 13.88544 34.53952 20.65408 20.224 58.13248 23.56224 71.89504 24.10496 13.056-0.90112 96.14336-8.4992 96.14336-58.64448 0-5.20192 4.22912-9.44128 9.44128-9.44128s9.44128 4.23936 9.44128 9.44128c0 14.10048 4.53632 25.3952 13.88544 34.53952 25.344 24.82176 76.032 24.19712 77.08672 24.17664 2.88768-0.12288 97.78176-5.12 97.78176-58.71616 0-5.20192 4.22912-9.44128 9.44128-9.44128s9.44128 4.23936 9.44128 9.44128c0 14.10048 4.53632 25.3952 13.88544 34.53952 25.47712 24.96512 76.61568 24.17664 77.14816 24.17664C890.28608 860.47744 894.44352 864.65536 894.54592 869.87776zM964.63872 782.81728c0.11264 5.20192-4.03456 9.5232-9.23648 9.63584-0.17408 0-0.62464 0-1.32096 0-9.1136 0-60.54912-1.30048-89.42592-29.58336-4.4032-4.3008-8.04864-9.00096-10.97728-14.08-27.67872 40.0384-101.888 43.49952-105.73824 43.64288l-0.09216 0c-0.03072 0-0.0512 0.02048-0.08192 0.02048-0.17408 0-0.62464 0-1.32096 0-5.45792 0-26.13248-0.54272-48.0256-7.00416 0.07168-0.16384 0.12288-0.31744 0.19456-0.48128-15.7696-3.00032-34.26304-9.04192-46.68416-21.1968-9.34912-9.1648-13.88544-20.45952-13.88544-34.53952 0-5.2224-4.22912-9.44128-9.44128-9.44128s-9.44128 4.21888-9.44128 9.44128c0 50.13504-83.07712 57.74336-96.14336 58.624-13.76256-0.54272-51.24096-3.86048-71.89504-24.08448-9.33888-9.1648-13.88544-20.45952-13.88544-34.53952 0-5.2224-4.21888-9.44128-9.44128-9.44128-5.21216 0-9.43104 4.21888-9.43104 9.44128 0 33.88416-37.85728 48.26112-66.48832 54.36416 0.01024 0 0.01024 0 0.01024 0-0.01024 0-0.02048 0-0.02048 0-0.93184 0.2048-1.88416 0.41984-2.78528 0.60416-0.38912-0.27648-0.72704-0.64512-1.11616-0.9216-19.18976-1.42336-55.1424-7.00416-77.64992-29.04064-4.39296-4.32128-8.04864-9.00096-10.96704-14.08-27.68896 40.0384-101.89824 43.47904-105.74848 43.64288-5.24288 0.33792-9.58464-3.86048-9.78944-9.0624s3.84-9.58464 9.05216-9.79968c0.98304-0.04096 97.90464-4.59776 97.90464-58.73664 0-5.20192 4.22912-9.44128 9.44128-9.44128 5.2224 0 9.44128 4.23936 9.44128 9.44128 0 14.10048 4.53632 25.3952 13.88544 34.53952 11.10016 10.88512 26.95168 16.76288 41.43104 20.03968-16.00512-20.31616-25.72288-45.80352-25.72288-73.6768l0-45.7216c0-61.39904-4.02432-73.25696 48.384-74.63936l93.91104-322.53952c-0.50176-3.79904-0.84992-7.68-0.84992-11.6224 0-48.66048 39.44448-88.10496 88.09472-88.10496 48.22016 0 87.33696 38.7584 88.03328 86.82496l97.72032 335.59552c47.86176 1.93536 43.74528 14.77632 43.74528 74.47552L758.28224 687.104c0 33.04448-13.52704 62.80192-35.1744 84.45952 13.44512 2.05824 23.7568 2.01728 24.22784 2.01728 2.88768-0.14336 97.78176-5.14048 97.78176-58.71616 0-5.2224 4.22912-9.44128 9.44128-9.44128s9.44128 4.21888 9.44128 9.44128c0 14.08 4.53632 25.38496 13.88544 34.53952 25.47712 24.96512 76.61568 24.17664 77.14816 24.17664C960.37888 773.43744 964.52608 777.60512 964.63872 782.81728zM686.30528 566.5792l-83.42528-286.53568c-15.65696 24.4224-42.96704 40.64256-74.12736 40.64256-29.1328 0-54.8864-14.22336-70.93248-36.02432L375.73632 566.5792 686.30528 566.5792z'
+    var weather_url ="path://M498.523569 648.362714 77.694011 648.362714c-7.6574 0-13.854543-6.223748-13.854543-13.880125 0-7.658424 6.197142-13.854543 13.854543-13.854543l420.829558 0c39.697117 0 70.78823-30.848589 70.78823-70.240761 0-38.721907-31.970132-70.232574-71.26202-70.232574-7.6574 0-13.840216-6.197142-13.840216-13.854543s6.182816-13.854543 13.840216-13.854543c54.56678 0 98.971106 43.931558 98.971106 97.94166C597.020884 604.390223 552.832476 648.362714 498.523569 648.362714zM566.361607 811.370275c0-28.792767-23.406083-52.170197-52.170197-52.170197L230.09398 759.200078c-7.6574 0-13.854543 6.167466-13.854543 13.826913 0 7.656377 6.197142 13.854543 13.854543 13.854543l284.09743 0c13.246699 0 24.449855 11.202133 24.449855 24.489764 0 13.447267-10.70276 24.433482-23.879873 24.433482-7.658424 0-13.854543 6.198166-13.854543 13.854543 0 7.658424 6.196119 13.854543 13.854543 13.854543C543.199071 863.512842 566.361607 840.10676 566.361607 811.370275zM534.892895 703.780885c0-7.68503-6.198166-13.882172-13.854543-13.882172L105.403097 689.898713c-7.6574 0-13.854543 6.198166-13.854543 13.882172 0 7.630794 6.196119 13.826913 13.854543 13.826913l415.635255 0C528.694729 717.607798 534.892895 711.411679 534.892895 703.780885zM857.496313 704.376449c64.277956-60.668755 102.662171-146.074913 102.662171-228.52474 0-173.898609-138.152477-315.365574-307.937394-315.365574-138.773623 0-266.089287 99.511411-302.741046 236.635465-1.974981 7.387247 2.408863 14.97711 9.822716 16.95209 7.333012 2.056845 14.990413-2.394537 16.939811-9.80839 33.472346-125.177977 149.530618-216.07008 275.979542-216.07008 154.51105 0 280.21603 129.047098 280.21603 287.656489 0 74.969459-35.123962 152.837944-93.964068 208.364585-55.906288 52.740178-128.181381 79.392188-203.488531 74.982762-7.766894-0.461511-14.192234 5.384637-14.626115 13.041014-0.446162 7.630794 5.384637 14.179954 13.028735 14.611789 5.900384 0.352017 11.797697 0.515746 17.670451 0.515746C727.635687 787.368628 800.373315 758.252497 857.496313 704.376449zM111.600239 575.810305c4.451382-41.699728 23.433712-81.205487 53.469795-111.24157 50.114374-50.142004 124.744096-67.526953 190.133362-44.296879 7.184633 2.503007 15.139815-1.217734 17.71036-8.41567 2.543939-7.197936-1.216711-15.139815-8.41567-17.696034-75.414597-26.77583-161.355945-6.832615-219.019249 50.817386-34.500768 34.500768-56.32482 79.920214-61.424978 127.911228-0.811482 7.609305 4.694929 14.428617 12.31242 15.240099 0.487094 0.054235 0.98749 0.081864 1.488911 0.081864C104.835162 588.209706 110.841969 582.932516 111.600239 575.810305z"
+    var myChart = echarts.init(document.getElementById('map'));
+    myChart.showLoading();
+    myChart.clear();
+    function showTable() {
+        $("#point_data_table").show();
+    }
+    option=({
+           animation: true,
+           backgroundColor: '#404a59',
+           title: [{
+               text: '观测点实时数据',
+               subtext: '站点及数据均为虚构',
+               left: 'center',
+               top: 10,
+               textStyle: {
+                   color: '#fff'
+               }
+           }],
+           geo: {
+               map: 'china',
+               left: '10',
+               right: '35%',
+               center: [121.3, 39],
+               zoom: 8,
+               label: {
+                   emphasis: {
+                       show: false
+                   }
+               },
+               itemStyle: {
+                   normal: {
+                       areaColor: '#323c48',
+                       borderColor: '#111'
+                   },
+                   emphasis: {
+                       areaColor: '#2a333d'
+                   }
+               },
+               roam: false
+           },
+           grid: [
+               {
+                   show: true,
+                   height: '90%',
+                   width: '45%',
+                   backgroundColor: '#475268',
+                   opacity: 0.7,
+                   borderWidth: 0,
+                   right: 5,
+                   bottom: 5,
+                   zlevel: 1
+               }, {
+                   show: true,
+                   height: '45%',
+                   width: '43%',
+                   backgroundColor: '#475268',
+                   right: 15,
+                   top: 80,
+                   zlevel: 2,
+                   borderColor: '#828282'
+               }, {
+                   show: true,
+                   height: '36%',
+                   width: '38%',
+                   backgroundColor: '#475268',
+                   borderWidth: 0,
+                   right: 40,
+                   bottom: 30,
+                   zlevel: 2
+               }],
+           angleAxis: {
+                type: 'category',
+                data: ['北', '东北','东','东南','南','西南','西','西北'],
+                zlevel: 2,
+                boundaryGap: false,
+                splitLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#fff',
+                        type: 'solid'
+                    }
+                },
+                axisLine: {
+                    show: false,
+                    lineStyle: {
+                        color: '#fff',
+                        type: 'solid'
+                    }
+
+                }
+            },
+           radiusAxis: {
+               zlevel: 2,
+               axisLine: {
+                   // show: false,
+                   lineStyle: {
+                       color: '#fff',
+                       type: 'solid'
+                   }
+               }
+            },
+           polar: {
+               zlevel: 2,
+               center:['88%','30%'],
+               radius:120
+            },
+           graphic: [
+               {
+                   type: 'polygon',
+                   id: '渤海北部沿岸',
+                   zlevel: 1,
+                   shape: {
+                       points: [[442, 102], [377, 160], [366, 202], [291, 227], [351, 291], [416, 209], [477, 247], [547, 150], [499, 110]]
+                   },
+                   style: {
+                       fill: '#404a59',
+                       opacity: 0.5,
+                       stroke: '#ff5c00',
+                       lineWidth: 1
+                   },
+                   silent: true
+                   // onclick:function(){
+                   //     $('#test00').popover(options)
+                   // }
+               },
+               {
+                   type: 'polygon',
+                   id: '秦皇岛沿岸',
+                   zlevel: 1,
+                   shape: {
+                       points: [[291, 227], [351, 291], [317, 363], [225, 317], [230, 279], [246, 259]]
+                   },
+                   style: {
+                       fill: '#404a59',
+                       opacity: 0.5,
+                       stroke: '#ff5c00',
+                       lineWidth: 1
+                   },
+                   silent: true
+               },
+               {
+                   type: 'polygon',
+                   id: '唐山沿岸',
+                   zlevel: 1,
+                   shape: {
+                       points: [[225, 317], [317, 363], [153, 424], [136, 403], [150, 366], [199, 352]]
+                   },
+                   style: {
+                       fill: '#404a59',
+                       opacity: 0.5,
+                       stroke: '#ff5c00',
+                       lineWidth: 1
+                   },
+                   silent: true
+               },
+               {
+                   type: 'polygon',
+                   id: '沧州沿岸',
+                   zlevel: 1,
+                   shape: {
+                       points: [[136, 403], [153, 424], [76, 470], [47, 459], [46, 434]]
+                   },
+                   style: {
+                       fill: '#404a59',
+                       opacity: 0.5,
+                       stroke: '#ff5c00',
+                       lineWidth: 1
+                   },
+                   silent: true
+               },
+               {
+                   type: 'polygon',
+                   id: '渤海湾',
+                   zlevel: 1,
+                   shape: {
+                       points: [[136, 403], [46, 434], [74, 352]]
+                   },
+                   style: {
+                       fill: '#404a59',
+                       opacity: 0.5,
+                       stroke: '#ff5c00',
+                       lineWidth: 1
+                   },
+                   silent: true
+               },
+               {
+                   type: 'polygon',
+                   id: '渤海中部',
+                   zlevel: 1,
+                   shape: {
+                       points: [[351, 291], [317, 363], [153, 424], [109, 450], [357, 464]]
+                   },
+                   style: {
+                       fill: '#404a59',
+                       opacity: 0.5,
+                       stroke: '#ff5c00',
+                       lineWidth: 1
+                   },
+                   silent: true
+               },
+               {
+                   type: 'polygon',
+                   id: '渤海南部沿岸',
+                   zlevel: 1,
+                   shape: {
+                       points: [[109, 450], [76, 470], [203, 508], [230, 594], [202, 627], [256, 649], [324, 574], [397, 464], [357, 464]]
+                   },
+                   style: {
+                       fill: '#404a59',
+                       opacity: 0.5,
+                       stroke: '#ff5c00',
+                       lineWidth: 1
+                   },
+                   silent: true
+               },
+               {
+                   type: 'polygon',
+                   id: '辽东半岛西部沿岸',
+                   zlevel: 1,
+                   shape: {
+                       points: [[416, 209], [351, 291], [357, 464], [397, 464], [425, 425], [423, 387], [478, 349], [426, 316], [427, 292], [477, 247]]
+                   },
+                   style: {
+                       fill: '#404a59',
+                       opacity: 0.5,
+                       stroke: '#ff5c00',
+                       lineWidth: 1
+                   },
+                   silent: true
+               },
+               {
+                   type: 'polygon',
+                   id: '辽东半岛东部沿岸',
+                   zlevel: 1,
+                   shape: {
+                       points: [[397, 464], [425, 425], [564, 363], [599, 313], [717, 265], [754, 263], [804, 241], [778, 394], [741, 444], [440, 466]]
+                   },
+                   style: {
+                       fill: '#404a59',
+                       opacity: 0.5,
+                       stroke: '#ff5c00',
+                       lineWidth: 1
+                   },
+                   silent: true
+               },
+               {
+                   type: 'polygon',
+                   id: '渤海海峡中南部沿岸',
+                   zlevel: 1,
+                   shape: {
+                       points: [[397, 464], [440, 466], [497, 606], [397, 549], [324, 574]]
+                   },
+                   style: {
+                       fill: '#404a59',
+                       opacity: 0.5,
+                       stroke: '#ff5c00',
+                       lineWidth: 1
+                   },
+                   silent: true
+               },
+               {
+                   type: 'polygon',
+                   id: '山东半岛北部沿岸',
+                   zlevel: 1,
+                   shape: {
+                       points: [[440, 466], [497, 606], [521, 607], [544, 592], [565, 611], [611, 613], [741, 444]]
+                   },
+                   style: {
+                       fill: '#404a59',
+                       opacity: 0.5,
+                       stroke: '#ff5c00',
+                       lineWidth: 1
+                   },
+                   silent: true
+               }
+           ],
+           legend: [
+               {
+               type: 'plain',
+               bottom: 310,
+               right: 200,
+               data: [{
+                   name: '温度'
+               }, {
+                   name: '浊度'
+               }, {
+                   name: '盐度'
+               }],
+               textStyle: {
+                   color: '#fff',
+                   fontSize: 15
+               },
+               zlevel: 2
+           },
+               {
+               show: true,
+               zlevel: 2,
+               top:368,
+               right:20,
+               data: ['<2m/s', '2-4m/s','4-6m/s','6-8m/s','8-10m/s','>10m/s'],
+               orient:'horizontal',
+               width:300,
+               textStyle: {
+                   color: '#fff'
+               }
+           }
+           ],
+           tooltip: {
+               zlevel: 2,
+               trigger: 'axis'
+           },
+           toolbox: {
+               zlevel: 1,
+               top: 5,
+               right: 5,
+               feature: {
+                   magicType: {type: ['line', 'bar']},
+                   restore: {},
+                   saveAsImage: {}
+               }
+           },
+           xAxis: {
+               type: 'category',
+               gridIndex: 2,
+               zlevel: 2,
+               data: (function () {
+                   var now = new Date();
+                   var res = [];
+                   var len = 10;
+                   while (len--) {
+                       res.unshift(now.toLocaleTimeString().replace(/^\D*/, ''));
+                       now = new Date(now - 2000);
+                   }
+                   return res;
+               })(),
+               axisLabel: {
+                   color: '#ddd'
+               },
+               axisLine: {
+                   lineStyle: {
+                       color: '#fff'
+                   }
+               },
+               axisTick: {
+                   lineStyle: {
+                       color: '#fff'
+                   }
+               }
+           },
+           yAxis: [
+               {
+                   type: 'value',
+                   scale: true,
+                   name: '温度',
+                   zlevel: 2,
+                   gridIndex: 2,
+                   nameTextStyle: {
+                       color: '#fff'
+                   },
+                   axisLabel: {
+                       color: '#fff'
+                   },
+                   axisTick: {
+                       lineStyle: {
+                           color: '#fff'
+                       }
+                   },
+                   axisLine: {
+                       lineStyle: {
+                           color: '#fff'
+                       }
+                   },
+                   splitLine: {
+                       show: false
+                   }
+
+
+               }, {
+                   type: 'value',
+                   scale: true,
+                   name: '盐度',
+                   zlevel: 2,
+                   gridIndex: 2,
+                   nameTextStyle: {
+                       color: '#fff'
+                   },
+                   axisLabel: {
+                       color: '#fff'
+                   },
+                   axisTick: {
+                       lineStyle: {
+                           color: '#fff'
+                       }
+                   },
+                   axisLine: {
+                       lineStyle: {
+                           color: '#fff'
+                       }
+                   },
+                   splitLine: {
+                       show: false
+                   }
+               }, {
+                   type: 'value',
+                   name: '浊度',
+                   zlevel: 2,
+                   gridIndex: 2,
+                   position: 'left',
+                   offset: 40,
+                   nameTextStyle: {
+                       color: '#fff'
+                   },
+                   axisLine: {
+                       lineStyle: {
+                           color: '#fff'
+                       }
+                   },
+                   axisLabel: {
+                       color: '#fff'
+                   },
+                   axisTick: {
+                       lineStyle: {
+                           color: '#fff'
+                       }
+                   }
+               }
+           ],
+           series: [
+               {
+                   name: '温度',
+                   type: 'line',
+                   zlevel: 2,
+                   yAxisIndex: 0,
+                   data: (function () {
+                       var res = [];
+                       var len = 10;
+                       while (len--) {
+                           res.push(parseFloat((Math.random() * 10).toFixed(2)));
+                       }
+                       return res;
+                   })()
+               },
+               {
+                   name: '盐度',
+                   type: 'line',
+                   zlevel: 2,
+                   itemStyle: {
+                       color: '#ffe559'
+                   },
+                   yAxisIndex: 1,
+                   data: (function () {
+                       var res = [];
+                       var len = 10;
+                       while (len--) {
+                           res.push(parseFloat((Math.random() * 2 + 31).toFixed(2)));
+                       }
+                       return res;
+                   })()
+               },
+               {
+                   name: '浊度',
+                   type: 'bar',
+                   itemStyle: {
+                       color: '#538EA6'
+                   },
+                   zlevel: 2,
+                   yAxisIndex: 2,
+                   data: (function () {
+                       var res = [];
+                       var len = 10;
+                       while (len--) {
+                           res.push(parseFloat((Math.random() * 4).toFixed(2)));
+                       }
+                       return res;
+                   })()
+               },
+               {
+                   name: '崆峒岛浮标',
+                   type: 'scatter',
+                   zlevel: 2,
+                   coordinateSystem: 'geo',
+                   symbol: float_url,
+                   symbolSize: 30,
+                   data: [{id: 'p0', name: '崆峒岛浮标', value: [121.79833, 37.60250]}],
+                   tooltip: {
+                       trigger: 'item',
+                       formatter: '{b}位于:</br>{c}'
+                   },
+                   label: {
+                       normal: {
+                           formatter: '{b}',
+                           position: 'bottom',
+                           show: true
+                       }
+                   },
+                   itemStyle: {
+                       normal: {
+                           color: '#f7fcff',
+                           shadowBlur: 10,
+                           shadowColor: '#333'
+                       }
+                   }
+               },
+               {
+                   name: '西港浮标',
+                   type: 'scatter',
+                   zlevel: 2,
+                   coordinateSystem: 'geo',
+                   symbol: float_url,
+                   symbolSize: 30,
+                   data: [{id: 'p1', name: '西港浮标', value: [121.3, 37.750087]}],
+                   tooltip: {
+                       trigger: 'item',
+                       formatter: '{b}位于:</br>{c}'
+                   },
+                   label: {
+                       normal: {
+                           formatter: '{b}',
+                           position: 'bottom',
+                           show: true
+                       }
+                   },
+                   itemStyle: {
+                       normal: {
+                           color: '#f7fcff',
+                           shadowBlur: 10,
+                           shadowColor: '#333'
+                       }
+                   }
+               },
+               {
+                   name: '蓬莱浮标',
+                   type: 'scatter',
+                   zlevel: 2,
+                   coordinateSystem: 'geo',
+                   symbol: float_url,
+                   symbolSize: 30,
+                   data: [{id: 'p2', name: '蓬莱浮标', value: [120.64450, 37.9]}],
+                   tooltip: {
+                       trigger: 'item',
+                       formatter: '{b}位于:</br>{c}'
+                   },
+                   label: {
+                       normal: {
+                           formatter: '{b}',
+                           position: 'bottom',
+                           show: true
+                       }
+                   },
+                   itemStyle: {
+                       normal: {
+                           color: '#f7fcff',
+                           shadowBlur: 10,
+                           shadowColor: '#333'
+                       }
+                   }
+               },
+               {
+                   name: '莱州湾浮标',
+                   type: 'scatter',
+                   zlevel: 2,
+                   coordinateSystem: 'geo',
+                   symbol: float_url,
+                   symbolSize: 30,
+                   data: [{id: 'p3', name: '莱州湾浮标', value: [119.6, 37.3]}],
+                   tooltip: {
+                       trigger: 'item',
+                       formatter: '{b}位于:</br>{c}'
+                   },
+                   label: {
+                       normal: {
+                           formatter: '{b}',
+                           position: 'bottom',
+                           show: true
+                       }
+                   },
+                   itemStyle: {
+                       normal: {
+                           color: '#f7fcff',
+                           shadowBlur: 10,
+                           shadowColor: '#333'
+                       }
+                   }
+               },
+               {
+                   name: '黄河口浮标',
+                   type: 'scatter',
+                   zlevel: 2,
+                   coordinateSystem: 'geo',
+                   symbol: float_url,
+                   symbolSize: 40,
+                   data: [{id: 'p4', name: '黄河口浮标', value: [119.404907, 37.783740]}],
+                   tooltip: {
+                       trigger: 'item',
+                       formatter: '{b}位于:</br>{c}'
+                   },
+                   label: {
+                       normal: {
+                           formatter: '{b}',
+                           position: 'bottom',
+                           show: true
+                       }
+                   },
+                   itemStyle: {
+                       normal: {
+                           color: '#f7fcff',
+                           shadowBlur: 10,
+                           shadowColor: '#333'
+                       }
+                   }
+               },
+               {
+                   type: 'scatter',
+                   name: '渤海北部沿岸',
+                   zlevel: 2,
+                   coordinateSystem: 'geo',
+                   symbol: weather_url,
+                   symbolSize: 30,
+                   data: [{name: '渤海北部沿岸', value: [121.267090, 40.421860]}],
+                   itemStyle: {
+                       normal: {
+                           color: '#f4e925',
+                           shadowBlur: 10,
+                           shadowColor: '#333'
+                       },
+                   },
+                   label: {
+                       normal: {
+                           formatter: '{b}',
+                           position: 'bottom',
+                           show: true
+                       }
+                   },
+                   tooltip: {
+                       trigger: 'item',
+                       position: 'bottom',
+                       formatter:
+                           function () {
+                               var weather_table =
+                                   '<h4 align="center">海区天气预报</h4>' +
+                                   '<table class="table" align="center" style="margin: 0;padding: 0">' +
+                                   '<thead>' +
+                                   '<tr>' +
+                                   '<th>近海海区</th>' +
+                                   '<th>预报时效(小时)</th>' +
+                                   '<th>天气现象</th>' +
+                                   '<th>风向</th>' +
+                                   '<th>风力(级)</th>' +
+                                   '<th>能见度(km)</th>' +
+                                   '</tr>' +
+                                   '</thead>' +
+                                   '<tbody>' +
+                                   '<tr>' +
+                                   '<td align="center" valign="center" rowspan="6">渤海北部沿岸</td>' +
+                                   '<td>00-12</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>12</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>12-24</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>5</td>' +
+                                   '</tr>' +
+                                   '<t>' +
+                                   '<td>24-36</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>4</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>36-48</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>6-7</td>' +
+                                   '<td>6</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>48-60</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>6-7</td>' +
+                                   '<td>4</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>60-72</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>东北风</td>' +
+                                   '<td>7-8</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '</tbody>' +
+                                   '</table>' +
+                                   '</t>' +
+                                   '<span class="help-block" align="center">数据更新时间：2018-03-30  8:00</span>';
+
+                               return weather_table
+                           }
+                   },
+               },
+               {
+                   type: 'scatter',
+                   name: '辽东半岛西部沿岸',
+                   zlevel: 2,
+                   coordinateSystem: 'geo',
+                   symbol: weather_url,
+                   symbolSize: 30,
+                   data: [{name: '辽东半岛西部沿岸', value: [120.9, 39.3]}],
+                   itemStyle: {
+                       normal: {
+                           color: '#f4e925',
+                           shadowBlur: 10,
+                           shadowColor: '#333'
+                       },
+                   },
+                   label: {
+                       normal: {
+                           formatter: '{b}',
+                           position: 'bottom',
+                           show: true
+                       }
+                   },
+                   tooltip: {
+                       trigger: 'item',
+                       position: 'bottom',
+                       formatter:
+                           function () {
+                               var weather_table =
+                                   '<h4 align="center">海区天气预报</h4>' +
+                                   '<table class="table" align="center" style="margin: 0;padding: 0">' +
+                                   '<thead>' +
+                                   '<tr>' +
+                                   '<th>近海海区</th>' +
+                                   '<th>预报时效(小时)</th>' +
+                                   '<th>天气现象</th>' +
+                                   '<th>风向</th>' +
+                                   '<th>风力(级)</th>' +
+                                   '<th>能见度(km)</th>' +
+                                   '</tr>' +
+                                   '</thead>' +
+                                   '<tbody>' +
+                                   '<tr>' +
+                                   '<td align="center" valign="center" rowspan="6">辽东半岛西部沿岸</td>' +
+                                   '<td>00-12</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>12-24</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>5</td>' +
+                                   '</tr>' +
+                                   '<t>' +
+                                   '<td>24-36</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>4</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>36-48</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>6-7</td>' +
+                                   '<td>6</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>48-60</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>6-7</td>' +
+                                   '<td>4</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>60-72</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>东北风</td>' +
+                                   '<td>7-8</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '</tbody>' +
+                                   '</table>' +
+                                   '</t>' +
+                                   '<span class="help-block" align="center">数据更新时间：2018-03-30  8:00</span>';
+
+                               return weather_table
+                           }
+                   },
+               },
+               {
+                   type: 'scatter',
+                   name: '渤海中部',
+                   zlevel: 2,
+                   coordinateSystem: 'geo',
+                   symbol: weather_url,
+                   symbolSize: 30,
+                   data: [{name: '渤海中部', value: [119.805908, 38.796908]}],
+                   itemStyle: {
+                       normal: {
+                           color: '#f4e925',
+                           shadowBlur: 10,
+                           shadowColor: '#333'
+                       }
+                   },
+                   label: {
+                       normal: {
+                           formatter: '{b}',
+                           position: 'bottom',
+                           show: true
+                       }
+                   },
+                   tooltip: {
+                       trigger: 'item',
+                       position: 'top',
+                       formatter:
+                           function () {
+                               var weather_table =
+                                   '<h4 align="center">海区天气预报</h4>' +
+                                   '<table class="table" align="center" style="margin: 0;padding: 0">' +
+                                   '<thead>' +
+                                   '<tr>' +
+                                   '<th>近海海区</th>' +
+                                   '<th>预报时效(小时)</th>' +
+                                   '<th>天气现象</th>' +
+                                   '<th>风向</th>' +
+                                   '<th>风力(级)</th>' +
+                                   '<th>能见度(km)</th>' +
+                                   '</tr>' +
+                                   '</thead>' +
+                                   '<tbody>' +
+                                   '<tr>' +
+                                   '<td align="center" valign="center" rowspan="6">渤海中部</td>' +
+                                   '<td>00-12</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>12-24</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>5</td>' +
+                                   '</tr>' +
+                                   '<t>' +
+                                   '<td>24-36</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>4</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>36-48</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>东南风</td>' +
+                                   '<td>6-7</td>' +
+                                   '<td>6</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>48-60</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>6-7</td>' +
+                                   '<td>4</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>60-72</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>6-7</td>' +
+                                   '<td>4</td>' +
+                                   '</tr>' +
+                                   '</tbody>' +
+                                   '</table>' +
+                                   '</t>' +
+                                   '<span class="help-block" align="center">数据更新时间：2018-03-30  8:00</span>';
+
+                               return weather_table
+                           }
+                   },
+               },
+               {
+                   type: 'scatter',
+                   name: '辽东半岛东部沿岸',
+                   zlevel: 2,
+                   coordinateSystem: 'geo',
+                   symbol: weather_url,
+                   symbolSize: 30,
+                   data: [{name: '辽东半岛东部沿岸', value: [122, 38.8]}],
+                   itemStyle: {
+                       normal: {
+                           color: '#f4e925',
+                           shadowBlur: 10,
+                           shadowColor: '#333'
+                       }
+                   },
+                   label: {
+                       normal: {
+                           formatter: '{b}',
+                           position: 'bottom',
+                           show: true
+                       }
+                   },
+                   tooltip: {
+                       trigger: 'item',
+                       position: 'top',
+                       formatter:
+                           function () {
+                               var weather_table =
+                                   '<h4 align="center">海区天气预报</h4>' +
+                                   '<table class="table" align="center" style="margin: 0;padding: 0">' +
+                                   '<thead>' +
+                                   '<tr>' +
+                                   '<th>近海海区</th>' +
+                                   '<th>预报时效(小时)</th>' +
+                                   '<th>天气现象</th>' +
+                                   '<th>风向</th>' +
+                                   '<th>风力(级)</th>' +
+                                   '<th>能见度(km)</th>' +
+                                   '</tr>' +
+                                   '</thead>' +
+                                   '<tbody>' +
+                                   '<tr>' +
+                                   '<td align="center" valign="center" rowspan="6">辽东半岛东部沿岸</td>' +
+                                   '<td>00-12</td>' +
+                                   '<td>大雾</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td><1</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>12-24</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>5</td>' +
+                                   '</tr>' +
+                                   '<t>' +
+                                   '<td>24-36</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>4</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>36-48</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>东南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>6</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>48-60</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>6-7</td>' +
+                                   '<td>4</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>60-72</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>6-7</td>' +
+                                   '<td>4</td>' +
+                                   '</tr>' +
+                                   '</tbody>' +
+                                   '</table>' +
+                                   '</t>' +
+                                   '<span class="help-block" align="center">数据更新时间：2018-03-30  8:00</span>';
+
+                               return weather_table
+                           }
+                   },
+               },
+               {
+                   type: 'scatter',
+                   name: '秦皇岛沿岸',
+                   zlevel: 2,
+                   coordinateSystem: 'geo',
+                   symbol: weather_url,
+                   symbolSize: 30,
+                   data: [{name: '秦皇岛沿岸', value: [119.9, 39.549434]}],
+                   itemStyle: {
+                       normal: {
+                           color: '#f4e925',
+                           shadowBlur: 10,
+                           shadowColor: '#333'
+                       }
+                   },
+                   label: {
+                       normal: {
+                           formatter: '{b}',
+                           position: 'bottom',
+                           show: true
+                       }
+                   },
+                   tooltip: {
+                       trigger: 'item',
+                       position: 'bottom',
+                       formatter:
+                           function () {
+                               var weather_table =
+                                   '<h4 align="center">海区天气预报</h4>' +
+                                   '<table class="table" align="center" style="margin: 0;padding: 0">' +
+                                   '<thead>' +
+                                   '<tr>' +
+                                   '<th>近海海区</th>' +
+                                   '<th>预报时效(小时)</th>' +
+                                   '<th>天气现象</th>' +
+                                   '<th>风向</th>' +
+                                   '<th>风力(级)</th>' +
+                                   '<th>能见度(km)</th>' +
+                                   '</tr>' +
+                                   '</thead>' +
+                                   '<tbody>' +
+                                   '<tr>' +
+                                   '<td align="center" valign="center" rowspan="6">秦皇岛沿岸</td>' +
+                                   '<td>00-12</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>西南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>12-24</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>东南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '<t>' +
+                                   '<td>24-36</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>东北风</td>' +
+                                   '<td>3-4</td>' +
+                                   '<td>9</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>36-48</td>' +
+                                   '<td>晴</td>' +
+                                   '<td>东南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>12</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>48-60</td>' +
+                                   '<td>晴</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>6-7</td>' +
+                                   '<td>12</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>60-72</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>东北风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>12</td>' +
+                                   '</tr>' +
+                                   '</tbody>' +
+                                   '</table>' +
+                                   '</t>' +
+                                   '<span class="help-block" align="center">数据更新时间：2018-03-30  8:00</span>';
+
+                               return weather_table
+                           }
+                   },
+               },
+               {
+                   type: 'scatter',
+                   name: '唐山沿岸',
+                   zlevel: 2,
+                   coordinateSystem: 'geo',
+                   symbol: weather_url,
+                   symbolSize: 30,
+                   data: [{name: '唐山沿岸', value: [119.080811, 39.061849]}],
+                   itemStyle: {
+                       normal: {
+                           color: '#f4e925',
+                           shadowBlur: 10,
+                           shadowColor: '#333'
+                       }
+                   },
+                   label: {
+                       normal: {
+                           formatter: '{b}',
+                           position: 'bottom',
+                           show: true
+                       }
+                   },
+                   tooltip: {
+                       trigger: 'item',
+                       position: 'right',
+                       formatter:
+                           function () {
+                               var weather_table =
+                                   '<h4 align="center">海区天气预报</h4>' +
+                                   '<table class="table" align="center" style="margin: 0;padding: 0">' +
+                                   '<thead>' +
+                                   '<tr>' +
+                                   '<th>近海海区</th>' +
+                                   '<th>预报时效(小时)</th>' +
+                                   '<th>天气现象</th>' +
+                                   '<th>风向</th>' +
+                                   '<th>风力(级)</th>' +
+                                   '<th>能见度(km)</th>' +
+                                   '</tr>' +
+                                   '</thead>' +
+                                   '<tbody>' +
+                                   '<tr>' +
+                                   '<td align="center" valign="center" rowspan="6">唐山沿岸</td>' +
+                                   '<td>00-12</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>西南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>12-24</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>东南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '<t>' +
+                                   '<td>24-36</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>东南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>9</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>36-48</td>' +
+                                   '<td>晴</td>' +
+                                   '<td>东南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>12</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>48-60</td>' +
+                                   '<td>晴</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>12</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>60-72</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>东北风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>13</td>' +
+                                   '</tr>' +
+                                   '</tbody>' +
+                                   '</table>' +
+                                   '</t>' +
+                                   '<span class="help-block" align="center">数据更新时间：2018-03-30  8:00</span>';
+
+                               return weather_table
+                           }
+                   },
+               },
+               {
+                   type: 'scatter',
+                   name: '沧州沿岸',
+                   zlevel: 2,
+                   coordinateSystem: 'geo',
+                   symbol: weather_url,
+                   symbolSize: 30,
+                   data: [{name: '沧州沿岸', value: [118, 38.6]}],
+                   itemStyle: {
+                       normal: {
+                           color: '#f4e925',
+                           shadowBlur: 10,
+                           shadowColor: '#333'
+                       }
+                   },
+                   label: {
+                       normal: {
+                           formatter: '{b}',
+                           position: 'bottom',
+                           show: true
+                       }
+                   },
+                   tooltip: {
+                       trigger: 'item',
+                       position: 'right',
+                       formatter:
+                           function () {
+                               var weather_table =
+                                   '<h4 align="center">海区天气预报</h4>' +
+                                   '<table class="table" align="center" style="margin: 0;padding: 0">' +
+                                   '<thead>' +
+                                   '<tr>' +
+                                   '<th>近海海区</th>' +
+                                   '<th>预报时效(小时)</th>' +
+                                   '<th>天气现象</th>' +
+                                   '<th>风向</th>' +
+                                   '<th>风力(级)</th>' +
+                                   '<th>能见度(km)</th>' +
+                                   '</tr>' +
+                                   '</thead>' +
+                                   '<tbody>' +
+                                   '<tr>' +
+                                   '<td align="center" valign="center" rowspan="6">沧州沿岸</td>' +
+                                   '<td>00-12</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>西南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>12-24</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>东南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '<t>' +
+                                   '<td>24-36</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>东南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>9</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>36-48</td>' +
+                                   '<td>晴</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>12</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>48-60</td>' +
+                                   '<td>晴</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>12</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>60-72</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>13</td>' +
+                                   '</tr>' +
+                                   '</tbody>' +
+                                   '</table>' +
+                                   '</t>' +
+                                   '<span class="help-block" align="center">数据更新时间：2018-03-30  8:00</span>';
+
+                               return weather_table
+                           }
+                   },
+               },
+               {
+                   type: 'scatter',
+                   name: '渤海湾',
+                   zlevel: 2,
+                   coordinateSystem: 'geo',
+                   symbol: weather_url,
+                   symbolSize: 30,
+                   data: [{name: '渤海湾', value: [118.1, 39]}],
+                   itemStyle: {
+                       normal: {
+                           color: '#f4e925',
+                           shadowBlur: 10,
+                           shadowColor: '#333'
+                       }
+                   },
+                   label: {
+                       normal: {
+                           formatter: '{b}',
+                           position: 'bottom',
+                           show: true
+                       }
+                   },
+                   tooltip: {
+                       trigger: 'item',
+                       position: 'right',
+                       formatter:
+                           function () {
+                               var weather_table =
+                                   '<h4 align="center">海区天气预报</h4>' +
+                                   '<table class="table" align="center" style="margin: 0;padding: 0">' +
+                                   '<thead>' +
+                                   '<tr>' +
+                                   '<th>近海海区</th>' +
+                                   '<th>预报时效(小时)</th>' +
+                                   '<th>天气现象</th>' +
+                                   '<th>风向</th>' +
+                                   '<th>风力(级)</th>' +
+                                   '<th>能见度(km)</th>' +
+                                   '</tr>' +
+                                   '</thead>' +
+                                   '<tbody>' +
+                                   '<tr>' +
+                                   '<td align="center" valign="center" rowspan="6">渤海湾</td>' +
+                                   '<td>00-12</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>西南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>12-24</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>东南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '<t>' +
+                                   '<td>24-36</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>东南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>36-48</td>' +
+                                   '<td>晴</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>48-60</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>西南风</td>' +
+                                   '<td>4-5</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>60-72</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '</tbody>' +
+                                   '</table>' +
+                                   '</t>' +
+                                   '<span class="help-block" align="center">数据更新时间：2018-03-30  8:00</span>';
+
+                               return weather_table
+                           }
+                   },
+               },
+               {
+                   type: 'scatter',
+                   name: '渤海南部沿岸',
+                   zlevel: 2,
+                   coordinateSystem: 'geo',
+                   symbol: weather_url,
+                   symbolSize: 30,
+                   data: [{name: '渤海南部沿岸', value: [119.8, 38.2]}],
+                   itemStyle: {
+                       normal: {
+                           color: '#f4e925',
+                           shadowBlur: 10,
+                           shadowColor: '#333'
+                       }
+                   },
+                   label: {
+                       normal: {
+                           formatter: '{b}',
+                           position: 'bottom',
+                           show: true
+                       }
+                   },
+                   tooltip: {
+                       trigger: 'item',
+                       position: 'top',
+                       formatter:
+                           function () {
+                               var weather_table =
+                                   '<h4 align="center">海区天气预报</h4>' +
+                                   '<table class="table" align="center" style="margin: 0;padding: 0">' +
+                                   '<thead>' +
+                                   '<tr>' +
+                                   '<th>近海海区</th>' +
+                                   '<th>预报时效(小时)</th>' +
+                                   '<th>天气现象</th>' +
+                                   '<th>风向</th>' +
+                                   '<th>风力(级)</th>' +
+                                   '<th>能见度(km)</th>' +
+                                   '</tr>' +
+                                   '</thead>' +
+                                   '<tbody>' +
+                                   '<tr>' +
+                                   '<td align="center" valign="center" rowspan="6">渤海南部沿岸</td>' +
+                                   '<td>00-12</td>' +
+                                   '<td>晴</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>12</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>12-24</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>12</td>' +
+                                   '</tr>' +
+                                   '<t>' +
+                                   '<td>24-36</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>12</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>36-48</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>12</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>48-60</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>60-72</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>6-7</td>' +
+                                   '<td>10</td>' +
+                                   '</tr>' +
+                                   '</tbody>' +
+                                   '</table>' +
+                                   '</t>' +
+                                   '<span class="help-block" align="center">数据更新时间：2018-03-30  8:00</span>';
+
+                               return weather_table
+                           }
+                   },
+               },
+               {
+                   type: 'scatter',
+                   name: '渤海海峡中南部沿岸',
+                   zlevel: 2,
+                   coordinateSystem: 'geo',
+                   symbol: weather_url,
+                   symbolSize: 30,
+                   data: [{name: '渤海海峡中南部沿岸', value: [120.92, 38.3]}],
+                   itemStyle: {
+                       normal: {
+                           color: '#f4e925',
+                           shadowBlur: 10,
+                           shadowColor: '#333'
+                       }
+                   },
+                   label: {
+                       normal: {
+                           formatter: '{b}',
+                           position: 'bottom',
+                           show: true
+                       }
+                   },
+                   tooltip: {
+                       trigger: 'item',
+                       position: 'top',
+                       formatter:
+                           function () {
+                               var weather_table =
+                                   '<h4 align="center">海区天气预报</h4>' +
+                                   '<table class="table" align="center" style="margin: 0;padding: 0">' +
+                                   '<thead>' +
+                                   '<tr>' +
+                                   '<th>近海海区</th>' +
+                                   '<th>预报时效(小时)</th>' +
+                                   '<th>天气现象</th>' +
+                                   '<th>风向</th>' +
+                                   '<th>风力(级)</th>' +
+                                   '<th>能见度(km)</th>' +
+                                   '</tr>' +
+                                   '</thead>' +
+                                   '<tbody>' +
+                                   '<tr>' +
+                                   '<td align="center" valign="center" rowspan="6">渤海海峡中南部沿岸</td>' +
+                                   '<td>00-12</td>' +
+                                   '<td>晴</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>12</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>12-24</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>12</td>' +
+                                   '</tr>' +
+                                   '<t>' +
+                                   '<td>24-36</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>12</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>36-48</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>12</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>48-60</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>9</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>60-72</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>6-7</td>' +
+                                   '<td>9</td>' +
+                                   '</tr>' +
+                                   '</tbody>' +
+                                   '</table>' +
+                                   '</t>' +
+                                   '<span class="help-block" align="center">数据更新时间：2018-03-30  8:00</span>';
+
+                               return weather_table
+                           }
+                   },
+               },
+               {
+                   type: 'scatter',
+                   name: '山东半岛北部沿岸',
+                   zlevel: 2,
+                   coordinateSystem: 'geo',
+                   symbol: weather_url,
+                   symbolSize: 30,
+                   data: [{name: '山东半岛北部沿岸', value: [122.3, 38.2]}],
+                   itemStyle: {
+                       normal: {
+                           color: '#f4e925',
+                           shadowBlur: 10,
+                           shadowColor: '#333'
+                       }
+                   },
+                   label: {
+                       normal: {
+                           formatter: '{b}',
+                           position: 'bottom',
+                           show: true
+                       }
+                   },
+                   tooltip: {
+                       trigger: 'item',
+                       position: 'top',
+                       formatter:
+                           function () {
+                               var weather_table =
+                                   '<h4 align="center">海区天气预报</h4>' +
+                                   '<table class="table" align="center" style="margin: 0;padding: 0">' +
+                                   '<thead>' +
+                                   '<tr>' +
+                                   '<th>近海海区</th>' +
+                                   '<th>预报时效(小时)</th>' +
+                                   '<th>天气现象</th>' +
+                                   '<th>风向</th>' +
+                                   '<th>风力(级)</th>' +
+                                   '<th>能见度(km)</th>' +
+                                   '</tr>' +
+                                   '</thead>' +
+                                   '<tbody>' +
+                                   '<tr>' +
+                                   '<td align="center" valign="center" rowspan="6">山东半岛北部沿岸</td>' +
+                                   '<td>00-12</td>' +
+                                   '<td>晴</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>9</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>12-24</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>8</td>' +
+                                   '</tr>' +
+                                   '<t>' +
+                                   '<td>24-36</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>7</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>36-48</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>7</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>48-60</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>5-6</td>' +
+                                   '<td>9</td>' +
+                                   '</tr>' +
+                                   '<tr>' +
+                                   '<td>60-72</td>' +
+                                   '<td>多云</td>' +
+                                   '<td>南风</td>' +
+                                   '<td>6-7</td>' +
+                                   '<td>9</td>' +
+                                   '</tr>' +
+                                   '</tbody>' +
+                                   '</table>' +
+                                   '</t>' +
+                                   '<span class="help-block" align="center">数据更新时间：2018-03-30  8:00</span>';
+
+                               return weather_table
+                           }
+                   },
+               },
+               {
+                   type: 'bar',
+                   data: [1.78, 1.09, 0.82, 1.22,2.20, 2.01, 3.06, 3.42],
+                   coordinateSystem: 'polar',
+                   center:['88%','30%'],
+                   name: '<2m/s',
+                   itemStyle:{
+                     color:'#2D5F73'
+                   },
+                   stack: 'a',
+                   zlevel: 2
+               },
+               {
+                   type: 'bar',
+                   data: [0.16, 0.00, 0.07, 0.07,0.49, 1.55, 2.37, 1.97],
+                   coordinateSystem: 'polar',
+                   center:['88%','30%'],
+                   name: '2-4m/s',
+                   itemStyle:{
+                       color:'#538EA6'
+                   },
+                   stack: 'a',
+                   zlevel: 2
+               },
+               {
+                   type: 'bar',
+                   data: [0.00, 0.00, 0.00, 0.00,0.00, 0.30, 2.14, 0.86],
+                   coordinateSystem: 'polar',
+                   center:['88%','30%'],
+                   name: '4-6m/s',
+                   itemStyle:{
+                       color:'#F2D1B3'
+                   },
+                   stack: 'a',
+                   zlevel: 2
+               },
+               {
+                   type: 'bar',
+                   data: [0.00, 0.00, 0.00, 0.00,0.00, 0.13, 1.74, 0.53],
+                   coordinateSystem: 'polar',
+                   center:['88%','30%'],
+                   name: '6-8m/s',
+                   itemStyle:{
+                       color:'#F2B8A2'
+                   },
+                   stack: 'a',
+                   zlevel: 2
+               },
+               {
+                   type: 'bar',
+                   data: [0.00, 0.00, 0.00, 0.00,0.00, 0.00, 0.39, 0.49],
+                   coordinateSystem: 'polar',
+                   center:['88%','30%'],
+                   name: '8-10m/s',
+                   itemStyle:{
+                       color:'#F28C8C'
+                   },
+                   stack: 'a',
+                   zlevel: 2
+               },
+               {
+                   type: 'bar',
+                   data: [0.00, 0.00, 0.00, 0.00,0.00, 0.00, 0.13, 0.00],
+                   coordinateSystem: 'polar',
+                   center:['88%','30%'],
+                   name: '>10m/s',
+                   itemStyle:{
+                       color:'#e32e3f'
+                   },
+                   stack: 'a',
+                   zlevel: 2
+               }
+           ]
+    });
+
+
+    setInterval(function addData(){
+        axisData = (new Date()).toLocaleTimeString().replace(/^\D*/,'');
+        var data0= option.series[0].data;
+        var data1= option.series[1].data;
+        var data2= option.series[2].data;
+        data0.shift();
+        data0.push(parseFloat((Math.random()*10+10).toFixed(2)));
+        data1.shift();
+        data1.push(parseFloat((Math.random()*2+31).toFixed(2)));
+        data2.shift();
+        data2.push(parseFloat((Math.random()*4+3).toFixed(2)));
+        option.xAxis.data.shift();
+        option.xAxis.data.push(axisData);
+        myChart.hideLoading();
+        showTable()
+        myChart.setOption(option);
+    },2100);
+
+    function getData (pram) {
+        var temp=[];
+        var sal=[];
+        var turb=[];
+        var s19=[];
+        var s20=[];
+        var s21=[];
+        var s22=[];
+        var s23=[];
+        var s24=[];
+        var len=10;
+        var len2=8;
+        while (len--) {
+            temp.push(parseFloat((Math.random() * 10+10).toFixed(2)));
+            sal.push(parseFloat((Math.random() * 2 + 31).toFixed(2)));
+            turb.push(parseFloat((Math.random() * 4+3).toFixed(2)));
+        };
+        while(len2--){
+            s19.push(parseFloat((Math.random()).toFixed(2)));
+            s20.push(parseFloat((Math.random()).toFixed(2)));
+            s21.push(parseFloat((Math.random()).toFixed(2)));
+            s22.push(parseFloat((Math.random()).toFixed(2)));
+            s23.push(parseFloat((Math.random()).toFixed(2)));
+            s24.push(parseFloat((Math.random()).toFixed(2)));
+
+        };
+        if(pram=='temp'){
+            return temp
+        }
+        else if (pram=='sal') {
+            return sal
+        }
+        else if (pram=='turb') {
+            return turb
+        }
+        else if (pram=='s19') {
+            return s19
+        }
+        else if (pram=='s20') {
+            return s20
+        }
+        else if (pram=='s21') {
+            return s21
+        }
+        else if (pram=='s22') {
+            return s22
+        }
+        else if (pram=='s23') {
+            return s23
+        }
+        else if (pram=='s24') {
+            return s24
+        }
+    }
+
+    var num=0;
+    point_name='hh';
+
+    var point_data_table=
+        '<h4 align="center" style="color:#fff;margin: 0;padding-top: 4px">观测点实时数据</h4>'+
+        '<span class="help-block" align="center" style="margin:0;padding:0">更新时间：'+new Date().toLocaleDateString()+new Date().toLocaleTimeString()+'</span>'+
+        '<table class="table" style="color:#fff;margin: 0;padding: 0">'+
+        '<thead>'+
+        '<tr>'+
+        '<th>站点名</th>'+
+        '<th>'+getPointData('hh')[0]+'</th>'+
+        '</tr>'+
+        '</thead>'+
+        '<tbody>'+
+        '<tr>'+
+        '<td>坐标</td>'+
+        '<td>'+getPointData(point_name)[1]+'</td>'+
+        '</tr>'+
+        '<tr>'+
+        '<td>潮位</td>'+
+        '<td>'+getPointData(point_name)[2]+' cm'+'</td>'+
+        '</tr>'+
+        '<tr>'+
+        '<td>气温</td>'+
+        '<td>'+getPointData(point_name)[3]+' ℃'+'</td>'+
+        '</tr>'+
+        '<tr>'+
+        '<td>湿度</td>'+
+        '<td>'+getPointData(point_name)[4]+' ％'+'</td>'+
+        '</tr>'+
+        '<tr>'+
+        '<td>气压</td>'+
+        '<td>'+getPointData(point_name)[5]+' hPa'+'</td>'+
+        '</tr>'+
+        '<tr>'+
+        '<td>风向</td>'+
+        '<td>'+getPointData(point_name)[6]+'</td>'+
+        '</tr>'+
+        '<tr>'+
+        '<td>风速</td>'+
+        '<td>'+getPointData(point_name)[7]+' m/s'+'</td>'+
+        '</tr>'+
+        '</tbody>'+
+        '</table>';
+    document.getElementById('point_data_table').innerHTML=point_data_table;
+
+    setInterval(function changePoint(){
+            option.series[0].data=getData('temp');
+            option.series[1].data=getData('sal');
+            option.series[2].data=getData('turb');
+            option.series[19].data=getData('s19');
+            option.series[20].data=getData('s20');
+            option.series[21].data=getData('s21');
+            option.series[22].data=getData('s22');
+            option.series[23].data=getData('s23');
+            option.series[24].data=getData('s24');
+
+            i=num%5;
+            var name_list=['kt','xg','pl','lz','hh'];
+            var point_name=name_list[i];
+            num=num+1;
+
+            var point_data_table=
+                '<h4 align="center" style="color:#fff;margin: 0;padding-top: 4px">观测点实时数据</h4>'+
+                '<span class="help-block" align="center" style="margin:0;padding:0">更新时间：'+new Date().toLocaleDateString()+new Date().toLocaleTimeString()+'</span>'+
+                '<table class="table" style="color:#fff;margin: 0;padding: 0">'+
+                '<thead>'+
+                '<tr>'+
+                '<th>站点名</th>'+
+                '<th>'+getPointData(point_name)[0]+'</th>'+
+                '</tr>'+
+                '</thead>'+
+                '<tbody>'+
+                '<tr>'+
+                '<td>坐标</td>'+
+                '<td>'+getPointData(point_name)[1]+'</td>'+
+                '</tr>'+
+                '<tr>'+
+                '<td>潮位</td>'+
+                '<td>'+getPointData(point_name)[2]+' cm'+'</td>'+
+                '</tr>'+
+                '<tr>'+
+                '<td>气温</td>'+
+                '<td>'+getPointData(point_name)[3]+' ℃'+'</td>'+
+                '</tr>'+
+                '<tr>'+
+                '<td>湿度</td>'+
+                '<td>'+getPointData(point_name)[4]+' ％'+'</td>'+
+                '</tr>'+
+                '<tr>'+
+                '<td>气压</td>'+
+                '<td>'+getPointData(point_name)[5]+' hPa'+'</td>'+
+                '</tr>'+
+                '<tr>'+
+                '<td>风向</td>'+
+                '<td>'+getPointData(point_name)[6]+'</td>'+
+                '</tr>'+
+                '<tr>'+
+                '<td>风速</td>'+
+                '<td>'+getPointData(point_name)[7]+' m/s'+'</td>'+
+                '</tr>'+
+                '</tbody>'+
+                '</table>';
+        document.getElementById('point_data_table').innerHTML=point_data_table;
+
+        if(point_name=='kt'){
+            option.series[4].symbolSize=40;
+            option.series[5].symbolSize=30;
+            option.series[6].symbolSize=30;
+            option.series[7].symbolSize=30;
+            option.series[8].symbolSize=30;
+        }
+        else if(point_name=='xg'){
+            option.series[4].symbolSize=30;
+            option.series[5].symbolSize=40;
+            option.series[6].symbolSize=30;
+            option.series[7].symbolSize=30;
+            option.series[8].symbolSize=30;
+        }
+        else if(point_name=='pl'){
+            option.series[4].symbolSize=30;
+            option.series[5].symbolSize=30;
+            option.series[6].symbolSize=40;
+            option.series[7].symbolSize=30;
+            option.series[8].symbolSize=30;
+        }
+        else if(point_name=='lz'){
+            option.series[4].symbolSize=30;
+            option.series[5].symbolSize=30;
+            option.series[6].symbolSize=30;
+            option.series[7].symbolSize=40;
+            option.series[8].symbolSize=30;
+        }
+        else if(point_name=='hh'){
+            option.series[4].symbolSize=30;
+            option.series[5].symbolSize=30;
+            option.series[6].symbolSize=30;
+            option.series[7].symbolSize=30;
+            option.series[8].symbolSize=40;
+        }
+
+        myChart.setOption(option);
+    },6300);
+
+    function getPointData(pram){
+        var point_name=['崆峒岛浮标','西港浮标','蓬莱浮标','莱州湾浮标','黄河口浮标'];
+        var coords=[[121.79833,37.60250],[121.3,37.750087],[120.64450,37.9],[119.6,37.3],[119.404907,37.783740]];
+        var tide=[68,56,76,135,96];
+        var temp=[23,24,20,19,19,17];
+        var humidity=[58,59,55,57,59];
+        var airpress=[991,991,993,972,1001,998];
+        var winddir=['南风','南风','南风','南风','南风'];
+        var windsp=[3,4,4,4,5];
+
+        var kt=[point_name[0],coords[0],tide[0],temp[0],humidity[0],airpress[0],winddir[0],windsp[0]];
+        var xg=[point_name[1],coords[1],tide[1],temp[1],humidity[1],airpress[1],winddir[1],windsp[1]];
+        var pl=[point_name[2],coords[2],tide[2],temp[2],humidity[2],airpress[2],winddir[2],windsp[2]];
+        var lz=[point_name[3],coords[3],tide[3],temp[3],humidity[3],airpress[3],winddir[3],windsp[3]];
+        var hh=[point_name[4],coords[4],tide[4],temp[4],humidity[4],airpress[4],winddir[4],windsp[4]];
+
+        if(pram=='kt'){
+            return kt
+        }
+        else if(pram=='xg'){
+            return xg
+        }
+        else if(pram=='pl'){
+            return pl
+        }
+        else if(pram=='lz'){
+            return lz
+        }
+        else if(pram=='hh'){
+            return hh
+        }
+    }
+
+</script>
+
+</body>
+</html>
