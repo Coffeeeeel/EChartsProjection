@@ -38,7 +38,7 @@ html,body{
     width: 100%;
 }
 .map{
-    background-color: #404a59;
+    /*background-color: #404a59;*/
     height: 100%;
     position: relative;
 }
